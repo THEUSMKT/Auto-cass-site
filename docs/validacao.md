@@ -28,6 +28,12 @@ Não foi executado Lighthouse e não foram medidos INP, taxa de conversão ou de
 
 ## Publicação e dependências externas
 
-Acesso Git e leitura da API do repositório funcionaram. A API de criação de Pages recusou a integração com HTTP 403 `Resource not accessible by integration`, embora o repositório reporte permissão administrativa. A ativação depende de Settings → Pages → Build and deployment → Source: GitHub Actions. O workflow de validação/deploy está no repositório; o endereço previsto só deve ser considerado publicado após confirmação do workflow e resposta HTTP.
+Código enviado para main no commit 126f4252d29b51ec1a1f29f8160327a2ecf8c7b4. A tentativa inicial de ativação de Pages pela API foi negada (HTTP 403). Depois, o workflow confirmou a configuração de Pages, completou todas as verificações e concluiu o deploy com sucesso.
+
+Site publicado e verificado: https://theusmkt.github.io/Auto-cass-site/. Workflow: https://github.com/THEUSMKT/Auto-cass-site/actions/runs/37389561308.
+
+Início, estoque, sobre e contato responderam HTTP 200, com canonicals corretos, noindex e sem dados fictícios. CSS, JavaScript e favicon publicados responderam HTTP 200 e seus checksums coincidem com o build local testado. Robots e sitemap foram verificados. O navegador também abriu a página pública a 390 px, com TLS ativo, sem overflow nem erros de JavaScript; captura em docs/screenshots/publicado-inicio-390.png.
+
+Não há página pública de veículo real para verificar porque nenhum anúncio pôde ser importado. O template de detalhe foi validado apenas na cópia isolada de testes.
 
 A origem continua sem HTML utilizável (CONNECT 502 no host www; CONNECT 403 no host sem www). São necessários estoque/exportação, fotos e informações comerciais verificadas para concluir a migração e validar o catálogo real.
