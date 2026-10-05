@@ -1,0 +1,39 @@
+---
+import type {GetStaticPaths} from 'astro';
+import type {Vehicle} from '../../lib/model';
+import {vehicles, dealership, visibleVehicles} from '../../lib/data';
+import {path, absolute} from '../../lib/paths';
+import {money, kilometers, whatsappUrl} from '../../lib/catalog';
+import Layout from '../../layouts/Layout.astro';
+import Gallery from '../../components/Gallery.astro';
+import VehicleCard from '../../components/VehicleCard.astro';
+import Icon from '../../components/Icon.astro';
+export const getStaticPaths = (() => vehicles.map(vehicle => ({params:{slug:vehicle.slug},props:{vehicle}}))) satisfies GetStaticPaths;
+interface Props {vehicle: Vehicle;}
+const {vehicle: v} = Astro.props;
+const image = v.photos.find(p => p.status === 'ready');
+const unavailable = ['removed','unavailable'].includes(v.status);
+const whatsapp = unavailable ? null : whatsappUrl(dealership.whatsapp,v.title,absolute(`veiculos/${v.slug}/`));
+const specs = [
+ ['Ano de fabricação',v.manufacturingYear],['Ano-modelo',v.modelYear],['Quilometragem',kilometers(v.mileage)],['Câmbio',v.transmission],['Combustível',v.fuel],['Cor',v.color],['Carroceria',v.body],['Portas',v.doors],['Motorização',v.engine],...Object.entries(v.specifications),
+].filter((entry) => entry[1] !== null);
+const similar = visibleVehicles.filter(other => other.id !== v.id && (v.brand ? other.brand === v.brand : v.body ? other.body === v.body : false)).slice(0,3);
+const structured = {
+ '@context':'https://schema.org','@type':'Car',name:v.title,url:absolute(`veiculos/${v.slug}/`),
+ ...(v.brand && {brand:{'@type':'Brand',name:v.brand}}),...(v.model && {model:v.model}),
+ ...(v.modelYear && {vehicleModelDate:String(v.modelYear)}),...(v.manufacturingYear && {productionDate:String(v.manufacturingYear)}),
+ ...(v.mileage!==null && {mileageFromOdometer:{'@type':'QuantitativeValue',value:v.mileage,unitCode:'KMT'}}),
+ ...(image?.path && {image:absolute(image.path)}),...(v.color && {color:v.color}),
+ ...(v.price!==null && !unavailable && {offers:{'@type':'Offer',price:v.price,priceCurrency:'BRL',url:absolute(`veiculos/${v.slug}/`),...(v.status==='available' && {availability:'https://schema.org/InStock'})}}),
+};
+---
+<Layout title={v.title} description={v.description?.slice(0,155) ?? `Conheça os detalhes de ${v.title} na Auto Cass. Consulte fotos, especificações e informações do anúncio.`} image={image?.path ?? undefined} noindex={unavailable}>
+ {!dealership.demo && !unavailable && <script slot="head" type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g,'\\u003c')}/>}
+ <section class="vehicle-detail container" data-detail data-vehicle-id={v.id}><p class="breadcrumb"><a href={path()}>Início</a><span>/</span><a href={path('estoque/')} data-inventory-return>Estoque</a><span>/</span><span>{v.title}</span></p><div class="detail-heading"><a class="back-link" href={path('estoque/')} data-inventory-return><span aria-hidden="true">←&nbsp;</span>Voltar ao estoque</a><button class="text-link" type="button" data-share data-title={v.title}>Compartilhar <Icon name="share" size={18}/></button><span class="sr-only" aria-live="polite" data-share-status></span></div>
+ <div class="detail-grid"><div><Gallery vehicle={v}/></div><aside class="detail-summary">{v.brand && <p class="eyebrow">{v.brand}</p>}<h1>{v.title}</h1>{v.version && !v.title.includes(v.version) && <p class="detail-version">{v.version}</p>}<div class="detail-key-specs">{v.modelYear !== null && <span>Ano-modelo <strong>{v.modelYear}</strong></span>}{v.mileage !== null && <span>Quilometragem <strong>{kilometers(v.mileage)}</strong></span>}{v.transmission && <span>Câmbio <strong>{v.transmission}</strong></span>}</div><p class="detail-price">{money(v.price)}</p>{unavailable ? <div class="availability-note"><strong>Anúncio indisponível.</strong><p>Consulte o estoque para conhecer outros veículos. A indisponibilidade não confirma venda.</p><a href={path('estoque/')} class="button button-dark">Explorar estoque <Icon/></a></div> : <><p class="commercial-note">Consulte as condições e a disponibilidade com a equipe.</p><a class="button button-bronze" href={whatsapp ?? path('contato/')} target={whatsapp ? '_blank' : undefined} rel={whatsapp ? 'noopener noreferrer' : undefined} data-track={whatsapp ? 'click_whatsapp' : undefined} data-position="vehicle-summary">{whatsapp ? 'Tenho interesse neste veículo' : 'Conheça os canais de contato'}<Icon name="chat"/></a>{!whatsapp && <p class="contact-verification-note">WhatsApp aguardando confirmação.</p>}</>}<a href={v.sourceUrl} class="source-link" target="_blank" rel="noopener noreferrer">Consultar anúncio na origem ↗</a></aside></div>
+ <div class="detail-body"><section><p class="eyebrow">Conheça por completo</p><h2>Os detalhes importam.</h2>{specs.length ? <dl class="specifications">{specs.map(([label,value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl> : <p>Ficha técnica não informada na origem.</p>}</section>{v.description && <section><h2>Sobre este veículo</h2><p class="vehicle-description">{v.description}</p></section>}{v.features.length > 0 && <section><h2>Opcionais e equipamentos</h2><ul class="vehicle-features">{v.features.map(feature => <li><Icon name="check" size={16}/>{feature}</li>)}</ul></section>}{v.issues.length > 0 && <section class="data-issues"><h2>Informações em confirmação</h2><ul>{v.issues.map(issue => <li>{issue}</li>)}</ul></section>}</div>
+ </section>
+ {similar.length > 0 && <section class="section container"><div class="section-heading"><div><p class="eyebrow">Outras possibilidades</p><h2>Continue explorando.</h2></div><a href={path('estoque/')} class="text-link">Ver estoque <Icon/></a></div><div class="vehicle-grid">{similar.map(vehicle => <VehicleCard vehicle={vehicle}/>)}</div><p class="section-note">Veículos da mesma marca; quando a marca não está informada, da mesma carroceria.</p></section>}
+ {whatsapp && <div class="mobile-interest"><span><small>{v.title}</small><strong>{money(v.price)}</strong></span><a href={whatsapp} class="button button-bronze" target="_blank" rel="noopener noreferrer" data-track="click_whatsapp" data-position="vehicle-mobile">Tenho interesse <Icon name="chat"/></a></div>}
+ <script>import '../../scripts/detail';</script>
+</Layout>

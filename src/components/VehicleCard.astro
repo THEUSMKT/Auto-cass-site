@@ -1,0 +1,25 @@
+---
+import type {Vehicle} from '../lib/model';
+import {money, kilometers} from '../lib/catalog';
+import {path} from '../lib/paths';
+import Icon from './Icon.astro';
+interface Props {vehicle: Vehicle; priority?: boolean;}
+const {vehicle: v, priority = false} = Astro.props;
+const image = v.photos.find(p => p.status === 'ready');
+const details = [v.modelYear ?? v.manufacturingYear, v.transmission, kilometers(v.mileage)].filter(x => x !== null);
+---
+<article class="vehicle-card" data-vehicle-id={v.id}>
+  <a href={path(`veiculos/${v.slug}/`)} class="vehicle-card-link" data-vehicle-link>
+    <div class="vehicle-card-image">
+      {image?.path ? <img src={path(image.path)} srcset={image.variants.map(p => `${path(p.path)} ${p.width}w`).join(', ') || undefined} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" width={image.width!} height={image.height!} alt={v.title} loading={priority ? 'eager' : 'lazy'} decoding="async"/> : <div class="photo-unavailable"><Icon name="camera" size={32}/><span>Foto indisponível</span></div>}
+      <span class="image-arrow"><Icon/></span>
+    </div>
+    <div class="vehicle-card-content">
+      {v.brand && <span class="eyebrow">{v.brand}</span>}
+      <h3>{v.title}</h3>
+      {v.version && !v.title.includes(v.version) && <p class="vehicle-version">{v.version}</p>}
+      {details.length > 0 && <p class="vehicle-meta">{details.map(d => <span>{d}</span>)}</p>}
+      <div class="vehicle-card-bottom"><strong>{money(v.price)}</strong><span>Ver detalhes <Icon size={16}/></span></div>
+    </div>
+  </a>
+</article>

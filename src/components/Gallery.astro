@@ -1,0 +1,17 @@
+---
+import type {Vehicle} from '../lib/model';
+import {path} from '../lib/paths';
+import Icon from './Icon.astro';
+interface Props {vehicle: Vehicle;}
+const {vehicle} = Astro.props;
+const photos = vehicle.photos.filter(p => p.status === 'ready');
+const first = photos[0];
+---
+<div class="gallery" data-gallery>
+ {first?.path ? <>
+  <button type="button" class="gallery-main" data-gallery-open aria-label={`Ampliar fotos de ${vehicle.title}`}><img data-gallery-main src={path(first.path)} width={first.width!} height={first.height!} alt={`${vehicle.title} — foto 1 de ${photos.length}`} fetchpriority="high"/><span class="gallery-counter" data-gallery-count>1 / {photos.length}</span><span class="gallery-expand"><Icon name="expand"/>Ampliar</span></button>
+  <div class="gallery-thumbnails" role="group" aria-label="Escolher foto">{photos.map((photo,i) => <button type="button" data-photo-index={i} data-photo-src={path(photo.path!)} data-photo-width={photo.width} data-photo-height={photo.height} aria-label={`Ver foto ${i+1} de ${photos.length}`} aria-pressed={i===0}><img src={path(photo.variants[0]?.path ?? photo.path!)} width="120" height="90" alt="" loading="lazy"/></button>)}</div>
+  <dialog class="gallery-dialog" data-gallery-dialog aria-label={`Fotos de ${vehicle.title}`}><div class="lightbox-top"><span>{vehicle.title}</span><button type="button" class="icon-button" data-gallery-close aria-label="Fechar galeria"><Icon name="close"/></button></div><div class="lightbox-stage" data-swipe><button type="button" class="icon-button gallery-previous" aria-label="Foto anterior" data-gallery-previous><Icon name="chevron" size={26}/></button><img data-lightbox-image src={path(first.path)} width={first.width!} height={first.height!} alt={`${vehicle.title} — foto 1 de ${photos.length}`}/><button type="button" class="icon-button gallery-next" aria-label="Próxima foto" data-gallery-next><Icon name="chevron" size={26}/></button></div><p class="lightbox-count" data-lightbox-count aria-live="polite">1 / {photos.length}</p></dialog>
+ </> : <div class="gallery-unavailable"><Icon name="camera" size={40}/><p>Fotos indisponíveis para este anúncio.</p></div>}
+ {vehicle.photos.some(p => p.status === 'unavailable') && <p class="photo-note">Algumas fotos da origem não puderam ser carregadas.</p>}
+</div>

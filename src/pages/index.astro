@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import VehicleCard from '../components/VehicleCard.astro';
+import EmptyCatalog from '../components/EmptyCatalog.astro';
+import {dealership, featuredVehicles, visibleVehicles} from '../lib/data';
+import {path} from '../lib/paths';
+import {money, whatsappUrl} from '../lib/catalog';
+const heroVehicle = featuredVehicles.find(v => v.photos.some(p => p.status === 'ready'));
+const heroPhoto = heroVehicle?.photos.find(p => p.status === 'ready');
+const contact = whatsappUrl(dealership.whatsapp);
+---
+<Layout title="Uma escolha à altura" description="Conheça a proposta do novo site da Auto Cass. Explore o catálogo de veículos, informações e canais de contato confirmados.">
+ <section class="hero">
+  <div class="container hero-grid">
+   <div class="hero-copy"><p class="eyebrow"><span class="short-line"></span> Auto Cass · Um novo capítulo</p><h1>Seu próximo carro<br/>merece uma escolha<br/><em>à altura.</em></h1><p class="hero-description">Conheça cada detalhe. Encontre o que combina com você. Comece sua próxima escolha por aqui.</p><a href={path('estoque/')} class="button button-bronze">Explorar estoque <Icon/></a><a class="hero-text-link" href={path('sobre/')}>Conheça a Auto Cass <span>↗</span></a></div>
+   <div class:list={['hero-visual',!heroPhoto && 'hero-visual-editorial']}>
+    {heroVehicle && heroPhoto?.path ? <><img src={path(heroPhoto.path)} srcset={heroPhoto.variants.map(p => `${path(p.path)} ${p.width}w`).join(', ') || undefined} sizes="(max-width: 900px) 100vw, 52vw" width={heroPhoto.width!} height={heroPhoto.height!} alt={heroVehicle.title} fetchpriority="high"/><a href={path(`veiculos/${heroVehicle.slug}/`)} class="hero-caption"><span><small>Em destaque</small><strong>{heroVehicle.title}</strong><span>{money(heroVehicle.price)}</span></span><Icon/></a></> : <><div class="editorial-lines" aria-hidden="true"></div><span class="editorial-number">01 / UM NOVO OLHAR</span><div class="editorial-signature" aria-hidden="true">AUTO<br/><strong>CASS<span>.</span></strong></div><div class="editorial-bottom"><span>Cada escolha.<br/>Um novo caminho.</span><span class="editorial-dot" aria-hidden="true"></span></div></>}
+   </div>
+  </div>
+  <div class="container hero-bottom"><span>O detalhe faz a diferença.</span><a href="#selecao">Conheça a seleção <span>↓</span></a></div>
+ </section>
+ <section class="quick-search container" aria-label="Busca de veículos">
+  <div><p class="eyebrow">Encontre sua próxima escolha</p><h2>O caminho começa aqui.</h2></div>
+  <form action={path('estoque/')} method="get"><label for="home-search" class="sr-only">Marca, modelo ou versão</label><div class="search-input"><Icon name="search"/><input type="search" id="home-search" name="q" placeholder="Marca, modelo ou versão" maxlength="120"/></div><button class="button button-dark" type="submit">Buscar veículos <Icon/></button></form>
+ </section>
+ <section id="selecao" class="section container">
+  <div class="section-heading"><div><p class="eyebrow">Explore as possibilidades</p><h2>Uma seleção para<br/>seu próximo capítulo.</h2></div><a href={path('estoque/')} class="text-link">Ver estoque completo <Icon/></a></div>
+  {featuredVehicles.length ? <div class="vehicle-grid">{featuredVehicles.map(vehicle => <VehicleCard vehicle={vehicle}/>)}</div> : <EmptyCatalog/>}
+  {visibleVehicles.length > 0 && <p class="section-note">Destaques escolhidos pela equipe. Consulte as informações de cada anúncio.</p>}
+ </section>
+ <section class="brand-story"><div class="container story-grid"><div><p class="eyebrow">O jeito Auto Cass</p><h2>Mais clareza.<br/>Mais atenção.<br/><em>À sua escolha.</em></h2></div><div class="story-copy"><p>{dealership.about ?? 'Uma nova experiência para explorar veículos com calma, conhecer os detalhes e conversar com a equipe sobre o que faz sentido para você.'}</p><a href={path('sobre/')} class="text-link">Conheça a Auto Cass <Icon/></a><div class="story-principles"><span>01 <strong>Explore</strong></span><span>02 <strong>Conheça</strong></span><span>03 <strong>Converse</strong></span></div></div></div></section>
+ {dealership.services.length > 0 && <section class="section container"><div class="section-heading"><div><p class="eyebrow">Ao seu lado</p><h2>Como podemos ajudar.</h2></div></div><div class="service-grid">{dealership.services.map((service,i) => <article><span class="eyebrow">0{i+1}</span><h3>{service.title}</h3><p>{service.description}</p></article>)}</div></section>}
+ <section class="contact-band container"><div><p class="eyebrow">Vamos conversar</p><h2>Seu próximo passo,<br/>com uma boa conversa.</h2></div><a href={contact ?? path('contato/')} class="button button-dark" target={contact ? '_blank' : undefined} rel={contact ? 'noopener noreferrer' : undefined} data-track={contact ? 'click_whatsapp' : undefined}>Fale com a equipe <Icon name="chat"/></a></section>
+</Layout>

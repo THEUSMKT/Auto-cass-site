@@ -1,0 +1,12 @@
+---
+import Icon from './Icon.astro';
+interface Props {filtered?: boolean;}
+const {filtered = false} = Astro.props;
+---
+<div class="empty-catalog">
+ <span class="empty-icon"><Icon name={filtered ? 'search' : 'plus'} size={30}/></span>
+ <p class="eyebrow">{filtered ? 'Outra possibilidade' : 'Uma nova seleção'}</p>
+ <h2>{filtered ? 'Não encontramos veículos com esses filtros.' : 'O próximo capítulo está a caminho.'}</h2>
+ <p>{filtered ? 'Experimente ampliar a busca ou remover alguns filtros.' : 'O catálogo está em atualização. Os veículos e suas informações estarão aqui assim que forem confirmados.'}</p>
+ {filtered && <button class="button button-outline" type="button" data-clear-filters>Limpar filtros <Icon/></button>}
+</div>

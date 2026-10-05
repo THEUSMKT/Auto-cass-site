@@ -1,0 +1,1 @@
+{"extends":"astro/tsconfigs/strict","compilerOptions":{"allowImportingTsExtensions":true,"types":["astro/client","node"]},"exclude":["dist","node_modules","playwright-report","test-results"]}

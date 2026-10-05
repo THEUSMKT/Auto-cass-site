@@ -1,0 +1,64 @@
+---
+import '@fontsource-variable/manrope';
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+import { dealership } from '../lib/data';
+import { path, absolute } from '../lib/paths';
+import {whatsappUrl} from '../lib/catalog';
+interface Props {title: string; description: string; image?: string; noindex?: boolean;}
+const {title, description, image, noindex = false} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const navigation = [['Estoque', 'estoque/'],['Sobre', 'sobre/'],['Contato','contato/']];
+const contact = whatsappUrl(dealership.whatsapp);
+const isDemo = dealership.demo || noindex;
+---
+<!doctype html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{title} | Auto Cass</title>
+  <meta name="description" content={description}/>
+  <meta name="theme-color" content="#202321"/>
+  <meta name="robots" content={isDemo ? 'noindex, nofollow' : 'index, follow'}/>
+  <link rel="canonical" href={canonical}/>
+  <link rel="icon" type="image/svg+xml" href={path('favicon.svg')}/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="pt_BR"/>
+  <meta property="og:title" content={`${title} | Auto Cass`}/>
+  <meta property="og:description" content={description}/>
+  <meta property="og:url" content={canonical}/>
+  {image && <meta property="og:image" content={absolute(image)}/>}
+  <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'}/>
+  <slot name="head"/>
+ </head>
+ <body style={{'--bronze':dealership.accent}}>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  {dealership.demo && <div class="demo-notice"><span>Proposta de novo site</span><span class="demo-divider">·</span><span>Catálogo e contatos aguardando confirmação</span></div>}
+  <header class="site-header">
+   <div class="container header-inner">
+    <a href={path()} class="wordmark" aria-label="Auto Cass, início">{dealership.logo ? <img class="brand-logo" src={path(dealership.logo)} alt={dealership.name} width="160" height="40"/> : <>AUTO <strong>CASS</strong><span class="wordmark-point"></span></>}</a>
+    <nav class="desktop-nav" aria-label="Navegação principal">{navigation.map(([label,url]) => <a href={path(url)} aria-current={Astro.url.pathname === path(url) ? 'page' : undefined}>{label}</a>)}</nav>
+    <a class="header-contact" href={contact ?? path('contato/')} target={contact ? '_blank' : undefined} rel={contact ? 'noopener noreferrer' : undefined} data-track={contact ? 'click_whatsapp' : undefined}>Fale com a equipe <Icon name="arrow" size={17}/></a>
+    <button type="button" class="menu-toggle icon-button" aria-label="Abrir menu" data-menu-open><Icon name="menu"/></button>
+   </div>
+  </header>
+  <dialog class="mobile-menu" data-menu aria-label="Navegação">
+   <div class="mobile-menu-top"><span class="wordmark">AUTO <strong>CASS</strong></span><button class="icon-button" type="button" aria-label="Fechar menu" data-menu-close><Icon name="close"/></button></div>
+   <nav aria-label="Navegação móvel"><a href={path()}>Início</a>{navigation.map(([label,url]) => <a href={path(url)}>{label}<Icon/></a>)}</nav>
+   <p class="eyebrow">Uma escolha à altura.</p>
+  </dialog>
+  <main id="conteudo" tabindex="-1"><slot/></main>
+  <footer class="site-footer">
+   <div class="container footer-top">
+    <div><a href={path()} class="wordmark" aria-label="Auto Cass, início">{dealership.logo ? <img class="brand-logo" src={path(dealership.logo)} alt={dealership.name} width="160" height="40"/> : <>AUTO <strong>CASS</strong><span class="wordmark-point"></span></>}</a><p class="footer-signature">Seu próximo capítulo<br/>começa com uma escolha.</p></div>
+    <div class="footer-links"><span class="eyebrow">Explore</span>{navigation.map(([label,url]) => <a href={path(url)}>{label}</a>)}</div>
+    <div class="footer-contact"><span class="eyebrow">Vamos conversar</span>{contact ? <a href={contact} target="_blank" rel="noopener noreferrer" data-track="click_whatsapp">Fale pelo WhatsApp <Icon/></a> : <p>Os canais oficiais serão<br/>exibidos após confirmação.</p>}{dealership.address && <p>{dealership.address}</p>}</div>
+   </div>
+   <div class="container footer-bottom"><span>© {new Date().getFullYear()} Auto Cass</span><span>{dealership.demo ? 'Demonstração de redesign' : 'Informações sujeitas à confirmação com a equipe.'}</span><a href="#conteudo">Voltar ao topo ↑</a></div>
+  </footer>
+  <script>
+   import '../scripts/global';
+  </script>
+ </body>
+</html>

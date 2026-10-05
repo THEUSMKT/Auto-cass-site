@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import {dealership} from '../../lib/data';
+import {path} from '../../lib/paths';
+---
+<Layout title="Sobre" description="Conheça a Auto Cass e a proposta de uma nova experiência para escolher seu próximo veículo.">
+ <section class="page-intro container"><p class="breadcrumb"><a href={path()}>Início</a><span>/</span>Sobre</p><p class="eyebrow">Um novo olhar</p><h1>O próximo capítulo<br/>da Auto Cass.</h1></section>
+ <section class="about-section container">{dealership.storeImage ? <img class="about-store-image" src={path(dealership.storeImage)} alt={`Foto verificada da ${dealership.name}`} width="900" height="700"/> : <div class="about-art" aria-hidden="true"><span>AUTO<br/><strong>CASS.</strong></span><small>CADA ESCOLHA. UM NOVO CAMINHO.</small></div>}<div class="about-copy"><p class="eyebrow">Sua escolha, em primeiro lugar</p><h2>Conhecer os detalhes<br/>faz parte do caminho.</h2><p>{dealership.about ?? 'Esta é uma proposta de nova experiência digital para a Auto Cass: navegação simples, informações claras e espaço para conhecer cada veículo com atenção.'}</p>{!dealership.verifiedAt && <p>A história da loja e as informações institucionais serão apresentadas após confirmação nos canais oficiais.</p>}<a class="text-link" href={path('estoque/')}>Explore o estoque <Icon/></a></div></section>
+ <section class="contact-band container"><div><p class="eyebrow">Um passo de cada vez</p><h2>Vamos encontrar<br/>seu próximo caminho.</h2></div><a class="button button-dark" href={path('contato/')}>Conheça os canais de contato <Icon/></a></section>
+</Layout>
