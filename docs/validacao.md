@@ -42,4 +42,10 @@ O navegador abriu início, estoque, detalhe do BYD e contato a 390 px, com verif
 
 ## Republicação do refinamento
 
-Os resultados do novo workflow e a abertura do site atualizado são registrados em `docs/publicacao.json` após o deploy desta rodada.
+Código publicado em `main`, commit `be3640f609a682923765439669b6d823e0c7b16a`. O workflow https://github.com/THEUSMKT/Auto-cass-site/actions/runs/37399677922 concluiu build, verificações e deploy com sucesso.
+
+A versão atualizada foi aberta em https://theusmkt.github.io/Auto-cass-site/. Os quatro caminhos institucionais e os 46 detalhes responderam HTTP 200, com títulos revisados, canonicals, noindex, fotos e WhatsApp contextual corretos. Os 150 arquivos de imagem, CSS e JavaScript corresponderam aos checksums do build local; a verificação TLS permaneceu ativa.
+
+No navegador público, início, estoque, detalhe do BYD e contato foram conferidos em 390 e 1280 px, com imagens carregadas, sem overflow horizontal e sem erros de JavaScript. Confirmados os 16 fabricantes disponíveis e os resultados Volkswagen 5, Toyota 3, Ford 3 e Honda 4, com modelos dependentes corretos. A combinação marca/busca/modelo/preço/ano/câmbio/combustível retornou o Hilux esperado; refresh e retorno preservaram a seleção. Modelo incompatível por URL, resultado vazio, limpeza para 46 e filtro Ford/Ranger no celular também passaram.
+
+O BYD permanece com preço em consulta e foto única ampliável. Nenhuma mensagem foi enviada à loja. Evidência completa em `docs/publicacao.json`; capturas da versão pública em `docs/screenshots/publicado-refinamento-*`.

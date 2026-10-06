@@ -47,6 +47,8 @@ Tipos, build, 11 testes de lógica/importação e 20 testes de navegador. A suí
 
 Os resultados finais e a verificação pública da versão implantada são registrados em `docs/validacao.md` e `docs/publicacao.json`. Não há nota Lighthouse ou conversão inventada.
 
+Republicação concluída e verificada em https://theusmkt.github.io/Auto-cass-site/, commit do site `be3640f609a682923765439669b6d823e0c7b16a`, workflow https://github.com/THEUSMKT/Auto-cass-site/actions/runs/37399677922. A verificação pública conferiu 50 páginas e 150 assets; o navegador abriu oito combinações de página/largura em 390 e 1280 px e testou as quatro marcas solicitadas, filtros combinados, limpeza, seleção incompatível, refresh e retorno ao estoque, sem erros de JavaScript. Capturas em `docs/screenshots/publicado-refinamento-*`.
+
 ## Pendências reais
 
 O BYD Yuan Plus continua com **Consulte o valor**: título de origem R$ 264.800,00 e botão R$ 254.800,00. A equipe precisa confirmar o preço. As descrições que terminam em reticências e a falta de galerias adicionais continuam limitadas ao conteúdo recebido. Os 46 anúncios recuperados não atestam o estoque atual integral, nem autorização para uso do redesign como canal oficial.

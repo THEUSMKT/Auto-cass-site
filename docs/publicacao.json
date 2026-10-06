@@ -1,5 +1,5 @@
 {
-  "status": "awaiting-workflow",
+  "status": "verified",
   "root": "https://theusmkt.github.io/Auto-cass-site/",
   "demo": true,
   "importedVehicles": 46,
@@ -9,5 +9,1178 @@
   "sourceSavedDate": "2026-10-05",
   "completeInventoryVerified": false,
   "completeVehicleGalleriesVerified": false,
-  "pendingPriceVehicleId": "origem-home-03"
+  "pendingPriceVehicleId": "origem-home-03",
+  "verifiedAt": "2026-10-06T01:39:29.301527+00:00",
+  "pages": [
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/contato/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/contato/",
+      "sha256": "b1860f6e1a7ff114c9958efda7a3c4cec2f5dc3a3a4e8665df23ad3593704405"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/porsche-cayenne-s-coupe-3-0-v6-hibrido-2026-01/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/porsche-cayenne-s-coupe-3-0-v6-hibrido-2026-01/",
+      "sha256": "facb000b82a435df521d95d1a89bd8e7c81d1cdd77516a481b38c1105148111b"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/",
+      "sha256": "bd24997a3c0e606d0f8cbbfab5ee686499a682993fffa99f521e748de8dd9f43"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/sobre/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/sobre/",
+      "sha256": "b0d1678490bfd6844f9854d6f3ae7864bb85534f1c3d7c167a60d347161861ac"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/estoque/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/estoque/",
+      "sha256": "24c3ddb7670221c1888933974998b19d875905a582bbf203bd24ea8dc59cf48a"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiguan-r-line-2-0-350-tsi-2026-02/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiguan-r-line-2-0-350-tsi-2026-02/",
+      "sha256": "648e8ae763eaf4244504c6c96621c8d1f0c57f744c3539a2817e0d33d243e510"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/bmw-x2-xdrive-20i-m-sport-2-0t-2024-05/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/bmw-x2-xdrive-20i-m-sport-2-0t-2024-05/",
+      "sha256": "a7ce6bb3ccae5167dab37b55c8979dfb70ab177e5da09184cf0bda1bb7a3f666"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/byd-yuan-plus-eletrico-2027-03/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/byd-yuan-plus-eletrico-2027-03/",
+      "sha256": "c3c4b6fdcbfb4918100fa3ec208f84aea4db35aa1b0e40622569260433f0c28f"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/hilux-sw4-srx-platinum-4x4-tb-diesel-aut-2024-06/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/hilux-sw4-srx-platinum-4x4-tb-diesel-aut-2024-06/",
+      "sha256": "deee19f2e411d27013cc7e1beaf5ccfdf937ed8a41ef1a38890ab28b198057c2"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/porsche-macan-2-0-turbo-gasolina-2020-04/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/porsche-macan-2-0-turbo-gasolina-2020-04/",
+      "sha256": "6472fd5b7f635a4c75fd42d0333cd21137b672cac2698cb759fd21874039b670"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-2027-5x-pro-1-5-08/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-2027-5x-pro-1-5-08/",
+      "sha256": "5cdf62025c8a7d0bc789931f227d7c7c68c83ff471806e6b43a5002272db7b67"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/velar-r-dynamic-se-3-0-aut-hibrido-2021-07/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/velar-r-dynamic-se-3-0-aut-hibrido-2021-07/",
+      "sha256": "f4070bcc8ee8cc1c6bbc707bf780aab44f7f33a40ac720189af1b6e1b44bbfc9"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/hilux-srv-cd-4x4-2-8t-diesel-aut-2021-11/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/hilux-srv-cd-4x4-2-8t-diesel-aut-2021-11/",
+      "sha256": "9b77dca3f76053b0220dee9eb7c5418a70b61203bb79d4673b3601543a05c130"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/byd-song-plus-1-5-aut-hibrido-2025-09/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/byd-song-plus-1-5-aut-hibrido-2025-09/",
+      "sha256": "86d03c6580dae9227af224d556ad6eb4ed9f2c93a71f429f055b0c610cc2f19c"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiguan-allspac-r-line-300-tsi-2024-12/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiguan-allspac-r-line-300-tsi-2024-12/",
+      "sha256": "430f4d0edf5b924eb091396416750274514a3112df848b388199126eefeea7ba"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/maverick-lariat-black-2-0-aut-2025-14/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/maverick-lariat-black-2-0-aut-2025-14/",
+      "sha256": "bf170c5914f9a653801d0a5e825367396778658dd18a6fbc0e3a3b85761e1af9"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/ranger-limited-3-0-diesel-4x4-aut-2025-13/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/ranger-limited-3-0-diesel-4x4-aut-2025-13/",
+      "sha256": "ce1ccd04f2c00e86be735a19af17c26abba357d1d180acfa622a0cc59e3de25e"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/bmw-x1-sdrive-20i-msport-2-0t-2022-10/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/bmw-x1-sdrive-20i-msport-2-0t-2022-10/",
+      "sha256": "d47a30a22f9f5ab64e11fe38f3aa4ebd98723d7a29696d3c9dd6dcf1a6dc3965"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-8-pro-1-5t-phev-aut-2024-15/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-8-pro-1-5t-phev-aut-2024-15/",
+      "sha256": "b40dd66baef6800e2ae3b583757d49b0f58251fbff24d9419748f0c0367eca0f"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/toro-ultra-1-3t-4x2-flex-aut-2022-18/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/toro-ultra-1-3t-4x2-flex-aut-2022-18/",
+      "sha256": "0256438a3c011e335fcb792f5adbff0223b544334a84c4fb294de6c1a8f73971"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-7-pro-max-drive-1-5t-hibrido-2025-16/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-7-pro-max-drive-1-5t-hibrido-2025-16/",
+      "sha256": "f3cbfff9ffabd07f56ebdca7fd019e58931c7f402ac1a8ee9a070889f9d027dc"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/jeep-commander-1-3t-2023-overland-17/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/jeep-commander-1-3t-2023-overland-17/",
+      "sha256": "96c521dde9e4516803e1aa9016331d2a848aeacda3052297afaa39f4ab0c1809"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-5x-pro-1-5-turbo-flex-2023-21/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-5x-pro-1-5-turbo-flex-2023-21/",
+      "sha256": "6e398da64cb8de6eaf2c6a98493c6a3f063d8d8c961ebe47d903476866d1888a"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-5x-pro-1-5t-flex-2023-20/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/tiggo-5x-pro-1-5t-flex-2023-20/",
+      "sha256": "35a5e8bf24d51604ce75aec9739f01b32a9da9bfbd2a4cb46f57627203654c8b"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/corolla-cross-xrx-1-8-aut-hibrida-2024-19/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/corolla-cross-xrx-1-8-aut-hibrida-2024-19/",
+      "sha256": "e8065ae6b19e72176c3bd2e75e3f11b10dbeb3d83c1774583fd9400b5cc986be"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/hr-v-exl-1-5-2023-22/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/hr-v-exl-1-5-2023-22/",
+      "sha256": "02d6be7bfa48e8213e408c5ba85b74b00d974162ad6aeaa82f459b8d301c41fe"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/s10-pick-up-advantage-2-5-flex-manual-4x2-cd-2019-23/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/s10-pick-up-advantage-2-5-flex-manual-4x2-cd-2019-23/",
+      "sha256": "fc500c04c5447efbad68d58ec01e620f0c76251b52b1ded651c26f45c4a71e1e"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/kicks-advance-cvt-1-6-flex-aut-2024-24/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/kicks-advance-cvt-1-6-flex-aut-2024-24/",
+      "sha256": "0eb2b26055692d053125f6d7bcb7de8dc09c8d2f015416d1e5f86cc80367a4c3"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/tracker-premier-1-2t-flex-aut-2022-25/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/tracker-premier-1-2t-flex-aut-2022-25/",
+      "sha256": "c749146c714117853148bc074052fd6512d87ac04b62ed385c7bc0288f64296b"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/hr-v-ex-1-8-flex-aut-2017-29/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/hr-v-ex-1-8-flex-aut-2017-29/",
+      "sha256": "f55777406e65cd8a89383b22f5be015d61e692bb7d6e6b5e61213b4f80e1fc4e"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/equinox-premier-2-0t-awd-aut-2019-26/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/equinox-premier-2-0t-awd-aut-2019-26/",
+      "sha256": "db6a117071ee2fa61626a274b1b7b7118cd9afe6e1aad0cf5260b2550dac073e"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/t-cross-highline-250-tsi-1-4-2020-27/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/t-cross-highline-250-tsi-1-4-2020-27/",
+      "sha256": "0c28a90e65f1095b5f11180bac61912b36205183e935bb9859084dc23f703001"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/compass-longitude-2-0-flex-4x2-aut-2017-30/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/compass-longitude-2-0-flex-4x2-aut-2017-30/",
+      "sha256": "cd984f35ca5d573678bf96412701cb634d1d2e3dac67a699efc058d48a80b6a5"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/polo-sense-tsi-aut-2025-1-0-31/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/polo-sense-tsi-aut-2025-1-0-31/",
+      "sha256": "bbed7758cdc9f11b79e4be10d40757f531f681349d9296c5a399a7ec17586960"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/jeep-compass-longitude-2-0-diesel-2021-28/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/jeep-compass-longitude-2-0-diesel-2021-28/",
+      "sha256": "e131b14f3087e6e1cdc26b8a006503b3cf014dc91717c3cd2d04b361cdffd1a3"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/compass-trailhawk-2-0-4x4-diesel-aut-2017-33/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/compass-trailhawk-2-0-4x4-diesel-aut-2017-33/",
+      "sha256": "7c566d251ad053f253762be565eec45248cc61b5c6b0e17a6834830b167bada4"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/toro-freedom-1-8-flex-aut-2021-34/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/toro-freedom-1-8-flex-aut-2021-34/",
+      "sha256": "2c484ac0b7dc0467cdb99013e34caa626c410c4305951611b1f559a3f6561d1b"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/sportage-ex-2-0-aut-2014-35/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/sportage-ex-2-0-aut-2014-35/",
+      "sha256": "f103fa05e008c301a4f804bd7ef9a9b520539e6bdda74d71d3c0b87803b252d9"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/renegade-longitude-2-0-4x4-tb-diesel-2019-32/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/renegade-longitude-2-0-4x4-tb-diesel-2019-32/",
+      "sha256": "6d8ec25e92311714c5867161a7ea14627e15c6f7fa9bb4ed66a852c5ebc8af9c"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/city-lx-1-5-aut-2018-36/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/city-lx-1-5-aut-2018-36/",
+      "sha256": "9c690359b12770c9884cd4e7b938df2c127f8edf2c7a6783536a5af3bc7d5e7a"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/civic-exr-2-0-flex-2014-37/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/civic-exr-2-0-flex-2014-37/",
+      "sha256": "62f605e88d72acd792fe066b1ae40402570c7daee4114f26f2e1e9fecf0fc959"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/captur-intense-2-0-automatico-2020-41/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/captur-intense-2-0-automatico-2020-41/",
+      "sha256": "53696600c6e1e8818f6d01b7f84855248d3228c42054a839940d85e6e0999ece"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/jeep-compass-longitude-2-0-flex-2017-38/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/jeep-compass-longitude-2-0-flex-2017-38/",
+      "sha256": "eb7060ba39bb6e38f6310e5a084354365ff3b54d18c214a294782b127ca15bb0"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/chevrolet-cruze-lt-1-8-aut-2016-42/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/chevrolet-cruze-lt-1-8-aut-2016-42/",
+      "sha256": "e3dd2eed8bbaca7e3e4e7f076c1fc877b4d3de2f0929b63429a5455e00297776"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/prisma-ltz-1-4-flex-manual-2017-43/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/prisma-ltz-1-4-flex-manual-2017-43/",
+      "sha256": "dcfc033c8482c899987f4280380c26f24d449fb54c59cb3ea24d1fc81c0b0510"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/renegade-sport-1-8-flex-manual-2016-40/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/renegade-sport-1-8-flex-manual-2016-40/",
+      "sha256": "642701384c94c1d3111e54917d5138a7f4d1475f0aae4a4a4694c342717255c2"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/ix35-gls-2-0-flex-aut-2015-39/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/ix35-gls-2-0-flex-aut-2015-39/",
+      "sha256": "3121c63e65464852c53615a6f0538d40fc26198b43daf3efb9c967c96b1fee81"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/ecosport-titanium-2-0-aut-2014-44/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/ecosport-titanium-2-0-aut-2014-44/",
+      "sha256": "90bb3bdb149597bc1587a5fb27dc647a6376e2083862af020125d11339e11af9"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/saveiro-ce-1-6-2015-trendline-45/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/saveiro-ce-1-6-2015-trendline-45/",
+      "sha256": "b2fdb0eaf982604cc38ccf9c0aec04f33b2fa457a80938c0b284ca690a716e63"
+    },
+    {
+      "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/kwid-zen-1-0-flex-manual-2021-46/",
+      "status": 200,
+      "canonical": "https://theusmkt.github.io/Auto-cass-site/veiculos/kwid-zen-1-0-flex-manual-2021-46/",
+      "sha256": "e21008c139299d78d6f2624fafec69c0167fdd48463627bd7fd5b9930dee05b3"
+    }
+  ],
+  "assets": [
+    {
+      "path": "_astro/Layout.astro_astro_type_script_index_0_lang.DLmTaZtv.js",
+      "sha256": "a1890f01f1a82b58ba23aebf82a5d7588f0dc92009bd9f7e53604a068d12a5a4",
+      "status": 200
+    },
+    {
+      "path": "_astro/global.DPZOk3xb.js",
+      "sha256": "03faf4600ef92ba102ffbca52310674caa1183af223726e0bd7a4e7f276d04c8",
+      "status": 200
+    },
+    {
+      "path": "_astro/_slug_.astro_astro_type_script_index_0_lang.CfupEabN.js",
+      "sha256": "f4c7e2a575abf4173434d25f1e0645ee36150e117efbc6ae6f238cc01f4bc346",
+      "status": 200
+    },
+    {
+      "path": "_astro/Layout.osnuikly.css",
+      "sha256": "22f3cdd91a86543adf52278bbef31f64e131e64f11f74e482ce137fa6cb15069",
+      "status": 200
+    },
+    {
+      "path": "_astro/index.astro_astro_type_script_index_0_lang.g3oFKlWD.js",
+      "sha256": "f31d4bcb1b6148d8cec7fa72b5199f4ed085eb3a371b9ca6b8f7b0cccaac161b",
+      "status": 200
+    },
+    {
+      "path": "assets/brand/autocass-logo.png",
+      "sha256": "0c810bcd2fd454c057c500aa5b2571164cde6cb1ed787722586cf9b70c41c272",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-01/001-422cc6525162-480.webp",
+      "sha256": "7943071250b941f8a34a73fb79a03f8904a3cdca03fb837ddce11d918ae79c10",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-02/001-0a031bb90fab-480.webp",
+      "sha256": "4aa772caf7016f757d86957a85aee74a18740850d6712d56acd8510e01839a0d",
+      "status": 200
+    },
+    {
+      "path": "_astro/paths.CiK6jlvz.js",
+      "sha256": "59708cbaf3f026b42e008b5693d72b8ff5541e8681663539af010ada5b1b1e84",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-01/001-422cc6525162.jpg",
+      "sha256": "422cc65251621ac5426fd7ed453a647779c777e18fc676ce5dc81ee7f27da35b",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-02/001-0a031bb90fab-960.webp",
+      "sha256": "9366310dd47c6a8e22569745db46d038aafc6e1574abac3325eabf9f5db15b85",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-03/001-44043a228e8c-480.webp",
+      "sha256": "90424d51c3045994cdc04f20fdf4fce16621dd6f3ae36e230417990388eb6554",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-01/001-422cc6525162-960.webp",
+      "sha256": "9cda5a7ca1758f6bbda1a3510fba8fe168c5f0c20ef219528c494377f8d326a4",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-02/001-0a031bb90fab.jpg",
+      "sha256": "0a031bb90fab4c1b75729e14f04f601fb942e8eecdf5007b0ab70b2e721b0b65",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-03/001-44043a228e8c.jpg",
+      "sha256": "44043a228e8cf453d9e7803958d1d518bbabf3be66df89a221467ef4628881c0",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-03/001-44043a228e8c-960.webp",
+      "sha256": "02069c011769cf7bbfbd5e7c80dc8c059bed28eb4c2fb6d30e67025dd424685b",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-04/001-e6f1f5504406-480.webp",
+      "sha256": "f9cf8153c2c20151acf65dfecb9cd0edc1e0a0543b4ddcf2b10078008342247e",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-04/001-e6f1f5504406-960.webp",
+      "sha256": "7de8497e67fa26ac766b60cfc82f6f6285695998fd69262a7d5de6b8356d3d4d",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-04/001-e6f1f5504406.jpg",
+      "sha256": "e6f1f5504406d135378f8d861d7f57018daf2c07080c0b2ffc54fcc85e1bba8e",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-05/001-024a87f0e333-960.webp",
+      "sha256": "756365dbcdee90445ca5e46096db362bdba71c0afe01e6be7aaef703c4c4b118",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-05/001-024a87f0e333-480.webp",
+      "sha256": "8bdd5f3a7510a304bdeeb08a126c6435a693b7fc6c4184ef8eb879608e77f563",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-06/001-de54df1e355b-480.webp",
+      "sha256": "782c3923646350d84c0ce6edf88b7d2c32027bbea617e46867f4c52ec1ed1c36",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-05/001-024a87f0e333.jpg",
+      "sha256": "024a87f0e33369264c90c35afe93b7ebe39d25a8fd1c7f11fb79a8715a6720e5",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-06/001-de54df1e355b-960.webp",
+      "sha256": "3e60f23dba1c568e1d9b3965f945d62ac55e737cccd5eebf17759084b076803e",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-06/001-de54df1e355b.jpg",
+      "sha256": "de54df1e355b0433d1e6e84f1b994370c950ea43fe0a130d4b14e920ef51f5db",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-480.webp",
+      "sha256": "4bf9e2a371e09528dfbed58420f3273c9f40d32c619c530cc99d5738f7873cda",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-1600.webp",
+      "sha256": "9762759ba4847ade36bb3d08f212062b25c739dbf2a90531244d016b5b0ec651",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-960.webp",
+      "sha256": "b0dd3fd18d1e91623de53fc4ad0bad26c28dcac357cefb018d8590738d040f61",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4-480.webp",
+      "sha256": "fc573b211d5ae419464cfd822166ae5165245c82700d2693e63aa069189c6173",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce.jpg",
+      "sha256": "0e73a595d6ceef96cb05b567a794f3aa8967fdcc7d0873ea624d7b3137055247",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4-960.webp",
+      "sha256": "41549322a583be724a77d447ab47393a447317db99d08511289fe3d7f9b6c975",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-09/001-26a22a3d2350-960.webp",
+      "sha256": "116c8e065bca6729245a0cf5e0046c68e7bd0caeca1599aec97859fbbf26cc9a",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-09/001-26a22a3d2350.jpg",
+      "sha256": "26a22a3d23501cb1d637bb3a731f067a68ccabaea3077e9e1d689a27e1839373",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-10/001-a5285d375ed7-480.webp",
+      "sha256": "53b1903f1c7cf3f545e84e9a80513bf1f517a31bb03288fb71578a257c51bb3d",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-09/001-26a22a3d2350-480.webp",
+      "sha256": "5f79917424a0c310d727fa0e84bd5823ca7a1e790c29d545d0ba23426e61e880",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-10/001-a5285d375ed7-960.webp",
+      "sha256": "f1b0787fc7be0d76ffca8458df3ed43720587397c64f6dd98fe6c87d05d450fb",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4.jpg",
+      "sha256": "9f0f639bcbe4079d15a5435c0d1fcd8059dd6894e6335cc0c491ec6f83d43b90",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-11/001-2b452bf28017-480.webp",
+      "sha256": "40237c36ecdefe69ca30eae2aae452ff017ed476bae79760ea2056e3322da328",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-11/001-2b452bf28017-960.webp",
+      "sha256": "582cc75bcfbe5b3a4bb9aa375963e909095883354347188862836dbe09dd7401",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-10/001-a5285d375ed7.jpg",
+      "sha256": "a5285d375ed70456b3c7aa11baf114be7c5cb3cfda59c5c3f86ae4aaedfcfdd0",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-12/001-1b608ec36e24-480.webp",
+      "sha256": "80ef01cd9f6a45088a926c298dca95448a90d89ffa37c162a1c8951f034d9c2a",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-11/001-2b452bf28017.jpg",
+      "sha256": "2b452bf28017d693d891d680bb4f39bba4f74f9cbea22a749d0fe81b19925b3b",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-13/001-c99ace30e107-480.webp",
+      "sha256": "8f6c12de58e51fa633e7d80b1ca137278bc647cbdd46398b6b7c46c8011cc6f1",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-12/001-1b608ec36e24-960.webp",
+      "sha256": "09ba5724027a6745ce384fe69f7df520f6126d25a5755782e41178f9d5a38c5a",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-13/001-c99ace30e107-960.webp",
+      "sha256": "ca55265a6684d9bc38a7114e0a952d98b74a768da6f6a472bce8855b2479ba49",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc-480.webp",
+      "sha256": "1966b6b84bd229f734aefd264461f7d9ec0fedaaca1d312a1c9269db53971b88",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-12/001-1b608ec36e24.jpg",
+      "sha256": "1b608ec36e244f2c20faf0177d91707af22e58d09ada9f2dc3e27cd7e2217ba6",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-13/001-c99ace30e107.jpg",
+      "sha256": "c99ace30e10748795f16ff768e83a850b4efd427db4888c60dcb8d7fb91f0721",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-15/001-c1f38129bd61-480.webp",
+      "sha256": "1c204eb40fe2804b023cbbca96199d1617f10f4b2b6e09923459716e517f3a48",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc-960.webp",
+      "sha256": "7ecbf49dd476932f06c1f30cd38e6e65a9f5697bb312009c0aecd6da511201de",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-15/001-c1f38129bd61-960.webp",
+      "sha256": "7770a8d145038362bb924bd4b8759f319a1de9ab995c3f315970cffb87f5d385",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-15/001-c1f38129bd61.jpg",
+      "sha256": "c1f38129bd61814722384d8cf2fbc7f184f9b228c9f001aeb9bda182e8ffec71",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-16/001-32fcad773bdd-960.webp",
+      "sha256": "b6d4462c1fedd736b1965e872ee65cc430a26f4d4d8c31d1266fa5d0be7db2af",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-16/001-32fcad773bdd.jpg",
+      "sha256": "32fcad773bdd5080dd9774a9ab02c7c2adace3c77715a36897d68c044e7f72e8",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc.jpg",
+      "sha256": "83c8c6da86fc1ea49dde502d0e8036497830faf950673a7e4c868868d230d1d0",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-17/001-4b29c110c967-480.webp",
+      "sha256": "93921abf944119e6f5b8e95f72dd43bd72ef79af8042bd2b985ee8781298ed80",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-17/001-4b29c110c967-1600.webp",
+      "sha256": "d72964c1e6e127b963e6eb34818a3d4dcdc3b27cea278b3c1169d16858064f0e",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-16/001-32fcad773bdd-480.webp",
+      "sha256": "561e24bda6a4be26e96f1e41c9c76f7177f13d351f341375ab488c7e6d71a305",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-17/001-4b29c110c967-960.webp",
+      "sha256": "0b2e4adad2f97a19b48b48484613223a3447830bdbddf9dcf34c55d453a2792b",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-18/001-88391f5859ca-480.webp",
+      "sha256": "5d37a978680ac108a92f063942ce2183caec1faa68cf54472c47cdee43535a83",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-17/001-4b29c110c967.jpg",
+      "sha256": "4b29c110c967b1fa1aa347187faee809fecc2c763729e3ea935c4a74b8931dbc",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-19/001-421eea5d74a4-480.webp",
+      "sha256": "cef28e6b926d245a72e0e652595ab744f9fe3fb422f126ed53018499b1ceabe0",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-18/001-88391f5859ca.jpg",
+      "sha256": "88391f5859caca6f10b464b864806bbd7a497808ea5a71a2b1acbdcd89f38eb1",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-19/001-421eea5d74a4-960.webp",
+      "sha256": "a7d3ad381048f8757e899ed1f29fec28560c0634ed7f58c793da61e427a0585f",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-18/001-88391f5859ca-960.webp",
+      "sha256": "a517a86deba447c5706b3aed7a802694f36453279f3f54b8d8aa60c13885256e",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-19/001-421eea5d74a4.jpg",
+      "sha256": "421eea5d74a48b3e6b2cb8379e9dcb0177ed1376169eb949cf8328c06b37363e",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c-480.webp",
+      "sha256": "1d22f41a24668270c5b084ce795d6c1397a6fdea5cddc77e9628f43a012da4d2",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4-480.webp",
+      "sha256": "d3fc7ffb6b66be3c2c84007df0201898b186423d73487708e4647b3ac23546b8",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c-960.webp",
+      "sha256": "8e565eda50ae5c725740116b14dea164e9790c971b9fa7c1acccea343e4d718d",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c.jpg",
+      "sha256": "4e6a86bc454cc7254715610c0b60d1449709cd254ff25d6dc8b5cb2958735f62",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36-480.webp",
+      "sha256": "53892efe3be884db3f19e3876c44009345afa1cd9465fc5fa5904fbb0c9d6e9f",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4-960.webp",
+      "sha256": "5ff80f3bcf015446125efea27b8c7919f6e2f2cdf917fb06a8ab18b40ea6c2b6",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36.jpg",
+      "sha256": "1a87e5e99c36f7ec98d9b54d22987737e1601bbef31ea827be5f5d8e2dcd37af",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4.jpg",
+      "sha256": "c9beb7efa0d44173899cc22971ac340d09a55013b82faf19ab485aca2fb4ccd8",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4-480.webp",
+      "sha256": "3a36b0160267c03632a24d5a55f73f560b89c16dac5269765521011a0df919a5",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4-960.webp",
+      "sha256": "d7268f163d2f1875f68106ba6d93a17f0e639613055df658cc463d6e3908edc1",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-480.webp",
+      "sha256": "e2a2cb86f4fcefc594056f75954ca0e49f33a92d92347d4bcbcfb9ee61cf5514",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-1600.webp",
+      "sha256": "3f3f3cdceb5a12e79d88a9de1a3f08c28b6dff4406015150340df2f643d56293",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-960.webp",
+      "sha256": "862d8d8d0bf3d787462230db1cdf9ddd951efc76ae64ef7f62a74656bce34a8c",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36-960.webp",
+      "sha256": "d34f028f8f84053d242437425c1d3890ef0be91be0a081baa02584633ea45938",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8.jpg",
+      "sha256": "159d7f2d2cf8726524649b632eb64fbf1d0451b379942dee47c2d70aeac9ce62",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-25/001-c006c1161150-480.webp",
+      "sha256": "9b6b33c2e7a38ed629290dc972f54b4e0dd1f7ea22975334b01ec4d47eed51c6",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4.jpg",
+      "sha256": "a4c03542eaf4514affcb3b839c1da93217d6264e25553ae2eb6fe58978bffe29",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-25/001-c006c1161150.jpg",
+      "sha256": "c006c116115040ab1351bc42eaec1d315efae6bab1efb6d2ee187a14b10bda43",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-26/001-d16334901594-480.webp",
+      "sha256": "bfb2e661fb311794cd8d0552343483e63194457a2285ff9e8073e1cc2277f346",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-25/001-c006c1161150-960.webp",
+      "sha256": "e54d909a787cc0b1d7c42ee27d4c891b0991112a42a7ef31f70be1245738ddf0",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-26/001-d16334901594-960.webp",
+      "sha256": "04885e9a3ebd2b32bc0f3585eb55003ac927687ddb1f9c4ffb52b3bdbd0342f4",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-27/001-fe77dd631576-480.webp",
+      "sha256": "f5ff8ec204d174d09891f5d0689d524101d117f8032a11f7b17ddec73eeeab61",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-27/001-fe77dd631576.jpg",
+      "sha256": "fe77dd63157602319f27b58d90dd7722efa7e90209ab48115edc2938547646f9",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-26/001-d16334901594.jpg",
+      "sha256": "d16334901594b91c1be4a2340dce3c2ef2164d11a26bbcb38a5488531c85a249",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-27/001-fe77dd631576-1600.webp",
+      "sha256": "214fc5dfd43f697d13cd6f6273b239cb091e948bada5a371cf96eb61313f63f0",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48-480.webp",
+      "sha256": "a5f723b71eac230aeb07387ca4c341488c734eb915e88c223cd82f4e1c4aca1c",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48-960.webp",
+      "sha256": "8452fc43e1c766064949f005dd9ada8009061edfa8ec9e866bb54ff479820ce5",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-29/001-389dec5c69bc-480.webp",
+      "sha256": "7ed0c0252fd5fffc683fbf86a2f1516c2b370c19b09cf29ee65c68e473337225",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48.jpg",
+      "sha256": "fde3c73c4a48c1cd7e90811de3164c3a9e0bf20e1c1b6209f5d70de27f9f9921",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-29/001-389dec5c69bc-960.webp",
+      "sha256": "1360a0a2ee2e92a5ea1bf5c5d49e62f9cdea543a20becb33d91411e69f7a452c",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-27/001-fe77dd631576-960.webp",
+      "sha256": "c88f9da11156a11c70a4db4edc767a8392a26c4ebec915bbfe13a96888e5595f",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-29/001-389dec5c69bc.jpg",
+      "sha256": "389dec5c69bcaf9d6950e494aa1a0cbf61ceefea9ca0f67ad8bf31839c1549ed",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba-480.webp",
+      "sha256": "a9f272f29d5bfe94dbb3d1fd11be2cabebd2efbe1772ebb9e975fc99496d2a70",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba.jpg",
+      "sha256": "9fd504ba66baa8b75021e6d97a92e28fd9d9625fef06b5360905076a4042720d",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-31/001-c6df5034a933-480.webp",
+      "sha256": "91059c41b0ac705e76bfa4c7469631d2a17161e50a291e2aefa9864fca2ed5ec",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba-960.webp",
+      "sha256": "00ed20916a5a0b6a62ff3490b9cf66ca23035d3c58cc382fa68de462104c1968",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-31/001-c6df5034a933-960.webp",
+      "sha256": "49c837dda8ff172603212264ec3ccf88c6666a48001418e837909bd064376b0a",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-31/001-c6df5034a933.jpg",
+      "sha256": "c6df5034a933e611ad56281845455ec7de2ce16920ee78ee5cc04e26cc3127f6",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-32/001-9c91539684f0-480.webp",
+      "sha256": "9d6169aa2680fd1af8fdb246d59b72a658019b8ad3e1a3eff3d2f131d7817802",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-32/001-9c91539684f0-960.webp",
+      "sha256": "2208ce5b95781df1d9df840b273f11fd0b70cb8dfa0b4ca340b015ac99f8fd76",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-33/001-84647dc711ef-480.webp",
+      "sha256": "1acd7dbed5b518410bfac957b20364a0e1efc8e4460c804e6f3c0e44343202c2",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-32/001-9c91539684f0.jpg",
+      "sha256": "9c91539684f06a696b19b13fedd7cde468da5e5515183dfedf46b226ea274ac3",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-34/001-f55efce063a9-480.webp",
+      "sha256": "c414c9099212b69c19ddca7fb09fbd835c237202abb5812e7bcc3b1ecafd4214",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-33/001-84647dc711ef-960.webp",
+      "sha256": "29c128752336d6b537460ec21db2ab394e11bc0a653e9f66c51d4602c78eb52e",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-33/001-84647dc711ef.jpg",
+      "sha256": "84647dc711ef80d53b3a80847e951191bc654b49966e848f1794a4be14139be5",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-34/001-f55efce063a9.jpg",
+      "sha256": "f55efce063a988395ebd52b4f3c2a766b1317e525544d2b5303c97b32af406ba",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-34/001-f55efce063a9-960.webp",
+      "sha256": "7d5c4b41e8d82ca43336e926e92642e0be4330928ffbcfa56e97714c2ac9cbfe",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee-480.webp",
+      "sha256": "468e3cb7ab8aa52f122d25725dabcd1c899cd67ac3951de55d18fb049ead7ff5",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8-480.webp",
+      "sha256": "5a1f34d969918bf463be821ff1ba72119f56acad81a862e4f1666e55e22dca42",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee-960.webp",
+      "sha256": "d98d059076ca36dbb2ba3a68f1a3a2ecb2a0528d91b9a2bdebc0ea56272cae3c",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee.jpg",
+      "sha256": "3007d8fa30eea02b96d4007d225a48e7cf4496cbb01f7b7a928ad63464bc44e1",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8-960.webp",
+      "sha256": "4d7b4ad8468ee76782a291b02bf1d54679d1c6d9abf2f1be17259688d264dbd1",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8.jpg",
+      "sha256": "d6c5eae38af8e54cfbb96159520fdd2ae5fe2581b8aef3f198628519e7327fca",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20-480.webp",
+      "sha256": "b69e96a4ad53b12c136c678e016b12acd641002a19ec7a60f8c6d610fe2a8aa2",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-37/001-8721555fa5a6-480.webp",
+      "sha256": "0584644a827522e7fced5e2820ec1e0d946d29d611e514d807aa3c5d26fbe46b",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-37/001-8721555fa5a6-960.webp",
+      "sha256": "21e7b047c2ac095baa31aabf162078c5807543c8fd73d573fa169e3e6e7e099e",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20-960.webp",
+      "sha256": "9aeecdbf0189995559c1706e636bfaa8a625570debf5389b60ac3a208c3fcc40",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-37/001-8721555fa5a6.jpg",
+      "sha256": "8721555fa5a6210167f390eed378bdb55eaefb3b5c444306be3936c6346e6966",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20.jpg",
+      "sha256": "ef88d1a21e200e0445e74e92ea3f28bdfa517f2d876f0b45d7fb57326528fc69",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-39/001-9e5694034589-960.webp",
+      "sha256": "e47d9ef94209a631f3321cbffbaa96e40234114580841c5fc77137e1cfcd0be7",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-39/001-9e5694034589-480.webp",
+      "sha256": "6eee2da9ecc91e16426d459dd7ff085e90510cd1dfbd8c98e932e5e82896ea1f",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-39/001-9e5694034589.jpg",
+      "sha256": "9e5694034589f776fb0599e87ca2988ff768d94993670de3361689fc0a5edcca",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7-960.webp",
+      "sha256": "e297d7e3c19ff75fad48733e194fd9e83493e23decb05c8de97b4429ed540c4d",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7-480.webp",
+      "sha256": "95382b83aee6c2b2fde8e364011d60cc69d972122d5a343690446960ea45800c",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-41/001-08c04dff638b-480.webp",
+      "sha256": "d9cf985efe25ed603cf2d303adf3256419949c80ddca5aef96a0d88136b89e6d",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7.jpg",
+      "sha256": "00d48c4c35c7298aa7940600fb8e1c968f3c222f7568e4d9c8a07f77adedf3ec",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-41/001-08c04dff638b-960.webp",
+      "sha256": "c037eb8d0fedb189899f69febf3c1cf836cfc1ffe5bdef0ddc6a008a4599f382",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-41/001-08c04dff638b.jpg",
+      "sha256": "08c04dff638b164f8408ecc86ffc8cd32995957af5e93ef73fc984f3e56c94ec",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-42/001-dd519a874012-480.webp",
+      "sha256": "2b74b6a7a9c4cf253f04940774083b16fb85e12cb26aba8bb936060a8aaaa495",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-42/001-dd519a874012-960.webp",
+      "sha256": "f421e302ffa6e4b342352a757721e63db16c7d706698e923f48176f2629d9881",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-42/001-dd519a874012.jpg",
+      "sha256": "dd519a8740122466e6d7f02940e328d9395668ae2ea19b894c767369e06ec024",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-43/001-26d2baae23f6-960.webp",
+      "sha256": "b873b8ce1464b07806b1bdb53f88fea8857dccf4dac696f680cf4b5361733241",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-43/001-26d2baae23f6-480.webp",
+      "sha256": "e499dad5750d11476a760f2e78c4b0afe1f9de9d1c95c7efcac75e2d76b97b10",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2-480.webp",
+      "sha256": "3c8499f8ac2d6c2a46657c49fe2a6d68129ec9de0b6aeb66fe1470ff6c14ba80",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-43/001-26d2baae23f6.jpg",
+      "sha256": "26d2baae23f6dff7c16404aedcbfafd933ff5013ab8d2a9234ef0b5f98d82774",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2-960.webp",
+      "sha256": "5f9084d699644125fa97afb66bb1e52509f26a28932fc0cd375997826ba6114f",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-45/001-45461cc6fce0-480.webp",
+      "sha256": "574f8a3fe964c5fa6b3e3de822072c8f7406cf0aa1b00fb58dcbdbbf14d02beb",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2.jpg",
+      "sha256": "221e2dde9ae29a8f8d55dd7e9797e4644790079c5df92bdf33bd1cbb3bc7a330",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-45/001-45461cc6fce0-960.webp",
+      "sha256": "d491367b07f27b7f916ddedbb6ad450a95eade78fd710fe059712013928c6736",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-45/001-45461cc6fce0.jpg",
+      "sha256": "45461cc6fce0dfeecb7317dd29fd8f10e6e8b9285c91c19927b500bf75218e8b",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-46/001-901a17154517-480.webp",
+      "sha256": "6f0aabdc5a8fb10b8052bd4c7e8ca34a9560a5bd05c59bed4b98f99ca8b3940d",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-46/001-901a17154517-960.webp",
+      "sha256": "63a186daed3f9e834a2b4f7d0a7be6d6474e4dcbe8087a5bf9f19d2dce2e7a11",
+      "status": 200
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "0ac47bedff0d94fe7f049c17df718a148cf0c6c44fec849abadc4c04b63667e8",
+      "status": 200
+    },
+    {
+      "path": "assets/vehicles/origem-home-46/001-901a17154517.jpg",
+      "sha256": "901a17154517cb607703cfcc18c994da8a293cab14229963fcb01a8a5dcb1a92",
+      "status": 200
+    }
+  ],
+  "publishedDetailsVerified": 46,
+  "publishedOriginalPhotosVerified": 46,
+  "publishedResponsiveVariantsVerified": 96,
+  "assetsMatchLocalBuild": true,
+  "tlsVerification": true,
+  "whatsappMessagesSent": 0,
+  "publicBrowser": {
+    "pages": [
+      {
+        "url": "https://theusmkt.github.io/Auto-cass-site/",
+        "status": 200,
+        "width": 390,
+        "horizontalOverflow": false
+      },
+      {
+        "url": "https://theusmkt.github.io/Auto-cass-site/estoque/",
+        "status": 200,
+        "width": 390,
+        "horizontalOverflow": false
+      },
+      {
+        "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/byd-yuan-plus-eletrico-2027-03/",
+        "status": 200,
+        "width": 390,
+        "horizontalOverflow": false
+      },
+      {
+        "url": "https://theusmkt.github.io/Auto-cass-site/contato/",
+        "status": 200,
+        "width": 390,
+        "horizontalOverflow": false
+      },
+      {
+        "url": "https://theusmkt.github.io/Auto-cass-site/",
+        "status": 200,
+        "width": 1280,
+        "horizontalOverflow": false
+      },
+      {
+        "url": "https://theusmkt.github.io/Auto-cass-site/estoque/",
+        "status": 200,
+        "width": 1280,
+        "horizontalOverflow": false
+      },
+      {
+        "url": "https://theusmkt.github.io/Auto-cass-site/veiculos/byd-yuan-plus-eletrico-2027-03/",
+        "status": 200,
+        "width": 1280,
+        "horizontalOverflow": false
+      },
+      {
+        "url": "https://theusmkt.github.io/Auto-cass-site/contato/",
+        "status": 200,
+        "width": 1280,
+        "horizontalOverflow": false
+      }
+    ],
+    "brandsVerified": [
+      {
+        "brand": "Volkswagen",
+        "results": 5,
+        "models": [
+          "Polo",
+          "Saveiro",
+          "T-Cross",
+          "Tiguan"
+        ]
+      },
+      {
+        "brand": "Toyota",
+        "results": 3,
+        "models": [
+          "Corolla Cross",
+          "Hilux",
+          "Hilux SW4"
+        ]
+      },
+      {
+        "brand": "Ford",
+        "results": 3,
+        "models": [
+          "EcoSport",
+          "Maverick",
+          "Ranger"
+        ]
+      },
+      {
+        "brand": "Honda",
+        "results": 4,
+        "models": [
+          "City",
+          "Civic",
+          "HR-V"
+        ]
+      }
+    ],
+    "combinedFilters": true,
+    "incompatibleModelCleared": true,
+    "emptyResultAndClear": true,
+    "detailRefreshAndReturn": true,
+    "mobileFordFilter": true,
+    "tlsVerification": true,
+    "javascriptErrors": [],
+    "whatsappMessagesSent": 0
+  },
+  "implementationCommit": "be3640f609a682923765439669b6d823e0c7b16a",
+  "workflow": "https://github.com/THEUSMKT/Auto-cass-site/actions/runs/37399677922",
+  "workflowConclusion": "success",
+  "validation": {
+    "typeErrors": 0,
+    "typeWarnings": 0,
+    "unitTestsPassed": 11,
+    "browserTestsPassed": 20,
+    "unchangedVehiclePhotos": 46,
+    "classifiedVehicles": 46,
+    "classifiedBrands": 16,
+    "technicalSourceLinkRemoved": true
+  }
 }
