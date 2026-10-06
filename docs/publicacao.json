@@ -1,51 +1,12 @@
 {
-  "verifiedAt": "2026-10-05T23:40:03.203Z",
+  "status": "awaiting-workflow",
   "root": "https://theusmkt.github.io/Auto-cass-site/",
-  "pages": [
-    {
-      "url": "https://theusmkt.github.io/Auto-cass-site/",
-      "status": 200,
-      "canonical": "https://theusmkt.github.io/Auto-cass-site/"
-    },
-    {
-      "url": "https://theusmkt.github.io/Auto-cass-site/estoque/",
-      "status": 200,
-      "canonical": "https://theusmkt.github.io/Auto-cass-site/estoque/"
-    },
-    {
-      "url": "https://theusmkt.github.io/Auto-cass-site/sobre/",
-      "status": 200,
-      "canonical": "https://theusmkt.github.io/Auto-cass-site/sobre/"
-    },
-    {
-      "url": "https://theusmkt.github.io/Auto-cass-site/contato/",
-      "status": 200,
-      "canonical": "https://theusmkt.github.io/Auto-cass-site/contato/"
-    }
-  ],
-  "assets": [
-    "https://theusmkt.github.io/Auto-cass-site/favicon.svg",
-    "https://theusmkt.github.io/Auto-cass-site/_astro/Layout.CHJIW2LU.css",
-    "https://theusmkt.github.io/Auto-cass-site/_astro/Layout.astro_astro_type_script_index_0_lang.DLmTaZtv.js",
-    "https://theusmkt.github.io/Auto-cass-site/_astro/index.astro_astro_type_script_index_0_lang.2nB0BLnK.js"
-  ],
   "demo": true,
-  "importedVehicles": 0,
-  "importedPhotos": 0,
-  "assetsMatchLocalBuild": [
-    "favicon.svg",
-    "_astro/Layout.CHJIW2LU.css",
-    "_astro/Layout.astro_astro_type_script_index_0_lang.DLmTaZtv.js",
-    "_astro/index.astro_astro_type_script_index_0_lang.2nB0BLnK.js"
-  ],
-  "implementationCommit": "126f4252d29b51ec1a1f29f8160327a2ecf8c7b4",
-  "workflowUrl": "https://github.com/THEUSMKT/Auto-cass-site/actions/runs/37389561308",
-  "workflowConclusion": "success",
-  "publicBrowser": {
-    "width": 390,
-    "status": 200,
-    "tlsVerification": true,
-    "horizontalOverflow": false,
-    "javascriptErrors": []
-  }
+  "importedVehicles": 46,
+  "importedPhotos": 46,
+  "vehicleDetailPages": 46,
+  "sourceSavedDate": "2026-10-05",
+  "completeInventoryVerified": false,
+  "completeVehicleGalleriesVerified": false,
+  "pendingPriceVehicleId": "origem-home-03"
 }

@@ -5,7 +5,7 @@ import path from 'node:path';
 import os from 'node:os';
 import {spawnSync} from 'node:child_process';
 import sharp from 'sharp';
-import {makeVehicle} from './fixture-data.ts';
+import {makeVehicle,fixtureDealership} from './fixture-data.ts';
 
 test('importação revisa antes de aplicar, valida mídia, deduplica e preserva dados anteriores',async()=>{
  const root=await mkdtemp(path.join(os.tmpdir(),'autocass-import-test-'));
@@ -25,7 +25,7 @@ test('importação revisa antes de aplicar, valida mídia, deduplica e preserva 
    {sourceUrl:'https://example.invalid/broken.jpg',file:'invalid.jpg'},
   ]};
   vehicle.price=null;vehicle.mileage=null;
-  const input=path.join(root,'export.json');await writeFile(input,JSON.stringify({sourceUrl:'https://example.invalid',collectedAt:'2026-10-05T12:00:00.000Z',discoveredCount:1,detailsReadCount:1,paginationVerified:true,vehicles:[vehicle]}));
+  const input=path.join(root,'export.json');await writeFile(input,JSON.stringify({sourceUrl:'https://example.invalid',collectedAt:'2026-10-05T12:00:00.000Z',discoveredCount:1,detailsReadCount:1,paginationVerified:true,vehicles:[vehicle],dealership:fixtureDealership}));
   const original=await readFile(path.join(root,files[0]),'utf8');
   const review=spawnSync(process.execPath,[script,input,'--media-dir',path.join(root,'photos')],{cwd:root,encoding:'utf8'});
   assert.equal(review.status,0,review.stderr);

@@ -25,9 +25,9 @@ const contact = whatsappUrl(dealership.whatsapp);
   <form action={path('estoque/')} method="get"><label for="home-search" class="sr-only">Marca, modelo ou versão</label><div class="search-input"><Icon name="search"/><input type="search" id="home-search" name="q" placeholder="Marca, modelo ou versão" maxlength="120"/></div><button class="button button-dark" type="submit">Buscar veículos <Icon/></button></form>
  </section>
  <section id="selecao" class="section container">
-  <div class="section-heading"><div><p class="eyebrow">Explore as possibilidades</p><h2>Uma seleção para<br/>seu próximo capítulo.</h2></div><a href={path('estoque/')} class="text-link">Ver estoque completo <Icon/></a></div>
+  <div class="section-heading"><div><p class="eyebrow">Explore as possibilidades</p><h2>Uma seleção para<br/>seu próximo capítulo.</h2></div><a href={path('estoque/')} class="text-link">Ver todos os anúncios <Icon/></a></div>
   {featuredVehicles.length ? <div class="vehicle-grid">{featuredVehicles.map(vehicle => <VehicleCard vehicle={vehicle}/>)}</div> : <EmptyCatalog/>}
-  {visibleVehicles.length > 0 && <p class="section-note">Destaques escolhidos pela equipe. Consulte as informações de cada anúncio.</p>}
+  {visibleVehicles.length > 0 && <p class="section-note">Explore os anúncios e confirme a disponibilidade com a loja.</p>}
  </section>
  <section class="brand-story"><div class="container story-grid"><div><p class="eyebrow">O jeito Auto Cass</p><h2>Mais clareza.<br/>Mais atenção.<br/><em>À sua escolha.</em></h2></div><div class="story-copy"><p>{dealership.about ?? 'Uma nova experiência para explorar veículos com calma, conhecer os detalhes e conversar com a equipe sobre o que faz sentido para você.'}</p><a href={path('sobre/')} class="text-link">Conheça a Auto Cass <Icon/></a><div class="story-principles"><span>01 <strong>Explore</strong></span><span>02 <strong>Conheça</strong></span><span>03 <strong>Converse</strong></span></div></div></div></section>
  {dealership.services.length > 0 && <section class="section container"><div class="section-heading"><div><p class="eyebrow">Ao seu lado</p><h2>Como podemos ajudar.</h2></div></div><div class="service-grid">{dealership.services.map((service,i) => <article><span class="eyebrow">0{i+1}</span><h3>{service.title}</h3><p>{service.description}</p></article>)}</div></section>}

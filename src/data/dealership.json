@@ -1,21 +1,41 @@
 {
   "name": "Auto Cass",
   "sourceUrl": "https://www.autocass.com.br/",
-  "verifiedAt": null,
+  "verifiedAt": "2026-10-06T00:18:17.597Z",
   "demo": true,
-  "catalogStatus": "awaiting-source",
+  "catalogStatus": "partial",
   "tagline": null,
   "about": null,
-  "whatsapp": null,
-  "phone": null,
-  "email": null,
-  "address": null,
+  "whatsapp": "555134741338",
+  "phone": "(51) 3474-1338",
+  "email": "contato@autocass.com.br",
+  "address": "Av. Rubem Berta 1565 - Freitas - Sapucaia do Sul, RS - CEP 93218-350",
   "hours": [],
-  "socials": [],
+  "socials": [
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/autocass"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/autocassmultimarcas"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/autocass"
+    }
+  ],
   "services": [],
-  "logo": null,
+  "logo": "assets/brand/autocass-logo.png",
   "storeImage": null,
   "accent": "#b88c64",
   "featuredIds": [],
-  "provenance": {"name": "Nome informado no briefing; identidade visual provisória", "contact": "Não verificado: acesso à origem bloqueado pelo proxy"}
+  "provenance": {
+    "name": "HTML e imagens fornecidos pelo usuário em Auto-Cass-Pacote-para-Codex.zip.",
+    "contact": "O HTML usa este número em links de WhatsApp; os links originais têm formatação inconsistente. Destinatário não testado por envio.",
+    "verifiedAt": "Data da conferência documental nesta importação; não comprova confirmação externa ou envio de mensagem.",
+    "sourceSavedDate": "2026-10-05; hora do salvamento não informada.",
+    "logo": "PNG referenciada no HTML, inspecionada visualmente. A JPG principal também é uma imagem da marca, não uma foto da loja.",
+    "classification": "Modelo extraído dos tokens do título. Marca só preenchida quando explícita no título; câmbio e combustível apenas quando escritos. Carroceria e demais campos ausentes permanecem nulos."
+  }
 }

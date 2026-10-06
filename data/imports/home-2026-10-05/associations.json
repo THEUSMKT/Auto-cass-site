@@ -1,0 +1,331 @@
+{
+  "importedAt": "2026-10-06T00:18:17.597Z",
+  "sourceSavedDate": "2026-10-05",
+  "sourceHtmlSha256": "5157d6653f39a24a052399ce908a28731e4d29837f5dfc374b27d2cc2b04c17a",
+  "vehicles": [
+    {
+      "id": "origem-home-01",
+      "sourceElementId": "1776313073",
+      "sourceOrder": 1,
+      "sha256": "422cc65251621ac5426fd7ed453a647779c777e18fc676ce5dc81ee7f27da35b",
+      "sourceFile": "assets/vehicles/origem-home-01.jpeg"
+    },
+    {
+      "id": "origem-home-02",
+      "sourceElementId": "1490538406",
+      "sourceOrder": 2,
+      "sha256": "0a031bb90fab4c1b75729e14f04f601fb942e8eecdf5007b0ab70b2e721b0b65",
+      "sourceFile": "assets/vehicles/origem-home-02.jpeg"
+    },
+    {
+      "id": "origem-home-03",
+      "sourceElementId": "1698637783",
+      "sourceOrder": 3,
+      "sha256": "44043a228e8cf453d9e7803958d1d518bbabf3be66df89a221467ef4628881c0",
+      "sourceFile": "assets/vehicles/origem-home-03.jpeg"
+    },
+    {
+      "id": "origem-home-04",
+      "sourceElementId": "1938490704",
+      "sourceOrder": 4,
+      "sha256": "e6f1f5504406d135378f8d861d7f57018daf2c07080c0b2ffc54fcc85e1bba8e",
+      "sourceFile": "assets/vehicles/origem-home-04.jpeg"
+    },
+    {
+      "id": "origem-home-05",
+      "sourceElementId": "1029042322",
+      "sourceOrder": 5,
+      "sha256": "024a87f0e33369264c90c35afe93b7ebe39d25a8fd1c7f11fb79a8715a6720e5",
+      "sourceFile": "assets/vehicles/origem-home-05.jpeg"
+    },
+    {
+      "id": "origem-home-06",
+      "sourceElementId": "1940585095",
+      "sourceOrder": 6,
+      "sha256": "de54df1e355b0433d1e6e84f1b994370c950ea43fe0a130d4b14e920ef51f5db",
+      "sourceFile": "assets/vehicles/origem-home-06.jpeg"
+    },
+    {
+      "id": "origem-home-07",
+      "sourceElementId": "1578751642",
+      "sourceOrder": 7,
+      "sha256": "0e73a595d6ceef96cb05b567a794f3aa8967fdcc7d0873ea624d7b3137055247",
+      "sourceFile": "assets/vehicles/origem-home-07.jpeg"
+    },
+    {
+      "id": "origem-home-08",
+      "sourceElementId": "1907511747",
+      "sourceOrder": 8,
+      "sha256": "9f0f639bcbe4079d15a5435c0d1fcd8059dd6894e6335cc0c491ec6f83d43b90",
+      "sourceFile": "assets/vehicles/origem-home-08.jpeg"
+    },
+    {
+      "id": "origem-home-09",
+      "sourceElementId": "1730256593",
+      "sourceOrder": 9,
+      "sha256": "26a22a3d23501cb1d637bb3a731f067a68ccabaea3077e9e1d689a27e1839373",
+      "sourceFile": "assets/vehicles/origem-home-09.jpeg"
+    },
+    {
+      "id": "origem-home-10",
+      "sourceElementId": "1781318813",
+      "sourceOrder": 10,
+      "sha256": "a5285d375ed70456b3c7aa11baf114be7c5cb3cfda59c5c3f86ae4aaedfcfdd0",
+      "sourceFile": "assets/vehicles/origem-home-10.jpeg"
+    },
+    {
+      "id": "origem-home-11",
+      "sourceElementId": "1820121944",
+      "sourceOrder": 11,
+      "sha256": "2b452bf28017d693d891d680bb4f39bba4f74f9cbea22a749d0fe81b19925b3b",
+      "sourceFile": "assets/vehicles/origem-home-11.jpeg"
+    },
+    {
+      "id": "origem-home-12",
+      "sourceElementId": "1684993657",
+      "sourceOrder": 12,
+      "sha256": "1b608ec36e244f2c20faf0177d91707af22e58d09ada9f2dc3e27cd7e2217ba6",
+      "sourceFile": "assets/vehicles/origem-home-12.jpeg"
+    },
+    {
+      "id": "origem-home-13",
+      "sourceElementId": "1206381379",
+      "sourceOrder": 13,
+      "sha256": "c99ace30e10748795f16ff768e83a850b4efd427db4888c60dcb8d7fb91f0721",
+      "sourceFile": "assets/vehicles/origem-home-13.jpeg"
+    },
+    {
+      "id": "origem-home-14",
+      "sourceElementId": "1788159203",
+      "sourceOrder": 14,
+      "sha256": "83c8c6da86fc1ea49dde502d0e8036497830faf950673a7e4c868868d230d1d0",
+      "sourceFile": "assets/vehicles/origem-home-14.jpeg"
+    },
+    {
+      "id": "origem-home-15",
+      "sourceElementId": "1451343562",
+      "sourceOrder": 15,
+      "sha256": "c1f38129bd61814722384d8cf2fbc7f184f9b228c9f001aeb9bda182e8ffec71",
+      "sourceFile": "assets/vehicles/origem-home-15.jpeg"
+    },
+    {
+      "id": "origem-home-16",
+      "sourceElementId": "1759783586",
+      "sourceOrder": 16,
+      "sha256": "32fcad773bdd5080dd9774a9ab02c7c2adace3c77715a36897d68c044e7f72e8",
+      "sourceFile": "assets/vehicles/origem-home-16.jpeg"
+    },
+    {
+      "id": "origem-home-17",
+      "sourceElementId": "1494992607",
+      "sourceOrder": 17,
+      "sha256": "4b29c110c967b1fa1aa347187faee809fecc2c763729e3ea935c4a74b8931dbc",
+      "sourceFile": "assets/vehicles/origem-home-17.jpeg"
+    },
+    {
+      "id": "origem-home-18",
+      "sourceElementId": "1373357046",
+      "sourceOrder": 18,
+      "sha256": "88391f5859caca6f10b464b864806bbd7a497808ea5a71a2b1acbdcd89f38eb1",
+      "sourceFile": "assets/vehicles/origem-home-18.jpeg"
+    },
+    {
+      "id": "origem-home-19",
+      "sourceElementId": "1040805893",
+      "sourceOrder": 19,
+      "sha256": "421eea5d74a48b3e6b2cb8379e9dcb0177ed1376169eb949cf8328c06b37363e",
+      "sourceFile": "assets/vehicles/origem-home-19.jpeg"
+    },
+    {
+      "id": "origem-home-20",
+      "sourceElementId": "1423316211",
+      "sourceOrder": 20,
+      "sha256": "4e6a86bc454cc7254715610c0b60d1449709cd254ff25d6dc8b5cb2958735f62",
+      "sourceFile": "assets/vehicles/origem-home-20.jpeg"
+    },
+    {
+      "id": "origem-home-21",
+      "sourceElementId": "1734196097",
+      "sourceOrder": 21,
+      "sha256": "c9beb7efa0d44173899cc22971ac340d09a55013b82faf19ab485aca2fb4ccd8",
+      "sourceFile": "assets/vehicles/origem-home-21.jpeg"
+    },
+    {
+      "id": "origem-home-22",
+      "sourceElementId": "1528683438",
+      "sourceOrder": 22,
+      "sha256": "1a87e5e99c36f7ec98d9b54d22987737e1601bbef31ea827be5f5d8e2dcd37af",
+      "sourceFile": "assets/vehicles/origem-home-22.jpeg"
+    },
+    {
+      "id": "origem-home-23",
+      "sourceElementId": "1829764222",
+      "sourceOrder": 23,
+      "sha256": "a4c03542eaf4514affcb3b839c1da93217d6264e25553ae2eb6fe58978bffe29",
+      "sourceFile": "assets/vehicles/origem-home-23.jpeg"
+    },
+    {
+      "id": "origem-home-24",
+      "sourceElementId": "1267767594",
+      "sourceOrder": 24,
+      "sha256": "159d7f2d2cf8726524649b632eb64fbf1d0451b379942dee47c2d70aeac9ce62",
+      "sourceFile": "assets/vehicles/origem-home-24.jpeg"
+    },
+    {
+      "id": "origem-home-25",
+      "sourceElementId": "1106576697",
+      "sourceOrder": 25,
+      "sha256": "c006c116115040ab1351bc42eaec1d315efae6bab1efb6d2ee187a14b10bda43",
+      "sourceFile": "assets/vehicles/origem-home-25.jpeg"
+    },
+    {
+      "id": "origem-home-26",
+      "sourceElementId": "1757923675",
+      "sourceOrder": 26,
+      "sha256": "d16334901594b91c1be4a2340dce3c2ef2164d11a26bbcb38a5488531c85a249",
+      "sourceFile": "assets/vehicles/origem-home-26.jpeg"
+    },
+    {
+      "id": "origem-home-27",
+      "sourceElementId": "1447668603",
+      "sourceOrder": 27,
+      "sha256": "fe77dd63157602319f27b58d90dd7722efa7e90209ab48115edc2938547646f9",
+      "sourceFile": "assets/vehicles/origem-home-27.jpeg"
+    },
+    {
+      "id": "origem-home-28",
+      "sourceElementId": "1129285757",
+      "sourceOrder": 28,
+      "sha256": "fde3c73c4a48c1cd7e90811de3164c3a9e0bf20e1c1b6209f5d70de27f9f9921",
+      "sourceFile": "assets/vehicles/origem-home-28.jpeg"
+    },
+    {
+      "id": "origem-home-29",
+      "sourceElementId": "1843484844",
+      "sourceOrder": 29,
+      "sha256": "389dec5c69bcaf9d6950e494aa1a0cbf61ceefea9ca0f67ad8bf31839c1549ed",
+      "sourceFile": "assets/vehicles/origem-home-29.jpeg"
+    },
+    {
+      "id": "origem-home-30",
+      "sourceElementId": "1899607833",
+      "sourceOrder": 30,
+      "sha256": "9fd504ba66baa8b75021e6d97a92e28fd9d9625fef06b5360905076a4042720d",
+      "sourceFile": "assets/vehicles/origem-home-30.jpeg"
+    },
+    {
+      "id": "origem-home-31",
+      "sourceElementId": "1795657009",
+      "sourceOrder": 31,
+      "sha256": "c6df5034a933e611ad56281845455ec7de2ce16920ee78ee5cc04e26cc3127f6",
+      "sourceFile": "assets/vehicles/origem-home-31.jpeg"
+    },
+    {
+      "id": "origem-home-32",
+      "sourceElementId": "1449816930",
+      "sourceOrder": 32,
+      "sha256": "9c91539684f06a696b19b13fedd7cde468da5e5515183dfedf46b226ea274ac3",
+      "sourceFile": "assets/vehicles/origem-home-32.jpeg"
+    },
+    {
+      "id": "origem-home-33",
+      "sourceElementId": "1924893623",
+      "sourceOrder": 33,
+      "sha256": "84647dc711ef80d53b3a80847e951191bc654b49966e848f1794a4be14139be5",
+      "sourceFile": "assets/vehicles/origem-home-33.jpeg"
+    },
+    {
+      "id": "origem-home-34",
+      "sourceElementId": "1349625128",
+      "sourceOrder": 34,
+      "sha256": "f55efce063a988395ebd52b4f3c2a766b1317e525544d2b5303c97b32af406ba",
+      "sourceFile": "assets/vehicles/origem-home-34.jpeg"
+    },
+    {
+      "id": "origem-home-35",
+      "sourceElementId": "1264370361",
+      "sourceOrder": 35,
+      "sha256": "3007d8fa30eea02b96d4007d225a48e7cf4496cbb01f7b7a928ad63464bc44e1",
+      "sourceFile": "assets/vehicles/origem-home-35.jpeg"
+    },
+    {
+      "id": "origem-home-36",
+      "sourceElementId": "1055878542",
+      "sourceOrder": 36,
+      "sha256": "d6c5eae38af8e54cfbb96159520fdd2ae5fe2581b8aef3f198628519e7327fca",
+      "sourceFile": "assets/vehicles/origem-home-36.jpeg"
+    },
+    {
+      "id": "origem-home-37",
+      "sourceElementId": "1171400671",
+      "sourceOrder": 37,
+      "sha256": "8721555fa5a6210167f390eed378bdb55eaefb3b5c444306be3936c6346e6966",
+      "sourceFile": "assets/vehicles/origem-home-37.jpeg"
+    },
+    {
+      "id": "origem-home-38",
+      "sourceElementId": "1930819060",
+      "sourceOrder": 38,
+      "sha256": "ef88d1a21e200e0445e74e92ea3f28bdfa517f2d876f0b45d7fb57326528fc69",
+      "sourceFile": "assets/vehicles/origem-home-38.jpeg"
+    },
+    {
+      "id": "origem-home-39",
+      "sourceElementId": "1312903403",
+      "sourceOrder": 39,
+      "sha256": "9e5694034589f776fb0599e87ca2988ff768d94993670de3361689fc0a5edcca",
+      "sourceFile": "assets/vehicles/origem-home-39.jpeg"
+    },
+    {
+      "id": "origem-home-40",
+      "sourceElementId": "1276738151",
+      "sourceOrder": 40,
+      "sha256": "00d48c4c35c7298aa7940600fb8e1c968f3c222f7568e4d9c8a07f77adedf3ec",
+      "sourceFile": "assets/vehicles/origem-home-40.jpeg"
+    },
+    {
+      "id": "origem-home-41",
+      "sourceElementId": "1573044320",
+      "sourceOrder": 41,
+      "sha256": "08c04dff638b164f8408ecc86ffc8cd32995957af5e93ef73fc984f3e56c94ec",
+      "sourceFile": "assets/vehicles/origem-home-41.jpeg"
+    },
+    {
+      "id": "origem-home-42",
+      "sourceElementId": "1495640438",
+      "sourceOrder": 42,
+      "sha256": "dd519a8740122466e6d7f02940e328d9395668ae2ea19b894c767369e06ec024",
+      "sourceFile": "assets/vehicles/origem-home-42.jpeg"
+    },
+    {
+      "id": "origem-home-43",
+      "sourceElementId": "1596319581",
+      "sourceOrder": 43,
+      "sha256": "26d2baae23f6dff7c16404aedcbfafd933ff5013ab8d2a9234ef0b5f98d82774",
+      "sourceFile": "assets/vehicles/origem-home-43.jpeg"
+    },
+    {
+      "id": "origem-home-44",
+      "sourceElementId": "1554604544",
+      "sourceOrder": 44,
+      "sha256": "221e2dde9ae29a8f8d55dd7e9797e4644790079c5df92bdf33bd1cbb3bc7a330",
+      "sourceFile": "assets/vehicles/origem-home-44.jpeg"
+    },
+    {
+      "id": "origem-home-45",
+      "sourceElementId": "1104294880",
+      "sourceOrder": 45,
+      "sha256": "45461cc6fce0dfeecb7317dd29fd8f10e6e8b9285c91c19927b500bf75218e8b",
+      "sourceFile": "assets/vehicles/origem-home-45.jpeg"
+    },
+    {
+      "id": "origem-home-46",
+      "sourceElementId": "1523904271",
+      "sourceOrder": 46,
+      "sha256": "901a17154517cb607703cfcc18c994da8a293cab14229963fcb01a8a5dcb1a92",
+      "sourceFile": "assets/vehicles/origem-home-46.jpeg"
+    }
+  ],
+  "sourceHtmlOriginalSha256": "7ada68f46c1b0355e7ec403f30d194981cd3eee2d80f9206b8c781bb151ffb2c",
+  "archivedHtmlSanitized": true
+}

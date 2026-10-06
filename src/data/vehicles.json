@@ -1,1 +1,3168 @@
-[]
+[
+  {
+    "id": "origem-home-01",
+    "slug": "porsche-cayenne-s-coupe-3-0-v6-hibrido-2026-01",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "PORSCHE CAYENNE S COUPE 3.0 V6 HÍBRIDO 2026",
+    "brand": "Porsche",
+    "model": "CAYENNE",
+    "version": null,
+    "price": 939800,
+    "originalPriceText": "R$ 939.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2026,
+    "mileage": null,
+    "fuel": "Híbrido",
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "SISTEMA SOFT CLOSE",
+      "SUSPENSÃO PNEUMÁTICA",
+      "ESCAPE ESPORTIVO",
+      "LOGO PORSCHE NOS ENCOSTOS DE CABEÇA",
+      "ACC",
+      "BANCOS NA COR BEGE MOJAVE",
+      "BANCOS DE 18 VIAS",
+      "SOLEIRA DAS PORTAS EM ALUMÍNIO ESCOVADO ILUMINADOS",
+      "BÚSSOLA NO PAINEL",
+      "TETO PANORÂMICO",
+      "AR CONDICIONADO AUTOMÁTICO",
+      "AUTO HOLD",
+      "SISTEMA START-STOP",
+      "GRADE DIANTEIRA ATIVA",
+      "BANCO DO MOTORISTA COM COM AQUECIMENTO",
+      "SISTEMA DE SOM PREMIUM BOSE",
+      "HEAD-UP-DISPLAY",
+      "TELA PARA PASSAGEIRO DIANTEIRO",
+      "NAVEGADOR GPS",
+      "CARREGADOR DE CELULAR POR INDUÇÃO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-19+at+17.06.34.jpeg",
+        "path": "assets/vehicles/origem-home-01/001-422cc6525162.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-01/001-422cc6525162-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-01/001-422cc6525162-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "422cc65251621ac5426fd7ed453a647779c777e18fc676ce5dc81ee7f27da35b"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-02",
+    "slug": "tiguan-r-line-2-0-350-tsi-2026-02",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TIGUAN R-LINE 2.0 350 TSI 2026",
+    "brand": null,
+    "model": "TIGUAN",
+    "version": null,
+    "price": 319800,
+    "originalPriceText": "R$ 319.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2026,
+    "mileage": 0,
+    "fuel": null,
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "BANCOS EM COURO",
+      "BANCOS DIANTEIROS COM MASSAGEADOR",
+      "SISTEMA ANTIFURTO DE RODAS",
+      "SISTEMA START-STOP",
+      "INDICADOR DE FADIGA",
+      "RETROVISOR EXTERNO COM AQUECIMENTO",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "CÂMERA TRASEIRA",
+      "SENSORES DE ESTACIONAMENTO",
+      "FARÓIS DE LED",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "VOLANTE MULTIFUNCIONAL",
+      "NAVEGADOR GPS NATIVO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-03+at+10.55.01.jpeg",
+        "path": "assets/vehicles/origem-home-02/001-0a031bb90fab.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-02/001-0a031bb90fab-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-02/001-0a031bb90fab-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "0a031bb90fab4c1b75729e14f04f601fb942e8eecdf5007b0ab70b2e721b0b65"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-03",
+    "slug": "byd-yuan-plus-eletrico-2027-03",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "BYD YUAN PLUS ELÉTRICO 2027",
+    "brand": "BYD",
+    "model": "YUAN PLUS",
+    "version": null,
+    "price": null,
+    "originalPriceText": "R$ 254.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2027,
+    "mileage": 0,
+    "fuel": "Elétrico",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "CÂMBIO AUTOMÁTICO",
+      "CHAVE PRESENCIAL",
+      "BANCOS REVESTIDOS EM COURO",
+      "AUTO HOLD ACIONAMENTO REMOTO DO MOTOR",
+      "BANCO DO MOTORISTA COM AJUSTE ELÉTRICO, AQUECIMENTO E VENTILAÇÃO",
+      "FREIO DE ESTACIONAMENTO ELÉTRICO",
+      "SISTEMA START-STOP",
+      "RODAS DE LIGA LEVE",
+      "CÂMERAS PARA VISÃO 360",
+      "FARÓIS DE LED",
+      "FREIOS ABS",
+      "ISOFIX",
+      "SENSORES DE ESTACIONAMENTO",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "ASSISTENTE DE PERMANÊNCIA EM FAIXA",
+      "ALERTA DE TRÁFEGO CRUZADO TRASEIRO",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "COMANDOS E INFORMAÇÕES DO VEÍCULO ATRAVÉS DE APLICATIVO",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB",
+      "NAVEGADOR GPS",
+      "SISTEMA DE SOM DIRAC",
+      "ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [
+      "O anúncio apresenta valores divergentes. Confirme o preço com a equipe."
+    ],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-14+at+15.49.05.jpeg",
+        "path": "assets/vehicles/origem-home-03/001-44043a228e8c.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-03/001-44043a228e8c-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-03/001-44043a228e8c-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "44043a228e8cf453d9e7803958d1d518bbabf3be66df89a221467ef4628881c0"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-04",
+    "slug": "porsche-macan-2-0-turbo-gasolina-2020-04",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "PORSCHE MACAN 2.0 TURBO GASOLINA 2020",
+    "brand": "Porsche",
+    "model": "MACAN",
+    "version": null,
+    "price": 319800,
+    "originalPriceText": "R$ 319.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2020,
+    "mileage": null,
+    "fuel": "Gasolina",
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR",
+      "BANCOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "BANCOS COM AJUSTE ELÉTRICO",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "AUTO HOLD",
+      "RODAS DE LIGA LEVE",
+      "SISTEMA START-STOP",
+      "TRAÇÃO INTEGRAL",
+      "INDICADOR DE FADIGA",
+      "ALERTA DE PONTO CEGO",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "CÂMERA TRASEIRA",
+      "SENSORES DE ESTACIONAMENTO",
+      "FARÓIS DE LED",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "NAVEGADOR GPS NATIVO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-29+at+17.18.07.jpeg",
+        "path": "assets/vehicles/origem-home-04/001-e6f1f5504406.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-04/001-e6f1f5504406-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-04/001-e6f1f5504406-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "e6f1f5504406d135378f8d861d7f57018daf2c07080c0b2ffc54fcc85e1bba8e"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-05",
+    "slug": "bmw-x2-xdrive-20i-m-sport-2-0t-2024-05",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "BMW X2 XDRIVE 20I M SPORT 2.0T 2024",
+    "brand": "BMW",
+    "model": "X2",
+    "version": null,
+    "price": 324800,
+    "originalPriceText": "R$ 324.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2024,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "CÂMBIO AUTOMÁTICO",
+      "AR-CONDICIONADO AUTOMÁTICO",
+      "BANCOS REVESTIDOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "BANCO DO MOTORISTA COM AJUSTE ELÉTRICO, AQUECIMENTO, MASSAGEADOR E MEMÓRIAS",
+      "BANCO DO PASSAGEIRO COM AJUSTE ELÉTRICO",
+      "AUTO HOLD",
+      "FREIO DE ESTACIONAMENTO ELÉTRICO",
+      "RODAS DE LIGA LEVE",
+      "CÂMERAS PARA VISÃO 360°",
+      "ASSISTENTE DE ESTACIONAMENTO SEMIAUTOMÁTICO",
+      "CONTROLE DE VELOCIDADE ADAPTATIVO",
+      "FARÓIS DE LED",
+      "ALERTA DE COLISÃO FRONTAL",
+      "ALERTA DE MUDANÇA DE FAIXA",
+      "ASSISTENTE DE PERMANÊNCIA EM FAIXA",
+      "ALERTA DE TRÁFEGO CRUZADO TRASEIRO",
+      "FRENAGEM AUTOMÁTICA DE EMERGÊNCIA",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "HEAD-UP DISPLAY",
+      "NAVEGADOR GPS",
+      "SISTEMA DE SOM HARMAN KARDON",
+      "VOLANTE MULTIFUNCIONAL",
+      "COMANDOS E INFORMAÇÕES DO VEÍCULO VIA APLICATIVO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-30+at+11.46.39.jpeg",
+        "path": "assets/vehicles/origem-home-05/001-024a87f0e333.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-05/001-024a87f0e333-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-05/001-024a87f0e333-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "024a87f0e33369264c90c35afe93b7ebe39d25a8fd1c7f11fb79a8715a6720e5"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-06",
+    "slug": "hilux-sw4-srx-platinum-4x4-tb-diesel-aut-2024-06",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "HILUX SW4 SRX PLATINUM 4X4 TB DIESEL AUT 2024",
+    "brand": null,
+    "model": "HILUX SW4",
+    "version": null,
+    "price": 339800,
+    "originalPriceText": "R$ 339.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2024,
+    "mileage": null,
+    "fuel": "Diesel",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "AR-CONDICIONADO AUTOMÁTICO",
+      "CÂMBIO AUTOMÁTICO",
+      "CHAVE PRESENCIAL",
+      "BANCOS REVESTIDOS EM COURO",
+      "BANCO DO MOTORISTA COM AJUSTE ELÉTRICO E VENTILAÇÃO",
+      "CONTROLE DE VELOCIDADE ADAPTATIVO",
+      "CÂMERAS PARA VISÃO 360°",
+      "ALERTA DE PONTO CEGO",
+      "ALERTA DE COLISÃO FRONTAL",
+      "ALERTA DE TRÁFEGO CRUZADO TRASEIRO",
+      "FRENAGEM AUTOMÁTICA DE EMERGÊNCIA",
+      "FARÓIS DE LED",
+      "RODAS DE LIGA LEVE",
+      "TAMPA TRASEIRA MOTORIZADA",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "SISTEMA DE SOM JBL",
+      "NAVEGADOR GPS",
+      "VOLANTE MULTIFUNCIONAL",
+      "TERCEIRA FILEIRA DE BANCOS"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-28+at+10.58.41+%284%29.jpeg",
+        "path": "assets/vehicles/origem-home-06/001-de54df1e355b.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-06/001-de54df1e355b-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-06/001-de54df1e355b-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "de54df1e355b0433d1e6e84f1b994370c950ea43fe0a130d4b14e920ef51f5db"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-07",
+    "slug": "velar-r-dynamic-se-3-0-aut-hibrido-2021-07",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "VELAR R-DYNAMIC SE 3.0 AUT HÍBRIDO 2021",
+    "brand": null,
+    "model": "VELAR",
+    "version": null,
+    "price": 324800,
+    "originalPriceText": "R$ 324.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2021,
+    "mileage": null,
+    "fuel": "Híbrido",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO PANORÂMICO",
+      "SUSPENSÃO PNEUMÁTICA",
+      "CÂMBIO AUT",
+      "BANCOS REVESTIDOS EM COURO",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "CHAVE PRESENCIAL",
+      "CÂMERAS PARA VISÃO 360º",
+      "SISTEMA START-STOP",
+      "SENSORES DE ESTACIONAMENTO",
+      "RODAS DE LIGA LEVE",
+      "FARÓIS DE NEBLINA",
+      "ISOFIX",
+      "FREIOS ABS",
+      "SISTEMA DE SOM PREMIUM MERIDIAN",
+      "VOLANTE MULTIFUNCIONAL",
+      "COMPUTADOR DE BORDO",
+      "CARREGADOR DE CELULAR POR INDUÇÃO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-18+at+13.28.24.jpeg",
+        "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce.jpg",
+        "width": 1920,
+        "height": 1440,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-960.webp",
+            "width": 960
+          },
+          {
+            "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-1600.webp",
+            "width": 1600
+          }
+        ],
+        "sha256": "0e73a595d6ceef96cb05b567a794f3aa8967fdcc7d0873ea624d7b3137055247"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-08",
+    "slug": "tiggo-2027-5x-pro-1-5-08",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TIGGO 2027 5X PRO 1.5",
+    "brand": null,
+    "model": "TIGGO 5X",
+    "version": null,
+    "price": 154800,
+    "originalPriceText": "R$ 154.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2027,
+    "mileage": 0,
+    "fuel": null,
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO PANORÂMICO",
+      "BANCOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "SISTEMA START-STOP",
+      "AUTO HOLD",
+      "ALERTA DE PONTO CEGO",
+      "CÂMERA TRASEIRA",
+      "SENSORES DE ESTACIONAMENTO",
+      "FARÓIS DE LED",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-18+at+11.47.42.jpeg",
+        "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "9f0f639bcbe4079d15a5435c0d1fcd8059dd6894e6335cc0c491ec6f83d43b90"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-09",
+    "slug": "byd-song-plus-1-5-aut-hibrido-2025-09",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "BYD SONG PLUS 1.5 AUT HÍBRIDO 2025",
+    "brand": "BYD",
+    "model": "SONG PLUS",
+    "version": null,
+    "price": 188800,
+    "originalPriceText": "R$ 188.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2025,
+    "mileage": null,
+    "fuel": "Híbrido",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "CÂMBIO AUTOMÁTICO",
+      "CHAVE PRESENCIAL",
+      "BANCOS REVESTIDOS EM COURO",
+      "AUTO HOLD",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "BANCO DO MOTORISTA COM AJUSTE ELÉTRICO, AQUECIMENTO E VENTILAÇÃO",
+      "FREIO DE ESTACIONAMENTO ELÉTRICO",
+      "SISTEMA START-STOP",
+      "RODAS DE LIGA LEVE",
+      "CÂMERAS PARA VISÃO 360",
+      "FÁROIS DE LED",
+      "FREIOS ABS",
+      "ISOFIX",
+      "SENSORES DE ESTACIONAMENTO",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "ASSISTENTE DE PERMANÊNCIA EM FAIXA",
+      "ALERTA DE TRÁFEGO CRUZADO TRASEIRO",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "COMANDOS E INFORMAÇÕES DO VEÍCULO ATRAÉS DE APLICATIVO",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB",
+      "NAVEGADOR GPS",
+      "SISTEMA DE SOM DIRAC",
+      "ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-14+at+10.43.09.jpeg",
+        "path": "assets/vehicles/origem-home-09/001-26a22a3d2350.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-09/001-26a22a3d2350-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-09/001-26a22a3d2350-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "26a22a3d23501cb1d637bb3a731f067a68ccabaea3077e9e1d689a27e1839373"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-10",
+    "slug": "bmw-x1-sdrive-20i-msport-2-0t-2022-10",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "BMW X1 SDRIVE 20i MSPORT 2.0T 2022",
+    "brand": "BMW",
+    "model": "X1",
+    "version": null,
+    "price": 199800,
+    "originalPriceText": "R$ 199.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2022,
+    "mileage": null,
+    "fuel": null,
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO PANORÂMICO",
+      "BANCOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "BANCOS COM AJUSTE ELÉTRICO",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "AUTO HOLD",
+      "RODAS DE LIGA LEVE",
+      "SISTEMA START-STOP",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "INDICADOR DE FADIGA",
+      "ALERTA DE PONTO CEGO",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "CÂMERA TRASEIRA",
+      "SENSORES DE ESTACIONAMENTO",
+      "FARÓIS DE LED",
+      "CONEXÃO BLUETOOTH E USB",
+      "HEAD-UP-DISPLAY",
+      "COMANDO E INFORMAÇÕES DO VEÍCULO ATRAVÉS DE APLICATIVO",
+      "SERVIÇO DE CONCIERGE",
+      "SISTEMA DE SOM PREMIUM HARMAN KARDON"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-30+at+12.03.16.jpeg",
+        "path": "assets/vehicles/origem-home-10/001-a5285d375ed7.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-10/001-a5285d375ed7-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-10/001-a5285d375ed7-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "a5285d375ed70456b3c7aa11baf114be7c5cb3cfda59c5c3f86ae4aaedfcfdd0"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-11",
+    "slug": "hilux-srv-cd-4x4-2-8t-diesel-aut-2021-11",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "HILUX SRV CD 4X4 2.8T DIESEL AUT 2021",
+    "brand": null,
+    "model": "HILUX",
+    "version": null,
+    "price": 224800,
+    "originalPriceText": "R$ 224.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2021,
+    "mileage": null,
+    "fuel": "Diesel",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUTOMÁTICO",
+      "AR CONDICIONADO AUTOMÁTICO",
+      "CHAVE PRESENCIAL",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "RODAS DE LIGA LEVE",
+      "RETROVISOR INTERNO FOTOCRÔMICO",
+      "FREIOS ABS",
+      "ASSISTENTE DE PARTIDA EM RAMPA",
+      "ISOFIX",
+      "FÁROIS DE NEBLINA",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "NAVEGADOR GPS",
+      "VOLANTE MULTIFUNCIONAL"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-18+at+16.02.10.jpeg",
+        "path": "assets/vehicles/origem-home-11/001-2b452bf28017.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-11/001-2b452bf28017-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-11/001-2b452bf28017-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "2b452bf28017d693d891d680bb4f39bba4f74f9cbea22a749d0fe81b19925b3b"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-12",
+    "slug": "tiguan-allspac-r-line-300-tsi-2024-12",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TIGUAN ALLSPAC R-LINE 300 TSI 2024",
+    "brand": null,
+    "model": "TIGUAN",
+    "version": null,
+    "price": 204800,
+    "originalPriceText": "R$ 204.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2024,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR E PANORÂMICO",
+      "AR CONDICIONADO AUTOMÁTICO COM 3 ZONAS DE SAÍDA",
+      "AR QUENTE",
+      "AIRBAGS FRONTAIS, LATERAIS E DE CORTINA",
+      "DIREÇÃO ASSISTIDA",
+      "CÂMBIO AUTOMÁTICO",
+      "RODA DE LIGA LEVE",
+      "CHAVE PRESENCIAL",
+      "BANCO REVESTIDOS EM COURO",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "SENSORES DE ESTACIONAMENTO DIANTEIRO E TRASEIRO",
+      "BANCO DO MOTORISTA COM AJUSTE ELÉTRICO",
+      "DESEMBAÇADOR, LIMPADOR E LAVADOR DO VIDRO TRASEIRO",
+      "REPETIDORES LATERAIS DE LUZES DE DIREÇÃO",
+      "FREIO DE ESTACIONAMENTO ELETROMECÂNICO",
+      "FARÓIS DE NEBLINA",
+      "FARÓIS DE LED",
+      "LUZ DE CONDUÇÃO DIURNA",
+      "ALARME",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "RETROVISORES REBÁTIVEIS ELÉTRICAMENTE",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "AJUSTE DO VOLANTE EM ALTURA E PROFUNDIDADE",
+      "AJUSTE ELÉTRICO DOS RETROVIDORES",
+      "ISOFIX",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "RÁDIO",
+      "CONEXÃO USB E BLUETOOTH",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "..."
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [
+      "Descrição termina com reticências na origem; pode estar incompleta."
+    ],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-05-05+at+16.45.36.jpeg",
+        "path": "assets/vehicles/origem-home-12/001-1b608ec36e24.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-12/001-1b608ec36e24-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-12/001-1b608ec36e24-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "1b608ec36e244f2c20faf0177d91707af22e58d09ada9f2dc3e27cd7e2217ba6"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-13",
+    "slug": "ranger-limited-3-0-diesel-4x4-aut-2025-13",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "RANGER LIMITED 3.0 DIESEL 4X4 AUT 2025",
+    "brand": null,
+    "model": "RANGER",
+    "version": null,
+    "price": 289800,
+    "originalPriceText": "R$ 289.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2025,
+    "mileage": null,
+    "fuel": "Diesel",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "BANCOS EM COURO",
+      "CHAVE PRESENCIAL SISTEMA START-STOP",
+      "AUTO HOLD",
+      "TRAÇÃO INTEGRAL",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "CÂMERA TRASEIRA",
+      "SENSORES DE ESTACIONAMENTO",
+      "FARÓIS DE LED",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "COMANDOS AO VEÍCULO ATRAVÉS DE APLICATIVO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-30+at+16.32.43-5167c83e.jpeg",
+        "path": "assets/vehicles/origem-home-13/001-c99ace30e107.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-13/001-c99ace30e107-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-13/001-c99ace30e107-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "c99ace30e10748795f16ff768e83a850b4efd427db4888c60dcb8d7fb91f0721"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-14",
+    "slug": "maverick-lariat-black-2-0-aut-2025-14",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "MAVERICK LARIAT BLACK 2.0 AUT 2025",
+    "brand": null,
+    "model": "MAVERICK",
+    "version": null,
+    "price": 204800,
+    "originalPriceText": "R$ 204.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2025,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR",
+      "BANCOS EM COURO",
+      "CÂMBIO AUT",
+      "BANCO DO MOTORISTA COM AJUSTE ELÉTRICO",
+      "SISTEMA START-STOP",
+      "AUTO HOLD",
+      "RODAS DE LIGA LEVE",
+      "SENSORES DE ESTACIONAMENTO",
+      "CÂMERAS PARA VISÃO 360º",
+      "FARÓIS DE LED",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "INDICADOR DE FADIGA",
+      "CONEXÃO BLUETOOTH E USB",
+      "NAVEGADOR GPS NATIVO",
+      "SUBWOOFER",
+      "SISTEMA DE SOM PREMIUM BANG & OLUFSEN",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "COMPUTADOR DE BORDO",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "INFORMAÇÕES E COMANDOS DO VEÍCULO ATRAVÉS DE APLICATIVO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-25+at+10.07.59.jpeg",
+        "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "83c8c6da86fc1ea49dde502d0e8036497830faf950673a7e4c868868d230d1d0"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-15",
+    "slug": "tiggo-8-pro-1-5t-phev-aut-2024-15",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TIGGO 8 PRO 1.5T PHEV AUT 2024",
+    "brand": null,
+    "model": "TIGGO 8",
+    "version": null,
+    "price": 189800,
+    "originalPriceText": "R$ 189.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2024,
+    "mileage": null,
+    "fuel": "Híbrido",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "CÂMBIO AUTOMÁTICO",
+      "AR-CONDICIONADO AUTOMÁTICO",
+      "CHAVE PRESENCIAL",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "BANCOS REVESTIDOS EM COURO",
+      "BANCO DO MOTORISTA COM AJUSTE ELÉTRICO, AQUECIMENTO, VENTILAÇÃO E MEMÓRIAS DE AJUSTE",
+      "BANCO DO PASSAGEIRO COM AJUSTE ELÉTRICO",
+      "AUTO HOLD",
+      "FREIO DE ESTACIONAMENTO ELÉTRICO",
+      "SISTEMA START-STOP",
+      "RODAS DE LIGA LEVE",
+      "TAMPA TRASEIRA MOTORIZADA",
+      "TERCEIRA FILEIRA DE BANCOS",
+      "CONTROLE DE VELOCIDADE ADAPTATIVO",
+      "ASSISTENTE DE PERMANÊNCIA EM FAIXA",
+      "ASSISTENTE DE CENTRALIZAÇÃO EM FAIXA",
+      "ALERTA DE PONTO CEGO",
+      "ALERTA DE COLISÃO FRONTAL",
+      "ALERTA DE TRÁFEGO CRUZADO TRASEIRO",
+      "FRENAGEM AUTOMÁTICA DE EMERGÊNCIA",
+      "CÂMERAS PARA VISÃO 360°",
+      "FARÓIS DE LED",
+      "FARÓIS COM ACENDIMENTO AUTOMÁTICO",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "MONITORAMENTO DE PRESSÃO DOS PNEUS",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "SISTEMA DE SOM SONY",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-25+at+14.00.06.jpeg",
+        "path": "assets/vehicles/origem-home-15/001-c1f38129bd61.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-15/001-c1f38129bd61-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-15/001-c1f38129bd61-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "c1f38129bd61814722384d8cf2fbc7f184f9b228c9f001aeb9bda182e8ffec71"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-16",
+    "slug": "tiggo-7-pro-max-drive-1-5t-hibrido-2025-16",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TIGGO 7 PRO MAX DRIVE 1.5T HIBRIDO 2025",
+    "brand": null,
+    "model": "TIGGO 7",
+    "version": null,
+    "price": 159800,
+    "originalPriceText": "R$ 159.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2025,
+    "mileage": null,
+    "fuel": "Híbrido",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO PANORÂMICO",
+      "CÂMERA TRASEIRA",
+      "CÂMBIO AUT BANCOS REVESTIDOS EM COURO",
+      "FARÓIS DE LED",
+      "FREIOS ABS AUTO HOLD",
+      "ACIONAMENTO REMOTO DO MOTOR CHAVE PRESENCIAL",
+      "SISTEMA START-STOP FREIO DE ESTACIONAMENTO ELETRÔNICO",
+      "ALERTA DE PONTO CEGO TRAVAMENTO CENTRAL DAS PORTAS",
+      "RODAS DE LIGA LEVE AJUSTE DO VOLANTE EM ALTURA E PROFUNDIDADE DESEMBAÇADOR DO VIDRO TRASEIRO",
+      "LIMITADOR DE VELOCIDADE SENSORES DE ESTACIONAMENTO RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "COMPUTADOR DE BORDO ESPELHAMENTO DA TELA DO CELULAR",
+      "VOLANTE MULTIFUNCIONAL - VEÍCULO LACRADO, SEM SINISTRO E RESTRIÇÕES."
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-11+at+17.16.23.jpeg",
+        "path": "assets/vehicles/origem-home-16/001-32fcad773bdd.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-16/001-32fcad773bdd-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-16/001-32fcad773bdd-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "32fcad773bdd5080dd9774a9ab02c7c2adace3c77715a36897d68c044e7f72e8"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-17",
+    "slug": "jeep-commander-1-3t-2023-overland-17",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "JEEP COMMANDER 1.3T 2023 OVERLAND",
+    "brand": "Jeep",
+    "model": "COMMANDER",
+    "version": null,
+    "price": 164800,
+    "originalPriceText": "R$ 164.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2023,
+    "mileage": null,
+    "fuel": null,
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "AR CONDICIONADO AUTOMÁTICO COM 2 ZONAS DE SAÍDA",
+      "TETO SOLAR",
+      "AIR BAGS FRONTAIS, LATERAIS E DE CORTINA",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "DIREÇÃO ASSISTIDA",
+      "VIDROS ELÉTRICOS",
+      "TRAVAS ELÉTRICAS",
+      "DESEMBAÇADOR",
+      "CONTROLE DE ESTABILIDADE E TRAÇÃO",
+      "LUZ DE CONDUÇÃO DIURNA",
+      "ALERTA DE TRÁFEGO CRUZADO TRASEIRO",
+      "ALERTA DE MUDANÇA DE FAIXA",
+      "ASSISTÊNCIA NA RECUPERAÇÃO VEÍCULAR",
+      "ASSISTÊNCIA DE PERMANÊNCIA DE FAIXA",
+      "INDICADOR DE FADIGA",
+      "ALERTA DE PONTO CEGO",
+      "ALERTA DE COLISÃO FRONTAL",
+      "AUTO HOLD",
+      "CENTRAL MULTIMÍDIA",
+      "BANCOS EM COURO",
+      "CAMBIO AUTOMÁTICO",
+      "CHAVE PRESENCIAL",
+      "SISTEMA STAR-STOP",
+      "TROCA MARCHAS NO VOLANTE",
+      "CÂMERA DE RÉ",
+      "SENSOR DE ESTACIONAMENTO DIANTEIRO E TRASEIR",
+      "ISOFIX",
+      "FARÓIS COM ACENDIMENTO AUTOMÁTICO",
+      "LIMITADOR DE VELOCIDADE",
+      "RODA DE LIGA LEVE",
+      "LIMPADOR DE PARA-BRISA AUTOMÁTICO",
+      "AJUSTE DE VOLANTE DE ALTURA E PROFUNDIDADE",
+      "RADIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL",
+      "INFORMAÇÃO DE TRANSITO EM TEMPO REAL",
+      "COMPUTADOR DE BORDO",
+      "ESPELHAMENTO DA TELA DE CELULAR",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "SERVIÇO CONCIERGE",
+      "SUBWOOFER",
+      "NAVEGADOR GPS",
+      "INFORMAÇÃO DO VEÍCULO ATRAVÉS DO APLICATIVO",
+      "SISTEMA DE SOM PREMIUM HARMAN KARDON",
+      "ROTEADOR WI-FI ..."
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [
+      "Descrição termina com reticências na origem; pode estar incompleta."
+    ],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-13+at+13.16.22.jpeg",
+        "path": "assets/vehicles/origem-home-17/001-4b29c110c967.jpg",
+        "width": 1920,
+        "height": 1440,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-17/001-4b29c110c967-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-17/001-4b29c110c967-960.webp",
+            "width": 960
+          },
+          {
+            "path": "assets/vehicles/origem-home-17/001-4b29c110c967-1600.webp",
+            "width": 1600
+          }
+        ],
+        "sha256": "4b29c110c967b1fa1aa347187faee809fecc2c763729e3ea935c4a74b8931dbc"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-18",
+    "slug": "toro-ultra-1-3t-4x2-flex-aut-2022-18",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TORO ULTRA 1.3T 4X2 FLEX AUT 2022",
+    "brand": null,
+    "model": "X2",
+    "version": null,
+    "price": 164800,
+    "originalPriceText": "R$ 164.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2022,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "BANCOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "SISTEMA START-STOP",
+      "AUTO HOLD",
+      "ALERTA DE COLISÃO FRONTAL",
+      "FREIOS A DISCO NAS 4 RODAS",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "CÂMERA TRASEIRA",
+      "SENSORES DE ESTACIONAMENTO",
+      "FARÓIS DE LED",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "COMANDOS E INFORMAÇÕES DO VEÍCULO ATRAVÉS DE APLICATIVO",
+      "INFORMAÇÃO DE TRÂNSITO EM TEMPO REAL",
+      "NAVEGADOR GPS NATIVO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-31+at+14.23.03.jpeg",
+        "path": "assets/vehicles/origem-home-18/001-88391f5859ca.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-18/001-88391f5859ca-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-18/001-88391f5859ca-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "88391f5859caca6f10b464b864806bbd7a497808ea5a71a2b1acbdcd89f38eb1"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-19",
+    "slug": "corolla-cross-xrx-1-8-aut-hibrida-2024-19",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "COROLLA CROSS XRX 1.8 AUT HÍBRIDA 2024",
+    "brand": null,
+    "model": "COROLLA CROSS",
+    "version": null,
+    "price": 169800,
+    "originalPriceText": "R$ 169.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2024,
+    "mileage": null,
+    "fuel": "Híbrido",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR",
+      "CÂMBIO AUTOMÁTICO",
+      "BANCOS REVESTIDOS EM COURO",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "AR´-CONDICIONADO AUTOMÁTICO",
+      "SISTEMA START-STOP",
+      "CHAVE PRESENCIAL",
+      "RODAS DE LIGA LEVE",
+      "SENSORES DE ESTACIONAMENTO",
+      "FÁROIS DE LED",
+      "FREIOS ABS",
+      "ISOFIX",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "ALERTA DE PONTO CEGO",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "RÁDIO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-23+at+13.42.04.jpeg",
+        "path": "assets/vehicles/origem-home-19/001-421eea5d74a4.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-19/001-421eea5d74a4-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-19/001-421eea5d74a4-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "421eea5d74a48b3e6b2cb8379e9dcb0177ed1376169eb949cf8328c06b37363e"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-20",
+    "slug": "tiggo-5x-pro-1-5t-flex-2023-20",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TIGGO 5X PRO 1.5T FLEX 2023",
+    "brand": null,
+    "model": "TIGGO 5X",
+    "version": null,
+    "price": 113800,
+    "originalPriceText": "R$ 113.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2023,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO PANORÂMICO",
+      "CÂMERAS PARA VISÃO 360º",
+      "BANCOS REVESTIDOS EM COURO",
+      "FARÓIS DE LED",
+      "FREIOS ABS",
+      "AUTO HOLD",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "CHAVE PRESENCIAL",
+      "LIMITADOR DE VELOCIDADE",
+      "FREIO DE ESTACIONAMENTO ELETRÔNICO",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "RODAS DE LIGA LEVE",
+      "AJUSTE DO VOLANTE EM ALTURA E PROFUNDIDADE",
+      "DESEMBAÇADOR DO VIDRO TRASEIRO",
+      "SENSORES DE ESTACIONAMENTO",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL",
+      "COMPUTADOR DE BORDO",
+      "ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-06+at+13.18.50-f0683d1d.jpeg",
+        "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "4e6a86bc454cc7254715610c0b60d1449709cd254ff25d6dc8b5cb2958735f62"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-21",
+    "slug": "tiggo-5x-pro-1-5-turbo-flex-2023-21",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TIGGO 5X PRO 1.5 TURBO FLEX 2023",
+    "brand": null,
+    "model": "TIGGO 5X",
+    "version": null,
+    "price": 113800,
+    "originalPriceText": "R$ 113.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2023,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO PANORÂMICO",
+      "CÂMERAS PARA VISÃO 360º",
+      "BANCOS REVESTIDOS EM COURO",
+      "FARÓIS DE LED",
+      "FREIOS ABS",
+      "AUTO HOLD",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "CHAVE PRESENCIAL",
+      "LIMITADOR DE VELOCIDADE",
+      "FREIO DE ESTACIONAMENTO ELETRÔNICO",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "RODAS DE LIGA LEVE",
+      "AJUSTE DO VOLANTE EM ALTURA E PROFUNDIDADE",
+      "DESEMBAÇADOR DO VIDRO TRASEIRO",
+      "SENSORES DE ESTACIONAMENTO",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL",
+      "COMPUTADOR DE BORDO",
+      "ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-22+at+14.59.25.jpeg",
+        "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "c9beb7efa0d44173899cc22971ac340d09a55013b82faf19ab485aca2fb4ccd8"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-22",
+    "slug": "hr-v-exl-1-5-2023-22",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "HR-V EXL 1.5 2023",
+    "brand": null,
+    "model": "HR-V",
+    "version": null,
+    "price": 135800,
+    "originalPriceText": "R$ 135.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2023,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUT",
+      "BANCOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "SENSORES DE ESTACIONAMENTO",
+      "CÂMERA TRASEIRA",
+      "FREIO DE ESTACIONAMENTO ELETROMECÂNICO",
+      "VOLANTE MULTIFUNCIONAL",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "FÁROIS DE LED",
+      "FÁROIS DE NEBLINA",
+      "REPETIDORES LATERAIS DAS LUZES DE DIREÇÃO",
+      "RETROVISOR INTERNO FOTOCRÔMICO",
+      "CONTROLE DE VELOCIDADE ADAPTATIVO",
+      "AUTO HOLD",
+      "COMPUTADOR DE BORDO",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "CONEXÃO BLUETOOTH E USB"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-06-05+at+11.14.39.jpeg",
+        "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "1a87e5e99c36f7ec98d9b54d22987737e1601bbef31ea827be5f5d8e2dcd37af"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-23",
+    "slug": "s10-pick-up-advantage-2-5-flex-manual-4x2-cd-2019-23",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "S10 PICK-UP ADVANTAGE 2.5 FLEX MANUAL 4X2 CD 2019",
+    "brand": null,
+    "model": "X2",
+    "version": null,
+    "price": 124800,
+    "originalPriceText": "R$ 124.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2019,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Manual",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO MANUAL",
+      "AR CONDICIONADO",
+      "AR QUENTE",
+      "RODAS DE LIGA LEVE",
+      "BANCO DO MOTORISTA COM AJUSTE DE ALTURA",
+      "DIREÇÃO ASSISTIDA",
+      "CONTROLE ELÉTRICO DOS VIDROS DIANTEIROS E TRASEIROS",
+      "AIRBAGS FRONTAIS",
+      "ASSISTENTE DE PARTIDA EM RAMPA",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "FÁROIS DE NEBLINA",
+      "FÁROIS COM REFLETORES DUPLOS",
+      "FREIOS ABS",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "COMPUTADOR DE BORDO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-25+at+13.34.59.jpeg",
+        "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4.jpg",
+        "width": 1447,
+        "height": 1087,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "a4c03542eaf4514affcb3b839c1da93217d6264e25553ae2eb6fe58978bffe29"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-24",
+    "slug": "kicks-advance-cvt-1-6-flex-aut-2024-24",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "KICKS ADVANCE CVT 1.6 FLEX AUT 2024",
+    "brand": null,
+    "model": "KICKS",
+    "version": null,
+    "price": 112800,
+    "originalPriceText": "R$ 112.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2024,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "BANCOS EM COURO",
+      "CÂMBIO AUT CVT",
+      "SISTEMA START-STOP",
+      "AUTO HOLD",
+      "RODAS DE LIGA LEVE",
+      "SENSORES DE ESTACIONAMENTO",
+      "CÂMERA TRASEIRA",
+      "CHAVE PRESENCIAL",
+      "ASSISTENTE DE PARTIDA EM RAMPA",
+      "ISOFIX",
+      "CONEXÃO BLUETOOTH E USB",
+      "COMPUTADOR DE BORDO",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "VOLANTE MULTIFUNCIONAL"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-13+at+15.54.33.jpeg",
+        "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8.jpg",
+        "width": 1920,
+        "height": 1440,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-960.webp",
+            "width": 960
+          },
+          {
+            "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-1600.webp",
+            "width": 1600
+          }
+        ],
+        "sha256": "159d7f2d2cf8726524649b632eb64fbf1d0451b379942dee47c2d70aeac9ce62"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-25",
+    "slug": "tracker-premier-1-2t-flex-aut-2022-25",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TRACKER PREMIER 1.2T FLEX AUT 2022",
+    "brand": null,
+    "model": "TRACKER",
+    "version": null,
+    "price": 105800,
+    "originalPriceText": "R$ 105.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2022,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "CÂMBIO AUTOMÁTICO",
+      "AR CONDICIONADO AUTOMÁTICO",
+      "CHAVE PRESENCIAL",
+      "BANCOS REVESTIDOS EM COURO",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "SISTEMA START-STOP",
+      "RODAS DE LIGA LEVE",
+      "ASSISTENTE DE ESTACIONAMENTO AUTOMÁTICO",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "LIMITADOR DE VELOCIDADE",
+      "FÁROIS DE LED",
+      "FREIOS ABS",
+      "ISOFIX",
+      "SENSORES DE ESTACIONAMENTO",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "ALERTA DE PONTO CEGO",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "ALERTA DE COLISÃO FRONTAL",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "COMANDOS AO VEÍCULO ATRAVÉS DE APLICATIVO",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "CONEXÃO BLUETOOTH E USB"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-19+at+10.29.38.jpeg",
+        "path": "assets/vehicles/origem-home-25/001-c006c1161150.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-25/001-c006c1161150-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-25/001-c006c1161150-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "c006c116115040ab1351bc42eaec1d315efae6bab1efb6d2ee187a14b10bda43"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-26",
+    "slug": "equinox-premier-2-0t-awd-aut-2019-26",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "EQUINOX PREMIER 2.0T AWD AUT 2019",
+    "brand": null,
+    "model": "EQUINOX",
+    "version": null,
+    "price": 129800,
+    "originalPriceText": "R$ 129.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2019,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "CÂMBIO AUTOMÁTICO",
+      "BANCOS REVESTIDOS EM COURO",
+      "SISTEMA START-STOP",
+      "CHAVE PRESENCIAL",
+      "FREIO DE ESTACIONAMENTO ELÉTRICO",
+      "RODAS DE LIGA LEVE",
+      "BANCO DO MOTORISTA COM AJUSTE ELÉTRICO E MEMÓRIAS DE AJUSTE",
+      "ACIONAMENTO REMOTO DO MOTOR",
+      "FÁROIS DE LED",
+      "FÁROIS DE NEBLINA",
+      "FREIOS ABS",
+      "ISOFIX",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "LIMPADOR, LAVADOR E DESEMBAÇADOR DO VIDRO TRASEIRO",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "CARREGADOR DE CELULAR POR INDUÇÃO",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "NAVEGADOR GPS",
+      "SERVIÇO CONCIERGE",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-16+at+11.54.59.jpeg",
+        "path": "assets/vehicles/origem-home-26/001-d16334901594.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-26/001-d16334901594-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-26/001-d16334901594-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "d16334901594b91c1be4a2340dce3c2ef2164d11a26bbcb38a5488531c85a249"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-27",
+    "slug": "t-cross-highline-250-tsi-1-4-2020-27",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "T-CROSS HIGHLINE 250 TSI 1.4 2020",
+    "brand": null,
+    "model": "T-CROSS",
+    "version": null,
+    "price": 99800,
+    "originalPriceText": "R$ 99.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2020,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR",
+      "CÂMBIO AUT",
+      "BANCOS REVESTIDOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "NAVEGADOR GPS",
+      "SISTEMA START-STOP VOLANTE MULTIFUNCIONAL",
+      "RODAS DE LIGA LEVE",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB",
+      "ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-18+at+11.28.49.jpeg",
+        "path": "assets/vehicles/origem-home-27/001-fe77dd631576.jpg",
+        "width": 1920,
+        "height": 1440,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-27/001-fe77dd631576-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-27/001-fe77dd631576-960.webp",
+            "width": 960
+          },
+          {
+            "path": "assets/vehicles/origem-home-27/001-fe77dd631576-1600.webp",
+            "width": 1600
+          }
+        ],
+        "sha256": "fe77dd63157602319f27b58d90dd7722efa7e90209ab48115edc2938547646f9"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-28",
+    "slug": "jeep-compass-longitude-2-0-diesel-2021-28",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "JEEP COMPASS LONGITUDE 2.0 DIESEL 2021",
+    "brand": "Jeep",
+    "model": "COMPASS",
+    "version": null,
+    "price": 99800,
+    "originalPriceText": "R$ 99.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2021,
+    "mileage": null,
+    "fuel": "Diesel",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "AR CONDICIONADO AUTOMÁTICO",
+      "AR QUENTE",
+      "AIRBAGS FRONTAIS",
+      "DIREÇÃO ASSISTIDA",
+      "SISTEMA START-STOP",
+      "BANCOS REVESTIDOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "SENSORES DE ESTACIONAMENTO TRASEIRO",
+      "LIMPADOR E LAVADOR DO VIDRO TRASEIRO",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "LIMITADOR DE VELOCIDADE",
+      "CAMBIO AUTOMÁTICO",
+      "RODAS DE LIGA LEVE",
+      "FREIO DE ESTACIONAMENTO ELETROMECÂNICO",
+      "FARÓIS COM REFLETORES DUPLOS E REGULAGEM DE ALTURA",
+      "FARÓIS DE NEBLINA",
+      "LUZ DE CONDUÇÃO DIURNA",
+      "AJUSTE DE VOLANTE DE ALTURA E PROFUNDIDADE",
+      "ISOFIX",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "ESPELHAMENTO DA TELA DO CELULAR ..."
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [
+      "Descrição termina com reticências na origem; pode estar incompleta."
+    ],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-06-01+at+17.09.59.jpeg",
+        "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "fde3c73c4a48c1cd7e90811de3164c3a9e0bf20e1c1b6209f5d70de27f9f9921"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-29",
+    "slug": "hr-v-ex-1-8-flex-aut-2017-29",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "HR-V EX 1.8 FLEX AUT 2017",
+    "brand": null,
+    "model": "HR-V",
+    "version": null,
+    "price": 89800,
+    "originalPriceText": "R$ 89.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2017,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUTOMÁTICO",
+      "AR CONDICIONADO AUTOMÁTICO",
+      "BANCOS REVESTIDOS EM COURO",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "FREIO DE ESTACIONAMENTO ELÉTRICO",
+      "RODAS DE LIGA LEVE",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "FREIOS ABS",
+      "ISOFIX",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "FÁROIS DE NEBLINA",
+      "REPETIDORES LATERAIS DAS LUZS DE DIREÇÃO",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-20+at+11.47.46.jpeg",
+        "path": "assets/vehicles/origem-home-29/001-389dec5c69bc.jpg",
+        "width": 1448,
+        "height": 1086,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-29/001-389dec5c69bc-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-29/001-389dec5c69bc-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "389dec5c69bcaf9d6950e494aa1a0cbf61ceefea9ca0f67ad8bf31839c1549ed"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-30",
+    "slug": "compass-longitude-2-0-flex-4x2-aut-2017-30",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "COMPASS LONGITUDE 2.0 FLEX 4X2 AUT 2017",
+    "brand": null,
+    "model": "X2",
+    "version": null,
+    "price": 90800,
+    "originalPriceText": "R$ 90.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2017,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "CÂMBIO AUTOMÁTICO",
+      "AR CONDICIONADO AUTOMÁTICO",
+      "CHAVE PRESENCIAL",
+      "DIREÇÃO ASSISTIDA",
+      "LIMITADOR DE VELOCIDADE",
+      "RODAS DE LIGA LEVE",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "FÁROIS COM ACENDIMENTO AUTOMÁTICO",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "FÁROIS DE NEBLINA",
+      "ISOFIX",
+      "FREIOS ABS",
+      "SENSORES DE ESTACIONAMENTO TRASEIRO",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "NAVEGADOR GPS",
+      "CONEXÃO BLUETOOTH E USB"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-29+at+11.10.25.jpeg",
+        "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "9fd504ba66baa8b75021e6d97a92e28fd9d9625fef06b5360905076a4042720d"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-31",
+    "slug": "polo-sense-tsi-aut-2025-1-0-31",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "POLO SENSE TSI AUT 2025 1.0",
+    "brand": null,
+    "model": "POLO",
+    "version": null,
+    "price": 88800,
+    "originalPriceText": "R$ 88.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2025,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUT",
+      "START-STOP",
+      "CÂMERA TRASEIRA",
+      "RODAS DE LIGA",
+      "CHAVE PRESENCIAL",
+      "LUZ DE CONDUÇÃO DIURNA",
+      "ISOFIX",
+      "VIDROS E TRAVAS ELÉTRICAS",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "COMPUTADOR DE BORDO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-05-12+at+14.31.01.jpeg",
+        "path": "assets/vehicles/origem-home-31/001-c6df5034a933.jpg",
+        "width": 1600,
+        "height": 1200,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-31/001-c6df5034a933-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-31/001-c6df5034a933-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "c6df5034a933e611ad56281845455ec7de2ce16920ee78ee5cc04e26cc3127f6"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-32",
+    "slug": "renegade-longitude-2-0-4x4-tb-diesel-2019-32",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "RENEGADE LONGITUDE 2.0 4X4 TB DIESEL 2019",
+    "brand": null,
+    "model": "RENEGADE",
+    "version": null,
+    "price": 89800,
+    "originalPriceText": "R$ 89.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2019,
+    "mileage": null,
+    "fuel": "Diesel",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUT",
+      "BANCOS EM COURO RODA DE LIGA",
+      "TRAÇÃO INTEGRAL CONTROLE DE TRAÇÃO E ESTABILIDADE TROCA DE MARCHAS NO VOLANTE",
+      "LIMITADOR DE VELOCIDADE CONEXÃO BLUETOOTH E USB",
+      "COMPUTADOR DE BORDO VOLANTE MULTIFUNCIONAL",
+      "TOMADA DE 12 VOLTS ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-14+at+11.03.22.jpeg",
+        "path": "assets/vehicles/origem-home-32/001-9c91539684f0.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-32/001-9c91539684f0-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-32/001-9c91539684f0-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "9c91539684f06a696b19b13fedd7cde468da5e5515183dfedf46b226ea274ac3"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-33",
+    "slug": "compass-trailhawk-2-0-4x4-diesel-aut-2017-33",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "COMPASS TRAILHAWK 2.0 4X4 DIESEL AUT 2017",
+    "brand": null,
+    "model": "COMPASS",
+    "version": null,
+    "price": 92800,
+    "originalPriceText": "R$ 92.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2017,
+    "mileage": null,
+    "fuel": "Diesel",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "BANCOS REVESTIDOS EM COURO",
+      "CÂMBIO AUTOMÁTICO",
+      "AR CONDICIONADO AUTOMÁTICO",
+      "DIREÇÃO ASSISTIDA",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "RODAS DE LIGA LEVE",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "SENSORES DE ESTACIONAMENTO",
+      "AJUSTE ELÉTRICO DOS RETROVISORES",
+      "ISOFIX",
+      "LIMITADOR DE VELOCIDADE",
+      "FÁROIS DE XENÔNIO",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL",
+      "COMPUTADOR DE BORDO",
+      "NAVEGADOR GPS"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-15+at+10.27.50.jpeg",
+        "path": "assets/vehicles/origem-home-33/001-84647dc711ef.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-33/001-84647dc711ef-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-33/001-84647dc711ef-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "84647dc711ef80d53b3a80847e951191bc654b49966e848f1794a4be14139be5"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-34",
+    "slug": "toro-freedom-1-8-flex-aut-2021-34",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "TORO FREEDOM 1.8 FLEX AUT 2021",
+    "brand": null,
+    "model": "TORO",
+    "version": null,
+    "price": 89800,
+    "originalPriceText": "R$ 89.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2021,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUT",
+      "FREIOS ABS",
+      "RODA DE LIGA",
+      "TRAÇÃO INTEGRAL",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "LIMITADOR DE VELOCIDADE",
+      "SENSORES DE ESTACIONAMENTO",
+      "CONEXÃO BLUETOOTH E USB",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "TOMADA DE 12 VOLTS",
+      "ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-14+at+16.56.44.jpeg",
+        "path": "assets/vehicles/origem-home-34/001-f55efce063a9.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-34/001-f55efce063a9-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-34/001-f55efce063a9-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "f55efce063a988395ebd52b4f3c2a766b1317e525544d2b5303c97b32af406ba"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-35",
+    "slug": "sportage-ex-2-0-aut-2014-35",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "SPORTAGE EX 2.0 AUT 2014",
+    "brand": null,
+    "model": "SPORTAGE",
+    "version": null,
+    "price": 81800,
+    "originalPriceText": "R$ 81.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2014,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR PANORÂMICO",
+      "AR CONDICIONADO",
+      "BANCOS EM COURO",
+      "CÂMBIO AUT",
+      "FREIOS ABS CÂMERA TRASEIRA",
+      "RODAS DE LIGA",
+      "FARÓIS DE NEBLINA SENSORES DE ESTACIONAMENTO",
+      "CHAVE PRESENCIAL",
+      "RÁDIO",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-05-09+at+10.45.25.jpeg",
+        "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "3007d8fa30eea02b96d4007d225a48e7cf4496cbb01f7b7a928ad63464bc44e1"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-36",
+    "slug": "city-lx-1-5-aut-2018-36",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "CITY LX 1.5 AUT 2018",
+    "brand": null,
+    "model": "CITY",
+    "version": null,
+    "price": 78800,
+    "originalPriceText": "R$ 78.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2018,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUT",
+      "SENSORES DE ESTACIONAMENTO",
+      "VOLANTE MULTIFUNCIONAL",
+      "RODAS DE LIGA LEVE",
+      "FREIOS ABS",
+      "FÁROIS DE NEBLINA",
+      "ISOFIX",
+      "AIRBAGS FRONTAIS",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "DESEMBAÇÃDOR DO VIDRO TRASEIRO",
+      "AJUSTE ELÉTRICO DOS RETROVISORES",
+      "AJUSTE DO VOLANTE EM ALTURA E PROFUNDIDADE",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-05-13+at+16.47.31.jpeg",
+        "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "d6c5eae38af8e54cfbb96159520fdd2ae5fe2581b8aef3f198628519e7327fca"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-37",
+    "slug": "civic-exr-2-0-flex-2014-37",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "CIVIC EXR 2.0 FLEX 2014",
+    "brand": null,
+    "model": "CIVIC",
+    "version": null,
+    "price": 75800,
+    "originalPriceText": "R$ 75.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2014,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "TETO SOLAR",
+      "CÂMBIO AUT",
+      "DIREÇÃO ASSISTIDA",
+      "FÁROIS DE NEBLINA",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "AJUSTE ELÉTRICO DOS RETROVISORES",
+      "ISOFIX",
+      "REPETIDORES LATERAIS DAS LUZES DE DIREÇÃO",
+      "AJUSTE DO VOLANTE EM ALTURA E PROFUNDIDADE",
+      "BANCOS EM COURO",
+      "VOLANTE MULTIFUNCIONAL",
+      "RODAS DE LIGA LEVE",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-06-08+at+11.43.21.jpeg",
+        "path": "assets/vehicles/origem-home-37/001-8721555fa5a6.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-37/001-8721555fa5a6-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-37/001-8721555fa5a6-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "8721555fa5a6210167f390eed378bdb55eaefb3b5c444306be3936c6346e6966"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-38",
+    "slug": "jeep-compass-longitude-2-0-flex-2017-38",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "JEEP COMPASS LONGITUDE 2.0 FLEX 2017",
+    "brand": "Jeep",
+    "model": "COMPASS",
+    "version": null,
+    "price": 83800,
+    "originalPriceText": "R$ 83.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2017,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUT",
+      "BANCOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "SENSORES DE ESTACIONAMENTO",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "LIMPADOR, LAVADOR E DESEMBAÇADOR DO VIDRO TRASEIRO",
+      "TROCA DE MARCHAS NO VOLANTE",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "FREIO DE ESTACIONAMENTO ELETRÔNICO",
+      "LIMITADOR DE VELOCIDADE",
+      "RODAS DE LIGA LEVE",
+      "CÂMERA TRASEIRA",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "NAVEGADOR GPS"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-02-04+at+15.50.07-7ac733eb.jpeg",
+        "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "ef88d1a21e200e0445e74e92ea3f28bdfa517f2d876f0b45d7fb57326528fc69"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-39",
+    "slug": "ix35-gls-2-0-flex-aut-2015-39",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "IX35 GLS 2.0 FLEX AUT 2015",
+    "brand": null,
+    "model": "IX35",
+    "version": null,
+    "price": 74800,
+    "originalPriceText": "R$ 74.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2015,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUTOMÁTICO",
+      "BANCOS EM COURO",
+      "CHAVE PRESENCIAL",
+      "CÂMERA DE RÉ",
+      "GPS",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "AR-CONDICIONADO",
+      "RODAS DE LIGA LEVE",
+      "AIRBAGS FRONTAIS",
+      "FREIOS ABS",
+      "SENSOR DE ESTACIONAMENTO TRASEIRO",
+      "FARÓIS COM ACENDIMENTO AUTOMÁTICO",
+      "VOLANTE MULTIFUNCIONAL",
+      "DIREÇÃO ASSISTIDA",
+      "RETROVISORES ELÉTRICOS E REBATÍVEIS",
+      "VIDROS ELÉTRICOS",
+      "BLUETOOTH",
+      "BANCO DO MOTORISTA COM AJUSTE DE ALTURA",
+      "FARÓIS DE NEBLINA"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-10-02+at+14.15.44+%281%29.jpeg",
+        "path": "assets/vehicles/origem-home-39/001-9e5694034589.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-39/001-9e5694034589-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-39/001-9e5694034589-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "9e5694034589f776fb0599e87ca2988ff768d94993670de3361689fc0a5edcca"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-40",
+    "slug": "renegade-sport-1-8-flex-manual-2016-40",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "RENEGADE SPORT 1.8 FLEX MANUAL 2016",
+    "brand": null,
+    "model": "RENEGADE",
+    "version": null,
+    "price": 68800,
+    "originalPriceText": "R$ 68.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2016,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Manual",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO MANUAL",
+      "AR C0NDICIONADO",
+      "AR QUENTE",
+      "RODAS DE LIGA LEVE",
+      "FREIO DE ESTACIONAMENTO ELÉTRICO",
+      "DIREÇÃO ASSISTIDA",
+      "LIMITADOR DE VELOCIDADE",
+      "BANCO DO MOTORISTA COM AJUSTE DE ALTURA",
+      "RETROVISORE REBATÍVEIS ELÉTRICAMENTE",
+      "FREIOS ABS",
+      "FÁROIS DE NEBLINA",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "ISOFIX",
+      "SENSORES DE ESTACIONAMENTO TRASEIRO",
+      "COMPUTADOR DE BORDO",
+      "CONEXÃO BLUETOOTH E USB",
+      "NAVEGADOR GPS",
+      "VOLANTE MULTIFUNCIONAL",
+      "RÁDIO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-05+at+10.31.51.jpeg",
+        "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "00d48c4c35c7298aa7940600fb8e1c968f3c222f7568e4d9c8a07f77adedf3ec"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-41",
+    "slug": "captur-intense-2-0-automatico-2020-41",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "CAPTUR INTENSE 2.0 AUTOMÁTICO 2020",
+    "brand": null,
+    "model": "CAPTUR",
+    "version": null,
+    "price": 71800,
+    "originalPriceText": "R$ 71.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2020,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUT",
+      "BANCOS EM COURO",
+      "CHAVE DE CARTÃO",
+      "SENSORES DE ESTACIONAMENTO",
+      "CÂMERA TRASEIRA",
+      "VOLANTE MULTIFUNCIONAL",
+      "RODAS DE LIGA LEVE",
+      "COMPUTADOR DE BORDO",
+      "ESPELHAMENTO DA TELA DO CELULAR"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-04-02+at+16.49.49.jpeg",
+        "path": "assets/vehicles/origem-home-41/001-08c04dff638b.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-41/001-08c04dff638b-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-41/001-08c04dff638b-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "08c04dff638b164f8408ecc86ffc8cd32995957af5e93ef73fc984f3e56c94ec"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-42",
+    "slug": "chevrolet-cruze-lt-1-8-aut-2016-42",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "CHEVROLET CRUZE LT 1.8 AUT 2016",
+    "brand": "Chevrolet",
+    "model": "CRUZE",
+    "version": null,
+    "price": 67800,
+    "originalPriceText": "R$ 67.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2016,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "AR CONDICIONADO AUTOMÁTICO",
+      "AR QUENTE",
+      "AIRBAGS FRONTAIS E LATERAIS",
+      "DIREÇÃO ASSISTIDA",
+      "BANCO DO MOTORISTA COM AJUSTE DE ALTURA",
+      "CAMBIO AUTOMÁTICO",
+      "RODA DE LIGA LEVE",
+      "FÁROIS DE NEBLINA",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "LUZ DE CONDUÇÃO DIURNA",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "AJUSTE DE VOLANTE DE ALTURA E PROFUNDIDADE",
+      "REPETIDORES LATERAIS DE LUZES DE DIREÇÃO",
+      "ISOFIX",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "ASSISTÊNCIA NA RECUPERAÇÃO VEÍCULAR",
+      "VIDROS ELÉTRICOS",
+      "TRAVAS ELÉTRICAS",
+      "DESEMBAÇADOR DO VIDRO TRASEIRO",
+      "COMPLETO",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL",
+      "ROTEADOR WI-FI",
+      "SERVIÇO DE CONCIERGE ..."
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [
+      "Descrição termina com reticências na origem; pode estar incompleta."
+    ],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-10+at+10.32.32.jpeg",
+        "path": "assets/vehicles/origem-home-42/001-dd519a874012.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-42/001-dd519a874012-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-42/001-dd519a874012-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "dd519a8740122466e6d7f02940e328d9395668ae2ea19b894c767369e06ec024"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-43",
+    "slug": "prisma-ltz-1-4-flex-manual-2017-43",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "PRISMA LTZ 1.4 FLEX MANUAL 2017",
+    "brand": null,
+    "model": "PRISMA",
+    "version": null,
+    "price": 59800,
+    "originalPriceText": "R$ 59.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2017,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Manual",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO MANUAL",
+      "AR CONDICIONADO",
+      "AR QUENTE",
+      "CÂMERA TRASEIRA PARA MANOBRAS",
+      "RODAS DE LIGA LEVE",
+      "FÁROIS DE NEBLINA",
+      "FREIOS ABS",
+      "SENSORES DE ESTACIONAMENTO TRASEIRO",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "AJUSTE DO VOLANTE EM ALTURA",
+      "AJUSTE ELÉTRICO DOS RETROVISORES",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB",
+      "ESPELHAMENTO DA TELA DO CELULAR",
+      "VOLANTA MULTIFUNCIONAL",
+      "COMPUTADOR DE BORDO"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-28+at+11.06.41.jpeg",
+        "path": "assets/vehicles/origem-home-43/001-26d2baae23f6.jpg",
+        "width": 1600,
+        "height": 1200,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-43/001-26d2baae23f6-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-43/001-26d2baae23f6-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "26d2baae23f6dff7c16404aedcbfafd933ff5013ab8d2a9234ef0b5f98d82774"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-44",
+    "slug": "ecosport-titanium-2-0-aut-2014-44",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "ECOSPORT TITANIUM 2.0 AUT 2014",
+    "brand": null,
+    "model": "ECOSPORT",
+    "version": null,
+    "price": 48800,
+    "originalPriceText": "R$ 48.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2014,
+    "mileage": null,
+    "fuel": null,
+    "transmission": "Automático",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "CÂMBIO AUTOMÁTICO",
+      "AR-CONDICIONADO",
+      "AR QUENTE",
+      "FREIOS ABS",
+      "CHAVE PRESENCIAL",
+      "SENSOR DE ESTACIONAMENTO",
+      "FARÓIS DE NEBLINA",
+      "CONTROLE AUTOMÁTICO DE VELOCIDADE",
+      "RODAS DE LIGA LEVE",
+      "ISOFIX",
+      "CONTROLE DE TRAÇÃO E ESTABILIDADE",
+      "CONEXÃO BLUETOOTH E USB",
+      "VOLANTE MULTIFUNCIONAL"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-03-18+at+09.49.58.jpeg",
+        "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "221e2dde9ae29a8f8d55dd7e9797e4644790079c5df92bdf33bd1cbb3bc7a330"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-45",
+    "slug": "saveiro-ce-1-6-2015-trendline-45",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "SAVEIRO CE 1.6 2015 TRENDLINE",
+    "brand": null,
+    "model": "SAVEIRO",
+    "version": null,
+    "price": 50800,
+    "originalPriceText": "R$ 50.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2015,
+    "mileage": null,
+    "fuel": null,
+    "transmission": null,
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "AR CONDICIONADO",
+      "AR QUENTE",
+      "FREIOS ABS RODAS DE LIGA",
+      "FARÓIS DE NEBLINA RÁDIO",
+      "COMPUTADOR DE BORDO",
+      "VOLANTE MULTIFUNCIONAL"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-02-26+at+10.31.38-9de22e0f.jpeg",
+        "path": "assets/vehicles/origem-home-45/001-45461cc6fce0.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-45/001-45461cc6fce0-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-45/001-45461cc6fce0-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "45461cc6fce0dfeecb7317dd29fd8f10e6e8b9285c91c19927b500bf75218e8b"
+      }
+    ],
+    "currency": "BRL"
+  },
+  {
+    "id": "origem-home-46",
+    "slug": "kwid-zen-1-0-flex-manual-2021-46",
+    "sourceUrl": "https://www.autocass.com.br/",
+    "collectedAt": "2026-10-06T00:18:17.597Z",
+    "title": "KWID ZEN 1.0 FLEX MANUAL 2021",
+    "brand": null,
+    "model": "KWID",
+    "version": null,
+    "price": 39800,
+    "originalPriceText": "R$ 39.800,00",
+    "manufacturingYear": null,
+    "modelYear": null,
+    "yearInTitle": 2021,
+    "mileage": null,
+    "fuel": "Flex",
+    "transmission": "Manual",
+    "color": null,
+    "body": null,
+    "doors": null,
+    "engine": null,
+    "description": null,
+    "features": [
+      "AR CONDICIONADO",
+      "AR QUENTE",
+      "FREIOS ABS",
+      "DIREÇAO ASSISTIDA",
+      "TRAVAMENTO CENTRAL DAS PORTAS",
+      "ISOFIX",
+      "DESEMBAÇADOR DO VIDRO TRASEIRO",
+      "BANCO TRASEIRO REBATÍVEL",
+      "RÁDIO",
+      "CONEXÃO BLUETOOTH E USB"
+    ],
+    "specifications": {},
+    "status": "unknown",
+    "publishedAt": null,
+    "issues": [],
+    "photos": [
+      {
+        "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-12+at+15.30.07.jpeg",
+        "path": "assets/vehicles/origem-home-46/001-901a17154517.jpg",
+        "width": 1280,
+        "height": 960,
+        "status": "ready",
+        "variants": [
+          {
+            "path": "assets/vehicles/origem-home-46/001-901a17154517-480.webp",
+            "width": 480
+          },
+          {
+            "path": "assets/vehicles/origem-home-46/001-901a17154517-960.webp",
+            "width": 960
+          }
+        ],
+        "sha256": "901a17154517cb607703cfcc18c994da8a293cab14229963fcb01a8a5dcb1a92"
+      }
+    ],
+    "currency": "BRL"
+  }
+]

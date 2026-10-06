@@ -1,1 +1,941 @@
-{"collectedAt":null,"photos":[]}
+{
+  "collectedAt": "2026-10-06T00:18:17.597Z",
+  "photos": [
+    {
+      "vehicleId": "origem-home-01",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-19+at+17.06.34.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-01/001-422cc6525162.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-01/001-422cc6525162-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-01/001-422cc6525162-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "422cc65251621ac5426fd7ed453a647779c777e18fc676ce5dc81ee7f27da35b"
+    },
+    {
+      "vehicleId": "origem-home-02",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-03+at+10.55.01.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-02/001-0a031bb90fab.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-02/001-0a031bb90fab-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-02/001-0a031bb90fab-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "0a031bb90fab4c1b75729e14f04f601fb942e8eecdf5007b0ab70b2e721b0b65"
+    },
+    {
+      "vehicleId": "origem-home-03",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-14+at+15.49.05.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-03/001-44043a228e8c.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-03/001-44043a228e8c-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-03/001-44043a228e8c-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "44043a228e8cf453d9e7803958d1d518bbabf3be66df89a221467ef4628881c0"
+    },
+    {
+      "vehicleId": "origem-home-04",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-29+at+17.18.07.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-04/001-e6f1f5504406.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-04/001-e6f1f5504406-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-04/001-e6f1f5504406-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "e6f1f5504406d135378f8d861d7f57018daf2c07080c0b2ffc54fcc85e1bba8e"
+    },
+    {
+      "vehicleId": "origem-home-05",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-30+at+11.46.39.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-05/001-024a87f0e333.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-05/001-024a87f0e333-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-05/001-024a87f0e333-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "024a87f0e33369264c90c35afe93b7ebe39d25a8fd1c7f11fb79a8715a6720e5"
+    },
+    {
+      "vehicleId": "origem-home-06",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-28+at+10.58.41+%284%29.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-06/001-de54df1e355b.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-06/001-de54df1e355b-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-06/001-de54df1e355b-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "de54df1e355b0433d1e6e84f1b994370c950ea43fe0a130d4b14e920ef51f5db"
+    },
+    {
+      "vehicleId": "origem-home-07",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-18+at+13.28.24.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce.jpg",
+      "width": 1920,
+      "height": 1440,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-960.webp",
+          "width": 960
+        },
+        {
+          "path": "assets/vehicles/origem-home-07/001-0e73a595d6ce-1600.webp",
+          "width": 1600
+        }
+      ],
+      "sha256": "0e73a595d6ceef96cb05b567a794f3aa8967fdcc7d0873ea624d7b3137055247"
+    },
+    {
+      "vehicleId": "origem-home-08",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-18+at+11.47.42.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-08/001-9f0f639bcbe4-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "9f0f639bcbe4079d15a5435c0d1fcd8059dd6894e6335cc0c491ec6f83d43b90"
+    },
+    {
+      "vehicleId": "origem-home-09",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-14+at+10.43.09.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-09/001-26a22a3d2350.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-09/001-26a22a3d2350-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-09/001-26a22a3d2350-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "26a22a3d23501cb1d637bb3a731f067a68ccabaea3077e9e1d689a27e1839373"
+    },
+    {
+      "vehicleId": "origem-home-10",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-30+at+12.03.16.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-10/001-a5285d375ed7.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-10/001-a5285d375ed7-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-10/001-a5285d375ed7-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "a5285d375ed70456b3c7aa11baf114be7c5cb3cfda59c5c3f86ae4aaedfcfdd0"
+    },
+    {
+      "vehicleId": "origem-home-11",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-18+at+16.02.10.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-11/001-2b452bf28017.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-11/001-2b452bf28017-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-11/001-2b452bf28017-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "2b452bf28017d693d891d680bb4f39bba4f74f9cbea22a749d0fe81b19925b3b"
+    },
+    {
+      "vehicleId": "origem-home-12",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-05-05+at+16.45.36.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-12/001-1b608ec36e24.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-12/001-1b608ec36e24-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-12/001-1b608ec36e24-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "1b608ec36e244f2c20faf0177d91707af22e58d09ada9f2dc3e27cd7e2217ba6"
+    },
+    {
+      "vehicleId": "origem-home-13",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-30+at+16.32.43-5167c83e.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-13/001-c99ace30e107.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-13/001-c99ace30e107-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-13/001-c99ace30e107-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "c99ace30e10748795f16ff768e83a850b4efd427db4888c60dcb8d7fb91f0721"
+    },
+    {
+      "vehicleId": "origem-home-14",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-25+at+10.07.59.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-14/001-83c8c6da86fc-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "83c8c6da86fc1ea49dde502d0e8036497830faf950673a7e4c868868d230d1d0"
+    },
+    {
+      "vehicleId": "origem-home-15",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-25+at+14.00.06.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-15/001-c1f38129bd61.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-15/001-c1f38129bd61-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-15/001-c1f38129bd61-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "c1f38129bd61814722384d8cf2fbc7f184f9b228c9f001aeb9bda182e8ffec71"
+    },
+    {
+      "vehicleId": "origem-home-16",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-11+at+17.16.23.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-16/001-32fcad773bdd.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-16/001-32fcad773bdd-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-16/001-32fcad773bdd-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "32fcad773bdd5080dd9774a9ab02c7c2adace3c77715a36897d68c044e7f72e8"
+    },
+    {
+      "vehicleId": "origem-home-17",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-13+at+13.16.22.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-17/001-4b29c110c967.jpg",
+      "width": 1920,
+      "height": 1440,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-17/001-4b29c110c967-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-17/001-4b29c110c967-960.webp",
+          "width": 960
+        },
+        {
+          "path": "assets/vehicles/origem-home-17/001-4b29c110c967-1600.webp",
+          "width": 1600
+        }
+      ],
+      "sha256": "4b29c110c967b1fa1aa347187faee809fecc2c763729e3ea935c4a74b8931dbc"
+    },
+    {
+      "vehicleId": "origem-home-18",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-31+at+14.23.03.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-18/001-88391f5859ca.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-18/001-88391f5859ca-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-18/001-88391f5859ca-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "88391f5859caca6f10b464b864806bbd7a497808ea5a71a2b1acbdcd89f38eb1"
+    },
+    {
+      "vehicleId": "origem-home-19",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-23+at+13.42.04.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-19/001-421eea5d74a4.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-19/001-421eea5d74a4-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-19/001-421eea5d74a4-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "421eea5d74a48b3e6b2cb8379e9dcb0177ed1376169eb949cf8328c06b37363e"
+    },
+    {
+      "vehicleId": "origem-home-20",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-06+at+13.18.50-f0683d1d.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-20/001-4e6a86bc454c-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "4e6a86bc454cc7254715610c0b60d1449709cd254ff25d6dc8b5cb2958735f62"
+    },
+    {
+      "vehicleId": "origem-home-21",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-22+at+14.59.25.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-21/001-c9beb7efa0d4-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "c9beb7efa0d44173899cc22971ac340d09a55013b82faf19ab485aca2fb4ccd8"
+    },
+    {
+      "vehicleId": "origem-home-22",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-06-05+at+11.14.39.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-22/001-1a87e5e99c36-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "1a87e5e99c36f7ec98d9b54d22987737e1601bbef31ea827be5f5d8e2dcd37af"
+    },
+    {
+      "vehicleId": "origem-home-23",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-25+at+13.34.59.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4.jpg",
+      "width": 1447,
+      "height": 1087,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-23/001-a4c03542eaf4-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "a4c03542eaf4514affcb3b839c1da93217d6264e25553ae2eb6fe58978bffe29"
+    },
+    {
+      "vehicleId": "origem-home-24",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-13+at+15.54.33.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8.jpg",
+      "width": 1920,
+      "height": 1440,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-960.webp",
+          "width": 960
+        },
+        {
+          "path": "assets/vehicles/origem-home-24/001-159d7f2d2cf8-1600.webp",
+          "width": 1600
+        }
+      ],
+      "sha256": "159d7f2d2cf8726524649b632eb64fbf1d0451b379942dee47c2d70aeac9ce62"
+    },
+    {
+      "vehicleId": "origem-home-25",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-19+at+10.29.38.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-25/001-c006c1161150.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-25/001-c006c1161150-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-25/001-c006c1161150-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "c006c116115040ab1351bc42eaec1d315efae6bab1efb6d2ee187a14b10bda43"
+    },
+    {
+      "vehicleId": "origem-home-26",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-16+at+11.54.59.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-26/001-d16334901594.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-26/001-d16334901594-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-26/001-d16334901594-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "d16334901594b91c1be4a2340dce3c2ef2164d11a26bbcb38a5488531c85a249"
+    },
+    {
+      "vehicleId": "origem-home-27",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-18+at+11.28.49.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-27/001-fe77dd631576.jpg",
+      "width": 1920,
+      "height": 1440,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-27/001-fe77dd631576-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-27/001-fe77dd631576-960.webp",
+          "width": 960
+        },
+        {
+          "path": "assets/vehicles/origem-home-27/001-fe77dd631576-1600.webp",
+          "width": 1600
+        }
+      ],
+      "sha256": "fe77dd63157602319f27b58d90dd7722efa7e90209ab48115edc2938547646f9"
+    },
+    {
+      "vehicleId": "origem-home-28",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-06-01+at+17.09.59.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-28/001-fde3c73c4a48-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "fde3c73c4a48c1cd7e90811de3164c3a9e0bf20e1c1b6209f5d70de27f9f9921"
+    },
+    {
+      "vehicleId": "origem-home-29",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-20+at+11.47.46.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-29/001-389dec5c69bc.jpg",
+      "width": 1448,
+      "height": 1086,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-29/001-389dec5c69bc-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-29/001-389dec5c69bc-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "389dec5c69bcaf9d6950e494aa1a0cbf61ceefea9ca0f67ad8bf31839c1549ed"
+    },
+    {
+      "vehicleId": "origem-home-30",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-29+at+11.10.25.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-30/001-9fd504ba66ba-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "9fd504ba66baa8b75021e6d97a92e28fd9d9625fef06b5360905076a4042720d"
+    },
+    {
+      "vehicleId": "origem-home-31",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-05-12+at+14.31.01.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-31/001-c6df5034a933.jpg",
+      "width": 1600,
+      "height": 1200,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-31/001-c6df5034a933-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-31/001-c6df5034a933-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "c6df5034a933e611ad56281845455ec7de2ce16920ee78ee5cc04e26cc3127f6"
+    },
+    {
+      "vehicleId": "origem-home-32",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-14+at+11.03.22.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-32/001-9c91539684f0.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-32/001-9c91539684f0-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-32/001-9c91539684f0-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "9c91539684f06a696b19b13fedd7cde468da5e5515183dfedf46b226ea274ac3"
+    },
+    {
+      "vehicleId": "origem-home-33",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-15+at+10.27.50.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-33/001-84647dc711ef.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-33/001-84647dc711ef-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-33/001-84647dc711ef-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "84647dc711ef80d53b3a80847e951191bc654b49966e848f1794a4be14139be5"
+    },
+    {
+      "vehicleId": "origem-home-34",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-07-14+at+16.56.44.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-34/001-f55efce063a9.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-34/001-f55efce063a9-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-34/001-f55efce063a9-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "f55efce063a988395ebd52b4f3c2a766b1317e525544d2b5303c97b32af406ba"
+    },
+    {
+      "vehicleId": "origem-home-35",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-05-09+at+10.45.25.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-35/001-3007d8fa30ee-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "3007d8fa30eea02b96d4007d225a48e7cf4496cbb01f7b7a928ad63464bc44e1"
+    },
+    {
+      "vehicleId": "origem-home-36",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-05-13+at+16.47.31.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-36/001-d6c5eae38af8-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "d6c5eae38af8e54cfbb96159520fdd2ae5fe2581b8aef3f198628519e7327fca"
+    },
+    {
+      "vehicleId": "origem-home-37",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-06-08+at+11.43.21.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-37/001-8721555fa5a6.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-37/001-8721555fa5a6-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-37/001-8721555fa5a6-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "8721555fa5a6210167f390eed378bdb55eaefb3b5c444306be3936c6346e6966"
+    },
+    {
+      "vehicleId": "origem-home-38",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-02-04+at+15.50.07-7ac733eb.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-38/001-ef88d1a21e20-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "ef88d1a21e200e0445e74e92ea3f28bdfa517f2d876f0b45d7fb57326528fc69"
+    },
+    {
+      "vehicleId": "origem-home-39",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-10-02+at+14.15.44+%281%29.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-39/001-9e5694034589.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-39/001-9e5694034589-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-39/001-9e5694034589-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "9e5694034589f776fb0599e87ca2988ff768d94993670de3361689fc0a5edcca"
+    },
+    {
+      "vehicleId": "origem-home-40",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-09-05+at+10.31.51.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-40/001-00d48c4c35c7-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "00d48c4c35c7298aa7940600fb8e1c968f3c222f7568e4d9c8a07f77adedf3ec"
+    },
+    {
+      "vehicleId": "origem-home-41",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-04-02+at+16.49.49.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-41/001-08c04dff638b.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-41/001-08c04dff638b-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-41/001-08c04dff638b-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "08c04dff638b164f8408ecc86ffc8cd32995957af5e93ef73fc984f3e56c94ec"
+    },
+    {
+      "vehicleId": "origem-home-42",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-10+at+10.32.32.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-42/001-dd519a874012.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-42/001-dd519a874012-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-42/001-dd519a874012-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "dd519a8740122466e6d7f02940e328d9395668ae2ea19b894c767369e06ec024"
+    },
+    {
+      "vehicleId": "origem-home-43",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-28+at+11.06.41.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-43/001-26d2baae23f6.jpg",
+      "width": 1600,
+      "height": 1200,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-43/001-26d2baae23f6-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-43/001-26d2baae23f6-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "26d2baae23f6dff7c16404aedcbfafd933ff5013ab8d2a9234ef0b5f98d82774"
+    },
+    {
+      "vehicleId": "origem-home-44",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-03-18+at+09.49.58.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-44/001-221e2dde9ae2-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "221e2dde9ae29a8f8d55dd7e9797e4644790079c5df92bdf33bd1cbb3bc7a330"
+    },
+    {
+      "vehicleId": "origem-home-45",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-02-26+at+10.31.38-9de22e0f.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-45/001-45461cc6fce0.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-45/001-45461cc6fce0-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-45/001-45461cc6fce0-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "45461cc6fce0dfeecb7317dd29fd8f10e6e8b9285c91c19927b500bf75218e8b"
+    },
+    {
+      "vehicleId": "origem-home-46",
+      "sourceUrl": "https://irp.cdn-website.com/27fa2e3b/dms3rep/multi/WhatsApp+Image+2026-08-12+at+15.30.07.jpeg",
+      "order": 0,
+      "path": "assets/vehicles/origem-home-46/001-901a17154517.jpg",
+      "width": 1280,
+      "height": 960,
+      "status": "ready",
+      "variants": [
+        {
+          "path": "assets/vehicles/origem-home-46/001-901a17154517-480.webp",
+          "width": 480
+        },
+        {
+          "path": "assets/vehicles/origem-home-46/001-901a17154517-960.webp",
+          "width": 960
+        }
+      ],
+      "sha256": "901a17154517cb607703cfcc18c994da8a293cab14229963fcb01a8a5dcb1a92"
+    }
+  ]
+}

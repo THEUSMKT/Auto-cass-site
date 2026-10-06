@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {filterCatalog,whatsappUrl,safeInventoryReturn,kilometers,money} from '../src/lib/catalog.ts';
+import {filterCatalog,whatsappUrl,safeInventoryReturn,kilometers,money,effectiveYear} from '../src/lib/catalog.ts';
 import {catalogSchema,dealershipSchema} from '../src/lib/model.ts';
 import {makeVehicle} from './fixture-data.ts';
 
@@ -33,4 +33,12 @@ test('validação rejeita duplicatas, imagens trocadas e contatos sem verificaç
  const vehicle=makeVehicle();vehicle.photos=[{sourceUrl:'https://example.invalid/photo.jpg',path:'assets/vehicles/outro/foto.jpg',width:600,height:400,status:'ready',variants:[],sha256:'a'.repeat(64)}];
  assert.throws(()=>catalogSchema.parse([vehicle]));
  assert.throws(()=>dealershipSchema.parse({name:'Auto Cass',sourceUrl:'https://example.invalid',verifiedAt:null,demo:true,catalogStatus:'partial',whatsapp:'5511999999999'}));
+});
+test('entradas distintas podem vir da mesma home e ano no título não vira ano-modelo',()=>{
+ const first={...makeVehicle(1),sourceUrl:'https://example.invalid/',modelYear:null,manufacturingYear:null,yearInTitle:2027};
+ const second={...makeVehicle(2),sourceUrl:first.sourceUrl};
+ assert.equal(catalogSchema.parse([first,second]).length,2);
+ assert.equal(effectiveYear(first),2027);
+ assert.equal(first.modelYear,null);assert.equal(first.manufacturingYear,null);
+ assert.deepEqual(filterCatalog([first,second],new URLSearchParams('minYear=2027')).map(v=>v.id),[first.id]);
 });

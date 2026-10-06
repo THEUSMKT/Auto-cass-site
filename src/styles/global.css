@@ -6,3 +6,6 @@
 @media(max-width:370px){.hero-text-link{display:flex;margin:12px 0 0}.hero h1{font-size:35px}.sort-control select{max-width:130px}.sort-control{font-size:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.button:hover{transform:none}}
 .brand-logo{width:160px;height:40px;object-fit:contain;object-position:left}.about-store-image{width:100%;height:auto;aspect-ratio:9/7;object-fit:contain;background:#e9eae1}
+
+.hero-visual:not(.hero-visual-editorial){display:flex;flex-direction:column;justify-content:center}.hero-visual>img{height:auto}.hero-caption{position:static;background:#282e29}.hero-caption strong{overflow-wrap:anywhere}.gallery-main .gallery-expand{font-size:11px}
+.brand-logo{width:150px;height:40px;object-fit:cover;object-position:center}

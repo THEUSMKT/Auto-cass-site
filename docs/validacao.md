@@ -1,39 +1,33 @@
-# Validação da implementação
+# Validação da importação
 
-Executada em 5 de outubro de 2026, America/Sao_Paulo. Node 24.19.0, npm 11.9.0, Astro 7.3.5, TypeScript 6.0.3 e Chromium 151.0.7922.173 no ambiente em nuvem.
+Executada em 06/10/2026 UTC. Node 24.19.0, npm 11.9.0, Astro 7.3.5, TypeScript 6.0.3 e Chromium do sistema.
 
 | Verificação | Resultado |
 | --- | --- |
-| Reinstalação pelo lockfile (`npm ci`) | Passou |
-| Esquemas, procedência e integridade (`validate:data`) | Passou para o catálogo vazio em modo demo |
+| Dados, procedência, associação, dimensões e checksums | 46 anúncios / 46 fotografias originais válidas |
+| Derivados responsivos | 96 WebP locais; originais preservados |
 | Tipos (`astro check`) | 0 erros, 0 avisos, 0 sugestões |
-| Testes de lógica e importação | 6 passaram; 0 falharam; 0 ignorados |
-| Testes de navegador | 12 passaram; 0 falharam; 0 ignorados |
-| Build estático | 5 páginas + robots e sitemap |
-| Servidor de desenvolvimento | Início, estoque, sobre e contato responderam HTTP 200 com conteúdo esperado |
-| Responsividade | 360, 390, 768, 1280 e 1440 px, páginas principais e detalhe isolado |
-| Acessibilidade automatizada | Sem violações detectadas nas páginas/componentes verificados pelos conjuntos WCAG 2 A/AA e WCAG 2.1 AA |
-| Fidelidade ao estoque real | Não verificada; origem inacessível |
-| Contatos reais / WhatsApp comercial | Não verificados; ocultos no site real |
+| Testes de lógica, importação e fidelidade | 8 passaram |
+| Testes de navegador | 15 passaram |
+| Build estático | 51 páginas HTML, incluindo 46 detalhes, mais robots e sitemap |
+| URLs diretas dos 46 anúncios sob `/Auto-cass-site/` | HTTP 200 no build testado; títulos/fotos/WhatsApp correspondentes |
+| Responsividade | 360, 390, 768, 1280 e 1440 px |
+| Canais recuperados | Número do HTML conferido na URL de WhatsApp; nenhuma mensagem enviada |
+| Acessibilidade automatizada | Sem violações nos conjuntos WCAG 2 A/AA e 2.1 AA nas páginas verificadas |
+| Estoque atual integral / galerias completas | Não confirmados |
 
-Os testes verificaram busca com acentos/caixa, filtros combinados, marca/modelo dependente, ordenação com valores ausentes no fim, estado vazio, limpeza, chips, paginação, persistência de filtros no retorno, página de veículo após refresh, galeria por teclado/toque/Escape, retorno de foco, compartilhamento e URL contextual do WhatsApp. Nenhuma mensagem foi enviada.
+A validação documental comparou os 46 títulos, descrições, preços de botão e URLs de fotografias com seus elementos no HTML do pacote. O teste de migração verifica preservação de IDs, campos ausentes, anos, preços, status desconhecido e checksums originais. O preço conflitante do BYD fica em consulta; os dois valores literais são preservados apenas na procedência.
 
-A importação foi exercitada numa pasta temporária: revisão sem alterar catálogo, aplicação explícita, imagem inválida rejeitada, deduplicação de bytes, campo ausente preservado, backup e rejeição de revisão adulterada.
+Os testes de navegador cobrem todas as URLs e fotografias reais, WhatsApp contextual com nome/URL correta, filtros reais por ano, paginação 12/12/12/10, retenção dos Tiggo semelhantes, valores desconhecidos no fim e ausência de ano-modelo inferido. O detalhe do BYD foi aberto diretamente e após refresh nas cinco larguras, com ampliação da única foto, Escape/foco e preço em consulta.
 
-Dados de teste, número de WhatsApp de teste e imagens sintéticas aparecem apenas na cópia temporária e em capturas explicitamente identificadas como fixtures; não entram em `dist` nem no catálogo público. A versão real foi verificada como demonstração sem dados fictícios ou links de WhatsApp. Capturas de todas as larguras estão em `docs/screenshots/`.
+Também foram verificados busca com acentos, filtros combinados, modelo dependente, chips, limpeza, retorno ao estoque, filtros móveis, compartilhamento, menu e galeria de múltiplas fotos em fixtures isoladas. Nenhuma fixture, imagem sintética ou número de teste entra no catálogo público. As capturas `byd-real-*`, `inicio-*`, `estoque-*`, `sobre-*` e `contato-*` representam dados reais; arquivos `fixture-*` são somente testes.
 
-Foram corrigidos contraste de textos pequenos e nomes acessíveis antes da execução final. A análise automatizada não substitui revisão humana de acessibilidade nem garante todas as interações com todos os leitores de tela.
+As imagens foram inspecionadas visualmente e o hero foi ajustado para manter a fotografia inteira e sua marca d'água, sem legenda sobreposta. O logo do pacote é usado no site. Todas as páginas mantêm `noindex, nofollow` e identificação de demonstração. Analytics, Pixel, Jivochat e scripts antigos permanecem desativados/ausentes.
 
-Não foi executado Lighthouse e não foram medidos INP, taxa de conversão ou desempenho em rede/dispositivos reais. Não há notas ou métricas de desempenho inventadas.
+Os primeiros comandos Astro sem a variável de telemetria encontraram uma restrição de escrita na configuração fora de `/workspace`; foram repetidos com `ASTRO_TELEMETRY_DISABLED=1`, como previsto no ambiente. A suíte passou com TLS e recursos locais normais, sem desativar verificação HTTPS.
 
-## Publicação e dependências externas
+A análise automatizada não substitui revisão humana de acessibilidade. Não foram executados Lighthouse nem medições de INP ou conversão, e não há métricas inventadas.
 
-Código enviado para main no commit 126f4252d29b51ec1a1f29f8160327a2ecf8c7b4. A tentativa inicial de ativação de Pages pela API foi negada (HTTP 403). Depois, o workflow confirmou a configuração de Pages, completou todas as verificações e concluiu o deploy com sucesso.
+## Publicação
 
-Site publicado e verificado: https://theusmkt.github.io/Auto-cass-site/. Workflow: https://github.com/THEUSMKT/Auto-cass-site/actions/runs/37389561308.
-
-Início, estoque, sobre e contato responderam HTTP 200, com canonicals corretos, noindex e sem dados fictícios. CSS, JavaScript e favicon publicados responderam HTTP 200 e seus checksums coincidem com o build local testado. Robots e sitemap foram verificados. O navegador também abriu a página pública a 390 px, com TLS ativo, sem overflow nem erros de JavaScript; captura em docs/screenshots/publicado-inicio-390.png.
-
-Não há página pública de veículo real para verificar porque nenhum anúncio pôde ser importado. O template de detalhe foi validado apenas na cópia isolada de testes.
-
-A origem continua sem HTML utilizável (CONNECT 502 no host www; CONNECT 403 no host sem www). São necessários estoque/exportação, fotos e informações comerciais verificadas para concluir a migração e validar o catálogo real.
+O workflow existente valida e publica `dist` após push em `main`. A conclusão do deploy e a conferência da versão pública ficam registradas em `docs/publicacao.json`; a validação local por si só não comprova publicação.

@@ -3,7 +3,7 @@ import type { Vehicle } from './model.ts';
 export const filterKeys = ['q', 'brand', 'model', 'minPrice', 'maxPrice', 'minYear', 'maxYear', 'transmission', 'fuel', 'body'] as const;
 export const pageSize = 12;
 export const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR').trim();
-export const effectiveYear = (v: Vehicle) => v.modelYear ?? v.manufacturingYear;
+export const effectiveYear = (v: Vehicle) => v.modelYear ?? v.manufacturingYear ?? v.yearInTitle ?? null;
 export function numberParam(p: URLSearchParams, key: string): number | null {
   const value = p.get(key);
   if (!value?.trim()) return null;

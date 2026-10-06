@@ -1,12 +1,12 @@
 ---
 import type {Vehicle} from '../lib/model';
-import {money, kilometers} from '../lib/catalog';
+import {money, kilometers, effectiveYear} from '../lib/catalog';
 import {path} from '../lib/paths';
 import Icon from './Icon.astro';
 interface Props {vehicle: Vehicle; priority?: boolean;}
 const {vehicle: v, priority = false} = Astro.props;
 const image = v.photos.find(p => p.status === 'ready');
-const details = [v.modelYear ?? v.manufacturingYear, v.transmission, kilometers(v.mileage)].filter(x => x !== null);
+const details = [effectiveYear(v), v.transmission, kilometers(v.mileage)].filter(x => x !== null);
 ---
 <article class="vehicle-card" data-vehicle-id={v.id}>
   <a href={path(`veiculos/${v.slug}/`)} class="vehicle-card-link" data-vehicle-link>

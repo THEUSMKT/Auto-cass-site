@@ -28,6 +28,7 @@ export const vehicleSchema = z.object({
   price: z.number().nonnegative().nullable(),
   currency: z.literal('BRL'), originalPriceText: text,
   manufacturingYear: year, modelYear: year,
+  yearInTitle: year.optional(),
   mileage: z.number().int().nonnegative().nullable(),
   fuel: text, transmission: text, color: text, body: text,
   doors: z.number().int().min(1).max(8).nullable(),
@@ -40,7 +41,8 @@ export const vehicleSchema = z.object({
   issues: z.array(z.string()),
 });
 export const catalogSchema = z.array(vehicleSchema).superRefine((vehicles, ctx) => {
-  for (const field of ['id', 'slug', 'sourceUrl'] as const) {
+  // Several distinct home-page cards can share the same source page.
+  for (const field of ['id', 'slug'] as const) {
     if (new Set(vehicles.map(v => v[field])).size !== vehicles.length) {
       ctx.addIssue({code: 'custom', message: `${field} duplicado no catálogo`});
     }

@@ -1,0 +1,45 @@
+{
+  "entries": 46,
+  "uniqueSourcePhotoUrls": 46,
+  "downloadedVehiclePhotos": 46,
+  "sourceHtmlAvailable": true,
+  "completeInventoryVerified": false,
+  "completeVehicleGalleriesVerified": false,
+  "warnings": [
+    {
+      "id": "origem-home-03",
+      "title": "BYD YUAN PLUS ELÉTRICO 2027  0KM | À PRONTA ENTREGA | EMPLACADA  R$ 264.800,00  PARA MAIORES INFORMAÇÕES, CLIQUE NO LINK DA BIO.",
+      "warnings": [
+        "Preço no título difere do botão: R$ 264.800,00 versus R$ 254.800,00"
+      ]
+    },
+    {
+      "id": "origem-home-12",
+      "title": "TIGUAN ALLSPAC R-LINE 300 TSI 2024",
+      "warnings": [
+        "Descrição termina com reticências na origem; pode estar incompleta."
+      ]
+    },
+    {
+      "id": "origem-home-17",
+      "title": "JEEP COMMANDER 1.3T 2023 OVERLAND",
+      "warnings": [
+        "Descrição termina com reticências na origem; pode estar incompleta."
+      ]
+    },
+    {
+      "id": "origem-home-28",
+      "title": "JEEP COMPASS LONGITUDE 2.0 DIESEL 2021",
+      "warnings": [
+        "Descrição termina com reticências na origem; pode estar incompleta."
+      ]
+    },
+    {
+      "id": "origem-home-42",
+      "title": "CHEVROLET CRUZE LT 1.8  AUT 2016",
+      "warnings": [
+        "Descrição termina com reticências na origem; pode estar incompleta."
+      ]
+    }
+  ]
+}

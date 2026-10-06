@@ -34,7 +34,7 @@ const isDemo = dealership.demo || noindex;
  </head>
  <body style={{'--bronze':dealership.accent}}>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-  {dealership.demo && <div class="demo-notice"><span>Proposta de novo site</span><span class="demo-divider">·</span><span>Catálogo e contatos aguardando confirmação</span></div>}
+  {dealership.demo && <div class="demo-notice"><span>Demonstração de redesign</span><span class="demo-divider">·</span><span>{dealership.catalogStatus === 'awaiting-source' ? 'Catálogo e contatos aguardando confirmação' : 'Confirme disponibilidade e valores com a loja'}</span></div>}
   <header class="site-header">
    <div class="container header-inner">
     <a href={path()} class="wordmark" aria-label="Auto Cass, início">{dealership.logo ? <img class="brand-logo" src={path(dealership.logo)} alt={dealership.name} width="160" height="40"/> : <>AUTO <strong>CASS</strong><span class="wordmark-point"></span></>}</a>
@@ -44,7 +44,7 @@ const isDemo = dealership.demo || noindex;
    </div>
   </header>
   <dialog class="mobile-menu" data-menu aria-label="Navegação">
-   <div class="mobile-menu-top"><span class="wordmark">AUTO <strong>CASS</strong></span><button class="icon-button" type="button" aria-label="Fechar menu" data-menu-close><Icon name="close"/></button></div>
+   <div class="mobile-menu-top"><span class="wordmark">{dealership.logo ? <img class="brand-logo" src={path(dealership.logo)} alt={dealership.name} width="150" height="50"/> : <>AUTO <strong>CASS</strong></>}</span><button class="icon-button" type="button" aria-label="Fechar menu" data-menu-close><Icon name="close"/></button></div>
    <nav aria-label="Navegação móvel"><a href={path()}>Início</a>{navigation.map(([label,url]) => <a href={path(url)}>{label}<Icon/></a>)}</nav>
    <p class="eyebrow">Uma escolha à altura.</p>
   </dialog>

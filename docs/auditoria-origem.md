@@ -1,4 +1,4 @@
-# Auditoria da origem
+# Auditoria da origem — histórico da tentativa online
 
 Observação: 05/10/2026, 20:25:04 BRT (America/Sao_Paulo).
 Fonte: https://www.autocass.com.br/
@@ -20,3 +20,7 @@ Nenhum problema visual, métrica Lighthouse, taxa de conversão ou quantidade to
 ## Dependências
 
 Liberar www.autocass.com.br e autocass.com.br no acesso à internet do ambiente; depois executar npm run audit:source -- --refresh. Se a origem mantiver uma falha real de TLS, aguardar sua correção ou receber exportação do estoque e fotos. Não desativar validação TLS.
+
+## Conteúdo posteriormente fornecido pelo usuário
+
+Em 06/10/2026 UTC foi importado o pacote com a home salva em 05/10/2026, 46 anúncios, 46 fotografias e contatos. Esta tentativa online anterior não é mais bloqueio para esse conteúdo. A origem não foi usada para complementar campos ausentes ou atestar estoque/galerias integrais. Consulte `docs/relatorio-migracao.md` para os resultados atuais.

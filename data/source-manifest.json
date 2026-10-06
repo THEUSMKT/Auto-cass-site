@@ -1,1 +1,254 @@
-{"source":"https://www.autocass.com.br/","collectedAt":null,"complete":false,"status":"network-blocked","pages":[],"vehicles":[],"counts":{"discovered":null,"detailsRead":0,"imported":0,"uniquePhotosDiscovered":null,"downloaded":0,"validPhotos":0},"issues":["Proxy do ambiente recusou CONNECT com HTTP 403 antes de alcançar a origem; não foi possível confirmar estoque nem contatos."]}
+{
+  "source": "https://www.autocass.com.br/",
+  "collectedAt": "2026-10-06T00:18:17.597Z",
+  "complete": false,
+  "status": "partial",
+  "pages": [
+    {
+      "url": "https://www.autocass.com.br/",
+      "evidence": "HTML fornecido pelo usuário",
+      "savedDate": "2026-10-05"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "origem-home-01",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-02",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-03",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-04",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-05",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-06",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-07",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-08",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-09",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-10",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-11",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-12",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-13",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-14",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-15",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-16",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-17",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-18",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-19",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-20",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-21",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-22",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-23",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-24",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-25",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-26",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-27",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-28",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-29",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-30",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-31",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-32",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-33",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-34",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-35",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-36",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-37",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-38",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-39",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-40",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-41",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-42",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-43",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-44",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-45",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    },
+    {
+      "id": "origem-home-46",
+      "sourceUrl": "https://www.autocass.com.br/",
+      "collectedAt": "2026-10-06T00:18:17.597Z"
+    }
+  ],
+  "counts": {
+    "discovered": 46,
+    "detailsRead": 0,
+    "imported": 46,
+    "uniquePhotosDiscovered": 46,
+    "downloaded": 46,
+    "validPhotos": 46
+  },
+  "issues": []
+}
