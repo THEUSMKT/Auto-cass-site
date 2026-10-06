@@ -1,5 +1,5 @@
 import type {Vehicle} from '../lib/model';
-import {filterCatalog, filterKeys, normalize, pageSize} from '../lib/catalog';
+import {filterCatalog, filterKeys, normalize, pageSize, reconcileBrandModel} from '../lib/catalog';
 import {base, path} from '../lib/paths';
 import {track} from './global';
 
@@ -27,11 +27,15 @@ if (root) {
   const select = form.elements.namedItem('model') as HTMLSelectElement | null;
   if (!select) return;
   const current = select.value;
-  const models = [...new Set(vehicles.filter(v=>!selectedBrand || normalize(v.brand??'')===normalize(selectedBrand)).map(v=>v.model).filter(v=>v!==null))].sort();
+  const models = [...new Set(vehicles.filter(v=>!selectedBrand || normalize(v.brand??'')===normalize(selectedBrand)).map(v=>v.model).filter(v=>v!==null))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
   select.replaceChildren(new Option('Todos',''),...models.map(model=>new Option(model,model)));
   select.value = models.includes(current) ? current : '';
  };
  function render() {
+  const reconciled=reconcileBrandModel(vehicles,p);
+  if(reconciled.toString()!==p.toString()){
+   p=reconciled;history.replaceState({},'',`${location.pathname}${p.size?`?${p}`:''}`);
+  }
   search.value = p.get('q') ?? '';
   sort.value = p.get('sort') ?? 'default';
   for (const key of filterKeys.filter(k=>k!=='q')) {

@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {filterCatalog,whatsappUrl,safeInventoryReturn,kilometers,money,effectiveYear} from '../src/lib/catalog.ts';
+import {filterCatalog,whatsappUrl,safeInventoryReturn,kilometers,money,effectiveYear,reconcileBrandModel} from '../src/lib/catalog.ts';
 import {catalogSchema,dealershipSchema} from '../src/lib/model.ts';
 import {makeVehicle} from './fixture-data.ts';
 
@@ -10,6 +10,15 @@ test('busca ignora caixa/acentos e combina filtros sem incluir valores ausentes'
  assert.equal(filterCatalog(vehicles,new URLSearchParams('minPrice=0')).some(v=>v.price===null),false);
  assert.equal(filterCatalog(vehicles,new URLSearchParams('minYear=2024')).length,0);
  assert.equal(filterCatalog(vehicles,new URLSearchParams('q=inexistente')).length,0);
+});
+test('troca de marca e URL incompatível limpam apenas o modelo dependente',()=>{
+ const vehicles=[{...makeVehicle(1),brand:'Volkswagen',model:'Tiguan'},{...makeVehicle(2),brand:'Toyota',model:'Hilux'}];
+ const valid=reconcileBrandModel(vehicles,new URLSearchParams('brand=volkswagen&model=tiguan&q=tsi&maxPrice=400000'));
+ assert.equal(valid.get('brand'),'Volkswagen');assert.equal(valid.get('model'),'Tiguan');
+ const changed=reconcileBrandModel(vehicles,new URLSearchParams('brand=Toyota&model=Tiguan&q=diesel&maxPrice=300000&page=4'));
+ assert.equal(changed.get('brand'),'Toyota');assert.equal(changed.has('model'),false);assert.equal(changed.has('page'),false);
+ assert.equal(changed.get('q'),'diesel');assert.equal(changed.get('maxPrice'),'300000');
+ assert.deepEqual(filterCatalog(vehicles,changed).map(v=>v.id),[]);
 });
 test('preços ausentes ficam no fim em ambas as direções; removidos não aparecem',()=>{
  const vehicles=[makeVehicle(1),makeVehicle(2),makeVehicle(3),{...makeVehicle(4),status:'removed' as const}];

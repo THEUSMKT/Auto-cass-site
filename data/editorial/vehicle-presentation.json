@@ -1,0 +1,324 @@
+[
+  {
+    "id": "origem-home-01",
+    "titleRaw": "PORSCHE CAYENNE S COUPE 3.0 V6 HÍBRIDO 2026",
+    "brand": "Porsche",
+    "model": "Cayenne",
+    "title": "Porsche Cayenne S Coupé 3.0 V6 Híbrido 2026"
+  },
+  {
+    "id": "origem-home-02",
+    "titleRaw": "TIGUAN R-LINE 2.0 350 TSI 2026 | 0KM | À PRONTA ENTREGA",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "title": "Volkswagen Tiguan R-Line 2.0 350 TSI 2026"
+  },
+  {
+    "id": "origem-home-03",
+    "titleRaw": "BYD YUAN PLUS ELÉTRICO 2027  0KM | À PRONTA ENTREGA | EMPLACADA  R$ 264.800,00  PARA MAIORES INFORMAÇÕES, CLIQUE NO LINK DA BIO.",
+    "brand": "BYD",
+    "model": "Yuan Plus",
+    "title": "BYD Yuan Plus Elétrico 2027"
+  },
+  {
+    "id": "origem-home-04",
+    "titleRaw": "PORSCHE MACAN 2.0 TURBO GASOLINA 2020",
+    "brand": "Porsche",
+    "model": "Macan",
+    "title": "Porsche Macan 2.0 Turbo Gasolina 2020"
+  },
+  {
+    "id": "origem-home-05",
+    "titleRaw": "BMW X2 XDRIVE 20I M SPORT 2.0T 2024",
+    "brand": "BMW",
+    "model": "X2",
+    "title": "BMW X2 xDrive 20i M Sport 2.0T 2024"
+  },
+  {
+    "id": "origem-home-06",
+    "titleRaw": "HILUX SW4 SRX PLATINUM 4X4 TB DIESEL AUT 2024",
+    "brand": "Toyota",
+    "model": "Hilux SW4",
+    "title": "Toyota Hilux SW4 SRX Platinum 4x4 TB Diesel Aut. 2024"
+  },
+  {
+    "id": "origem-home-07",
+    "titleRaw": "VELAR R-DYNAMIC SE 3.0 AUT HÍBRIDO 2021",
+    "brand": "Land Rover",
+    "model": "Range Rover Velar",
+    "title": "Land Rover Range Rover Velar R-Dynamic SE 3.0 Aut. Híbrido 2021"
+  },
+  {
+    "id": "origem-home-08",
+    "titleRaw": "TIGGO 2027 5X PRO 0KM EMPLACADA 1.5 |",
+    "brand": "CAOA Chery",
+    "model": "Tiggo 5X",
+    "title": "CAOA Chery Tiggo 5X Pro 1.5 2027"
+  },
+  {
+    "id": "origem-home-09",
+    "titleRaw": "BYD SONG PLUS 1.5 AUT HÍBRIDO 2025",
+    "brand": "BYD",
+    "model": "Song Plus",
+    "title": "BYD Song Plus 1.5 Aut. Híbrido 2025"
+  },
+  {
+    "id": "origem-home-10",
+    "titleRaw": "BMW X1 SDRIVE 20i MSPORT 2.0T 2022",
+    "brand": "BMW",
+    "model": "X1",
+    "title": "BMW X1 sDrive 20i M Sport 2.0T 2022"
+  },
+  {
+    "id": "origem-home-11",
+    "titleRaw": "HILUX SRV CD 4X4 2.8T DIESEL AUT 2021",
+    "brand": "Toyota",
+    "model": "Hilux",
+    "title": "Toyota Hilux SRV CD 4x4 2.8T Diesel Aut. 2021"
+  },
+  {
+    "id": "origem-home-12",
+    "titleRaw": "TIGUAN ALLSPAC R-LINE 300 TSI 2024",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "title": "Volkswagen Tiguan Allspace R-Line 300 TSI 2024"
+  },
+  {
+    "id": "origem-home-13",
+    "titleRaw": "RANGER LIMITED 3.0 DIESEL 4X4 AUT 2025",
+    "brand": "Ford",
+    "model": "Ranger",
+    "title": "Ford Ranger Limited 3.0 Diesel 4x4 Aut. 2025"
+  },
+  {
+    "id": "origem-home-14",
+    "titleRaw": "MAVERICK LARIAT BLACK 2.0 AUT 2025",
+    "brand": "Ford",
+    "model": "Maverick",
+    "title": "Ford Maverick Lariat Black 2.0 Aut. 2025"
+  },
+  {
+    "id": "origem-home-15",
+    "titleRaw": "TIGGO 8 PRO 1.5T PHEV AUT 2024",
+    "brand": "CAOA Chery",
+    "model": "Tiggo 8",
+    "title": "CAOA Chery Tiggo 8 Pro 1.5T PHEV Aut. 2024"
+  },
+  {
+    "id": "origem-home-16",
+    "titleRaw": "TIGGO 7 PRO MAX DRIVE 1.5T HIBRIDO 2025",
+    "brand": "CAOA Chery",
+    "model": "Tiggo 7",
+    "title": "CAOA Chery Tiggo 7 Pro Max Drive 1.5T Híbrido 2025"
+  },
+  {
+    "id": "origem-home-17",
+    "titleRaw": "JEEP COMMANDER 1.3T 2023 OVERLAND",
+    "brand": "Jeep",
+    "model": "Commander",
+    "title": "Jeep Commander Overland 1.3T 2023"
+  },
+  {
+    "id": "origem-home-18",
+    "titleRaw": "TORO ULTRA 1.3T 4X2 FLEX AUT 2022",
+    "brand": "Fiat",
+    "model": "Toro",
+    "title": "Fiat Toro Ultra 1.3T 4x2 Flex Aut. 2022"
+  },
+  {
+    "id": "origem-home-19",
+    "titleRaw": "COROLLA CROSS XRX 1.8 AUT HÍBRIDA 2024",
+    "brand": "Toyota",
+    "model": "Corolla Cross",
+    "title": "Toyota Corolla Cross XRX 1.8 Aut. Híbrida 2024"
+  },
+  {
+    "id": "origem-home-20",
+    "titleRaw": "TIGGO 5X PRO 1.5T FLEX 2023",
+    "brand": "CAOA Chery",
+    "model": "Tiggo 5X",
+    "title": "CAOA Chery Tiggo 5X Pro 1.5T Flex 2023"
+  },
+  {
+    "id": "origem-home-21",
+    "titleRaw": "TIGGO 5X PRO 1.5 TURBO FLEX 2023",
+    "brand": "CAOA Chery",
+    "model": "Tiggo 5X",
+    "title": "CAOA Chery Tiggo 5X Pro 1.5 Turbo Flex 2023"
+  },
+  {
+    "id": "origem-home-22",
+    "titleRaw": "HR-V EXL 1.5 2023",
+    "brand": "Honda",
+    "model": "HR-V",
+    "title": "Honda HR-V EXL 1.5 2023"
+  },
+  {
+    "id": "origem-home-23",
+    "titleRaw": "S10 PICK-UP ADVANTAGE 2.5 FLEX MANUAL 4X2 CD 2019",
+    "brand": "Chevrolet",
+    "model": "S10",
+    "title": "Chevrolet S10 Pick-up Advantage 2.5 Flex Manual 4x2 CD 2019"
+  },
+  {
+    "id": "origem-home-24",
+    "titleRaw": "KICKS ADVANCE CVT 1.6 FLEX AUT 2024",
+    "brand": "Nissan",
+    "model": "Kicks",
+    "title": "Nissan Kicks Advance CVT 1.6 Flex Aut. 2024"
+  },
+  {
+    "id": "origem-home-25",
+    "titleRaw": "TRACKER PREMIER 1.2T FLEX AUT 2022",
+    "brand": "Chevrolet",
+    "model": "Tracker",
+    "title": "Chevrolet Tracker Premier 1.2T Flex Aut. 2022"
+  },
+  {
+    "id": "origem-home-26",
+    "titleRaw": "EQUINOX  PREMIER 2.0T AWD AUT 2019",
+    "brand": "Chevrolet",
+    "model": "Equinox",
+    "title": "Chevrolet Equinox Premier 2.0T AWD Aut. 2019"
+  },
+  {
+    "id": "origem-home-27",
+    "titleRaw": "T-CROSS HIGHLINE 250 TSI 1.4 2020",
+    "brand": "Volkswagen",
+    "model": "T-Cross",
+    "title": "Volkswagen T-Cross Highline 250 TSI 1.4 2020"
+  },
+  {
+    "id": "origem-home-28",
+    "titleRaw": "JEEP COMPASS LONGITUDE 2.0 DIESEL 2021",
+    "brand": "Jeep",
+    "model": "Compass",
+    "title": "Jeep Compass Longitude 2.0 Diesel 2021"
+  },
+  {
+    "id": "origem-home-29",
+    "titleRaw": "HR-V EX 1.8 FLEX AUT 2017",
+    "brand": "Honda",
+    "model": "HR-V",
+    "title": "Honda HR-V EX 1.8 Flex Aut. 2017"
+  },
+  {
+    "id": "origem-home-30",
+    "titleRaw": "COMPASS LONGITUDE 2.0 FLEX 4X2 AUT 2017",
+    "brand": "Jeep",
+    "model": "Compass",
+    "title": "Jeep Compass Longitude 2.0 Flex 4x2 Aut. 2017"
+  },
+  {
+    "id": "origem-home-31",
+    "titleRaw": "POLO SENSE TSI AUT 2025 1.0",
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "title": "Volkswagen Polo Sense TSI Aut. 1.0 2025"
+  },
+  {
+    "id": "origem-home-32",
+    "titleRaw": "RENEGADE LONGITUDE 2.0 4X4 TB DIESEL 2019",
+    "brand": "Jeep",
+    "model": "Renegade",
+    "title": "Jeep Renegade Longitude 2.0 4x4 TB Diesel 2019"
+  },
+  {
+    "id": "origem-home-33",
+    "titleRaw": "COMPASS TRAILHAWK 2.0 4X4 DIESEL AUT 2017",
+    "brand": "Jeep",
+    "model": "Compass",
+    "title": "Jeep Compass Trailhawk 2.0 4x4 Diesel Aut. 2017"
+  },
+  {
+    "id": "origem-home-34",
+    "titleRaw": "TORO FREEDOM 1.8 FLEX AUT 2021",
+    "brand": "Fiat",
+    "model": "Toro",
+    "title": "Fiat Toro Freedom 1.8 Flex Aut. 2021"
+  },
+  {
+    "id": "origem-home-35",
+    "titleRaw": "SPORTAGE EX 2.0 AUT 2014",
+    "brand": "Kia",
+    "model": "Sportage",
+    "title": "Kia Sportage EX 2.0 Aut. 2014"
+  },
+  {
+    "id": "origem-home-36",
+    "titleRaw": "CITY LX 1.5 AUT 2018",
+    "brand": "Honda",
+    "model": "City",
+    "title": "Honda City LX 1.5 Aut. 2018"
+  },
+  {
+    "id": "origem-home-37",
+    "titleRaw": "CIVIC EXR 2.0 FLEX 2014",
+    "brand": "Honda",
+    "model": "Civic",
+    "title": "Honda Civic EXR 2.0 Flex 2014"
+  },
+  {
+    "id": "origem-home-38",
+    "titleRaw": "JEEP COMPASS LONGITUDE 2.0 FLEX 2017",
+    "brand": "Jeep",
+    "model": "Compass",
+    "title": "Jeep Compass Longitude 2.0 Flex 2017"
+  },
+  {
+    "id": "origem-home-39",
+    "titleRaw": "IX35 GLS 2.0 FLEX AUT 2015",
+    "brand": "Hyundai",
+    "model": "ix35",
+    "title": "Hyundai ix35 GLS 2.0 Flex Aut. 2015"
+  },
+  {
+    "id": "origem-home-40",
+    "titleRaw": "RENEGADE SPORT 1.8 FLEX MANUAL 2016",
+    "brand": "Jeep",
+    "model": "Renegade",
+    "title": "Jeep Renegade Sport 1.8 Flex Manual 2016"
+  },
+  {
+    "id": "origem-home-41",
+    "titleRaw": "CAPTUR INTENSE 2.0 AUTOMÁTICO 2020",
+    "brand": "Renault",
+    "model": "Captur",
+    "title": "Renault Captur Intense 2.0 Automático 2020"
+  },
+  {
+    "id": "origem-home-42",
+    "titleRaw": "CHEVROLET CRUZE LT 1.8  AUT 2016",
+    "brand": "Chevrolet",
+    "model": "Cruze",
+    "title": "Chevrolet Cruze LT 1.8 Aut. 2016"
+  },
+  {
+    "id": "origem-home-43",
+    "titleRaw": "PRISMA LTZ 1.4 FLEX MANUAL 2017",
+    "brand": "Chevrolet",
+    "model": "Prisma",
+    "title": "Chevrolet Prisma LTZ 1.4 Flex Manual 2017"
+  },
+  {
+    "id": "origem-home-44",
+    "titleRaw": "ECOSPORT TITANIUM 2.0 AUT 2014",
+    "brand": "Ford",
+    "model": "EcoSport",
+    "title": "Ford EcoSport Titanium 2.0 Aut. 2014"
+  },
+  {
+    "id": "origem-home-45",
+    "titleRaw": "SAVEIRO CE 1.6 2015 TRENDLINE",
+    "brand": "Volkswagen",
+    "model": "Saveiro",
+    "title": "Volkswagen Saveiro CE 1.6 Trendline 2015"
+  },
+  {
+    "id": "origem-home-46",
+    "titleRaw": "KWID ZEN 1.0 FLEX MANUAL 2021",
+    "brand": "Renault",
+    "model": "Kwid",
+    "title": "Renault Kwid Zen 1.0 Flex Manual 2021"
+  }
+]

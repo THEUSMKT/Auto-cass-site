@@ -55,3 +55,7 @@ Use `featuredIds` para selecionar veículos reais, sem alegar mais vendidos. O i
 O extrator de auditoria online reúne páginas, links e imagens para revisão. O adaptador `prepare-home-import.mjs` foi validado especificamente contra a home fornecida neste pacote. Não há coleta validada de fichas externas, galerias integrais ou estoque atual completo. Dados adicionais precisam de fontes associadas a cada ID e nova revisão; nunca substitua as pendências por suposições.
 
 A cópia arquivada do HTML foi sanitizada para remover scripts, manipuladores de eventos e credenciais de integrações antigas. Os 46 títulos, descrições, preços e associações de fotos foram novamente comparados e preservados. O checksum original do arquivo fornecido e o checksum da cópia sanitizada ficam em `associations.json`; o ZIP original permanece fora do repositório.
+
+## Apresentação revisada
+
+A classificação de marcas e modelos foi autorizada pelo usuário e está em `data/editorial/vehicle-presentation.json`. O adaptador usa essa tabela para evitar regressão dos nomes e filtros; se o título literal de um ID mudar, ele exige revisão da linha correspondente. `node scripts/refine-catalog.mjs` reaplica apresentação/caixa de equipamentos ao catálogo atual, verificando que todos os outros campos permanecem idênticos. A revisão editorial não confirma dados ausentes ou resolve preços conflitantes.

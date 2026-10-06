@@ -1,0 +1,126 @@
+/* Readability refinements preserve the existing palette, photography and hierarchy. */
+:root{--muted:#565e54}
+body{font-size:16px}
+input::placeholder{color:var(--muted);opacity:1}
+.eyebrow{font-size:14px;letter-spacing:.08em}
+.button,.text-link,.header-contact,.desktop-nav{font-size:14px}
+.demo-notice{font-size:14px;line-height:1.5;letter-spacing:0;flex-wrap:wrap;padding:10px var(--space)}
+.hero-copy .eyebrow{font-size:14px;letter-spacing:.08em}
+.hero-description{font-size:16px;line-height:1.75;max-width:430px}
+.hero-text-link{display:flex;width:fit-content;margin:15px 0 0;font-size:14px}
+.hero-bottom{font-size:14px;flex-wrap:wrap;gap:12px}
+.hero-bottom a{min-height:44px;align-items:center}
+.hero-caption small,.hero-caption span span{font-size:14px}
+.hero-caption strong{font-size:21px;line-height:1.4}
+.editorial-number,.editorial-bottom{font-size:14px}
+.quick-search .eyebrow,.section-heading .eyebrow{font-size:14px}
+.quick-search form{min-width:0}
+.search-input input,.inventory-search input{font-size:16px}
+.vehicle-card-content .eyebrow{font-size:14px}
+.vehicle-card h3{font-size:21px;font-weight:600;line-height:1.4;letter-spacing:-.025em}
+.vehicle-version,.vehicle-meta,.vehicle-card-bottom>span,.section-note{font-size:14px;line-height:1.65}
+.vehicle-card-bottom strong{font-size:23px}
+.image-arrow{width:44px;height:44px}
+.vehicle-card-image img,.gallery-main>img{object-fit:contain}
+.empty-catalog>p:last-of-type,.service-grid p,.story-copy>p,.about-copy>p:not(.eyebrow){font-size:16px;line-height:1.75}
+.story-principles,.story-principles strong{font-size:14px}
+.footer-signature,.footer-links,.footer-contact,.footer-contact p,.footer-bottom{font-size:14px}
+.footer-links .eyebrow,.footer-contact .eyebrow{font-size:14px}
+.footer-links{gap:4px}
+.footer-links a,.footer-bottom a,.social-links a{display:inline-flex;align-items:center;min-height:44px}
+.footer-bottom{align-items:center;flex-wrap:wrap}
+.breadcrumb{font-size:14px;line-height:1.65}
+.breadcrumb a{display:inline-flex;align-items:center;min-height:44px}
+.breadcrumb>span:last-child{overflow-wrap:anywhere}
+.intro-row>p{font-size:16px;line-height:1.75}
+.inventory-layout{grid-template-columns:250px minmax(0,1fr);gap:32px}
+.inventory-search button{width:44px;min-width:44px;height:48px}
+.sort-control{font-size:14px;gap:8px}
+.sort-control select{font-size:16px;min-height:48px;max-width:225px}
+.filter-heading h2{font-size:20px}
+.filter-panel label,.filter-panel legend,.filter-range label,.filter-reset,.filter-note{font-size:14px}
+.filter-panel input,.filter-panel select{font-size:16px;min-height:48px}
+.filter-panel .button,.filter-open{font-size:14px}
+.filter-range{gap:8px}
+.filter-chip{font-size:14px;min-height:44px}
+.results-top>p,.noscript-note{font-size:14px}
+.pagination a{width:44px;height:44px;font-size:16px}
+.about-art small{font-size:14px;letter-spacing:.08em;color:var(--muted)}
+.photo-unavailable,.gallery-unavailable{font-size:14px;color:var(--muted)}
+.contact-pending p,.contact-aside>p:not(.eyebrow),.opening-hours h4,.opening-hours p,.social-links{font-size:16px}
+.contact-option small{font-size:14px}
+.contact-aside h3{font-size:clamp(24px,2.4vw,32px);line-height:1.4;overflow-wrap:anywhere}
+.detail-grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);grid-template-areas:"gallery title" "gallery summary";gap:12px 40px}
+.detail-gallery{grid-area:gallery;min-width:0}
+.detail-title{grid-area:title;min-width:0;padding-top:12px}
+.detail-summary{grid-area:summary}
+.detail-title .eyebrow{color:var(--bronze-dark);margin-bottom:12px}
+.detail-title h1{font-size:clamp(32px,3.5vw,44px);line-height:1.25;overflow-wrap:anywhere}
+.back-link,.detail-heading .text-link,.detail-version,.photo-note,.commercial-note,.contact-verification-note{font-size:14px}
+.detail-key-specs span{font-size:14px}
+.detail-key-specs strong{font-size:16px}
+.detail-summary .button{font-size:14px;min-height:56px;line-height:1.5}
+.detail-price{font-size:36px}
+.specifications>div,.vehicle-description,.vehicle-features{font-size:16px;line-height:1.7}
+.specifications>div{flex-wrap:wrap;gap:5px 15px}
+.specifications dd{margin-left:auto}
+.vehicle-features li{align-items:flex-start}
+.vehicle-features svg{margin-top:5px;flex-shrink:0}
+.gallery-counter,.gallery-expand,.gallery-main .gallery-expand{font-size:14px;min-height:44px;display:inline-flex;align-items:center}
+.gallery-counter{padding:8px 12px}
+.lightbox-top,.lightbox-count{font-size:16px}
+.lightbox-top>span{overflow-wrap:anywhere;min-width:0}
+.lightbox-top .icon-button{flex-shrink:0}
+
+@media(max-width:1100px){
+ .quick-search{display:block}
+ .quick-search form{max-width:none;margin-top:20px}
+ .detail-grid{gap:12px 28px}
+ .inventory-toolbar{flex-wrap:wrap;gap:16px}
+}
+@media(min-width:641px) and (max-width:1000px){
+ .vehicle-grid,.inventory-results .vehicle-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:900px){
+ .detail-grid{grid-template-columns:minmax(0,1fr);grid-template-areas:"title" "gallery" "summary";gap:24px}
+ .detail-summary{position:static}
+ .inventory-layout{display:block}
+ .filter-open{min-height:48px}
+}
+@media(max-width:640px){
+ .demo-notice{font-size:14px;padding:10px 18px;gap:3px 7px}
+ .hero-copy .eyebrow,.section-heading .eyebrow,.about-copy .eyebrow{font-size:14px}
+ .hero-description,.story-copy>p{font-size:16px}
+ .hero-text-link{display:flex;margin:14px 0 0;font-size:14px}
+ .hero-bottom{font-size:14px;align-items:flex-start;flex-direction:column;gap:0}
+ .search-input input{font-size:16px}
+ .section-heading .text-link{font-size:14px}
+ .vehicle-card h3{font-size:21px}
+ .vehicle-card-bottom strong{font-size:23px}
+ .vehicle-card-bottom>span{font-size:14px}
+ .empty-catalog .eyebrow{font-size:14px}
+ .empty-catalog>p:last-of-type{font-size:16px}
+ .footer-signature,.footer-links,.footer-contact,.footer-contact p,.footer-bottom{font-size:14px}
+ .footer-top{grid-template-columns:minmax(0,1fr)}
+ .footer-top>div:first-child{grid-column:auto}
+ .footer-bottom>span:nth-child(2){flex:auto;text-align:left}
+ .footer-bottom>a{width:auto}
+ .breadcrumb{font-size:14px}
+ .intro-row>p{font-size:16px}
+ .sort-control{font-size:14px;flex:1;flex-basis:auto;flex-direction:column;align-items:flex-end;min-width:0}
+ .sort-control select{font-size:14px;max-width:100%;width:190px;padding-inline:5px}
+ .filter-chip{font-size:14px}
+ .detail-heading .text-link,.back-link{font-size:14px}
+ .detail-title h1{font-size:34px}
+ .detail-summary .button{font-size:14px}
+ .detail-key-specs span{font-size:14px}
+ .detail-key-specs strong{font-size:16px}
+ .specifications>div{font-size:16px}
+ .lightbox-top{font-size:14px}
+ .mobile-interest{min-height:88px;padding:12px 14px;gap:12px;align-items:center}
+ .mobile-interest>span{flex:1;min-width:0}
+ .mobile-interest small{font-size:14px;max-width:none;white-space:normal;overflow:visible;text-overflow:clip}
+ .mobile-interest strong{font-size:16px;line-height:1.5}
+ .mobile-interest .button{font-size:14px;min-height:48px;padding:12px;gap:8px}
+ body:has(.mobile-interest){padding-bottom:112px}
+}

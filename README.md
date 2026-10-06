@@ -2,7 +2,7 @@
 
 Site estático em **Astro + TypeScript**, preparado para GitHub Pages em `/Auto-cass-site/`. A proposta visual utiliza grafite, branco quente, bronze e o logo recuperado da origem.
 
-**Estado da entrega:** 46 anúncios e 46 fotografias locais importados do pacote do usuário e conferidos contra a home salva em 05/10/2026. Cada anúncio possui página própria, equipamentos e WhatsApp contextual. Telefone, e-mail, endereço, redes e logo vieram do HTML; nenhuma mensagem foi enviada para testar o destinatário. O BYD Yuan Plus mostra **“Consulte o valor”** por divergência de preços. O site continua como demonstração com `noindex`: os 46 anúncios não comprovam o estoque atual integral, e uma foto por anúncio não comprova galerias completas. Campos ausentes permanecem ausentes.
+**Estado da entrega:** 46 anúncios e 46 fotografias locais importados do pacote do usuário e conferidos contra a home salva em 05/10/2026. Cada anúncio possui página própria, equipamentos e WhatsApp contextual. Todos estão classificados entre 16 marcas, com nomes revisados e filtros de marca/modelo compatíveis; veja [o relatório do refinamento](docs/refinamento.md). Telefone, e-mail, endereço, redes e logo vieram do HTML; nenhuma mensagem foi enviada para testar o destinatário. O BYD Yuan Plus mostra **“Consulte o valor”** por divergência de preços. O site continua como demonstração com `noindex`: os 46 anúncios não comprovam o estoque atual integral, e uma foto por anúncio não comprova galerias completas. Campos ausentes permanecem ausentes.
 
 ## Desenvolvimento
 

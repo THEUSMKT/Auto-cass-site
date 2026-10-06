@@ -3,6 +3,7 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import sharp from 'sharp';
+import {presentEquipment} from '../src/lib/presentation.ts';
 
 // Adapter for the user-supplied saved home. It reads HTML as data; no scripts run.
 const packagePath = process.argv[2];
@@ -12,6 +13,7 @@ const readJson = async name => JSON.parse(await readFile(path.join(root, 'data',
 const source = await readJson('vehicles-source.json');
 const contacts = await readJson('dealership-source.json');
 const report = await readJson('import-report.json');
+const editorial=JSON.parse(await readFile(new URL('../data/editorial/vehicle-presentation.json',import.meta.url),'utf8'));
 const html = await readFile(path.join(root, 'sources/Home.html'), 'utf8');
 const $ = load(html);
 const clean = text => text.replace(/\s+/g, ' ').trim();
@@ -44,12 +46,12 @@ for (const raw of source) {
   .replace(/À PRONTA ENTREGA|EMPLACADA/gi, '')
   .replace(/\|/g, ' '));
  const withoutYear = clean(title.replace(/\b(?:19|20)\d{2}\b/g, ''));
- const model = modelNames.find(name => withoutYear.includes(name)) ?? null;
+ const model = modelNames.find(name => new RegExp(`(?:^|\\s)${name}(?:\\s|$)`).test(withoutYear)) ?? null;
  // Brands are filled only where named in the source title, not inferred from a model/photo.
  const brandMatch = title.match(/^(PORSCHE|BMW|BYD|JEEP|CHEVROLET)\b/);
  const brand = brandMatch ? ({PORSCHE:'Porsche', BMW:'BMW', BYD:'BYD', JEEP:'Jeep', CHEVROLET:'Chevrolet'})[brandMatch[1]] : null;
  const descriptionParts = descriptionElement.find('p').toArray().map(el => $(el).text());
- const features = [...new Set((descriptionParts.length ? descriptionParts : [raw.descriptionRaw]).flatMap(text => text.split('|')).map(clean).filter(Boolean))];
+ const features = [...new Set((descriptionParts.length ? descriptionParts : [raw.descriptionRaw]).flatMap(text => text.split('|')).map(clean).filter(Boolean).map(presentEquipment))];
  const equipment = clean(raw.descriptionRaw);
  const transmission = /\bMANUAL\b/i.test(title) || /C[ÂA]MBIO MANUAL/i.test(equipment) ? 'Manual'
   : /\bAUT\b|AUTOM[ÁA]TICO/i.test(title) || /C[ÂA]MBIO (?:AUT\b|AUTOM[ÁA]TICO)/i.test(equipment) ? 'Automático' : null;
@@ -67,6 +69,9 @@ for (const raw of source) {
   description:null, features, specifications:{}, status:'unknown', publishedAt:null, issues,
   photos:[{sourceUrl:photoUrl, file:raw.localPhotos[0]}],
  });
+ const presentation=editorial.find(row=>row.id===raw.id);
+ if(!presentation || presentation.titleRaw!==raw.titleRaw)throw new Error(`Revise a apresentação do anúncio alterado: ${raw.id}`);
+ Object.assign(vehicles.at(-1),{title:presentation.title,brand:presentation.brand,model:presentation.model});
  vehicleEvidence.push({id:raw.id, sourceElementId:raw.sourceElementId, sourceOrder:raw.sourceOrder, sha256:createHash('sha256').update(bytes).digest('hex'), sourceFile:raw.localPhotos[0]});
 }
 // Reconcile contacts against actual links/text, preserving the documented limits.
@@ -94,7 +99,7 @@ const dealership = {
   verifiedAt:'Data da conferência documental nesta importação; não comprova confirmação externa ou envio de mensagem.',
   sourceSavedDate:'2026-10-05; hora do salvamento não informada.',
   logo:'PNG referenciada no HTML, inspecionada visualmente. A JPG principal também é uma imagem da marca, não uma foto da loja.',
-  classification:'Modelo extraído dos tokens do título. Marca só preenchida quando explícita no título; câmbio e combustível apenas quando escritos. Carroceria e demais campos ausentes permanecem nulos.',
+  classification:'Marcas e modelos revisados conforme mapeamento autorizado pelo usuário em data/editorial/vehicle-presentation.json; câmbio e combustível apenas quando escritos. Carroceria e demais campos ausentes permanecem nulos.',
  },
 };
 await mkdir('.cache', {recursive:true});

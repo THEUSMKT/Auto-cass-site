@@ -4,6 +4,21 @@ export const filterKeys = ['q', 'brand', 'model', 'minPrice', 'maxPrice', 'minYe
 export const pageSize = 12;
 export const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR').trim();
 export const effectiveYear = (v: Vehicle) => v.modelYear ?? v.manufacturingYear ?? v.yearInTitle ?? null;
+export function reconcileBrandModel(vehicles: Vehicle[], params: URLSearchParams): URLSearchParams {
+  const result=new URLSearchParams(params);
+  const current=vehicles.filter(v=>!['removed','unavailable'].includes(v.status));
+  const brand=result.get('brand');
+  if(brand){
+    const match=current.find(v=>normalize(v.brand??'')===normalize(brand))?.brand;
+    if(match)result.set('brand',match);else result.delete('brand');
+  }
+  const model=result.get('model');
+  if(model){
+    const match=current.find(v=>(!result.get('brand')||v.brand===result.get('brand'))&&normalize(v.model??'')===normalize(model))?.model;
+    if(match)result.set('model',match);else {result.delete('model');result.delete('page');}
+  }
+  return result;
+}
 export function numberParam(p: URLSearchParams, key: string): number | null {
   const value = p.get(key);
   if (!value?.trim()) return null;

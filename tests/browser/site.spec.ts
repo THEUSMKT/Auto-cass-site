@@ -45,6 +45,75 @@ test('todos os anúncios reais têm URL direta, foto associada e WhatsApp contex
   expect(url.searchParams.get('text')).toContain(vehicle.title);
   expect(url.searchParams.get('text')).toContain(`https://theusmkt.github.io${route}`);
   expect($('dt').map((_i,el)=>$(el).text()).get()).not.toContain('Ano-modelo');
+  expect($('a.source-link').length).toBe(0);expect($('.data-issues').length).toBe(0);
+ }
+});
+test('as 16 marcas reais mostram somente seus modelos e veículos',async({page})=>{
+ test.setTimeout(60000);await page.setViewportSize({width:1280,height:900});await page.goto(`${prefix}estoque/`);
+ const brandSelect=page.getByRole('combobox',{name:'Marca',exact:true});const modelSelect=page.getByRole('combobox',{name:'Modelo',exact:true});
+ const brands=[...new Set(vehicles.map(v=>v.brand!))];await expect(brandSelect.locator('option')).toHaveCount(17);
+ for(const brand of brands){
+  await brandSelect.selectOption(brand);
+  const expected=vehicles.filter(v=>v.brand===brand);
+  const models=[...new Set(expected.map(v=>v.model!))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
+  expect(await modelSelect.locator('option').allTextContents()).toEqual(['Todos',...models]);
+  await page.getByRole('button',{name:'Aplicar filtros'}).click();
+  await expect(page.locator('[data-result-count]')).toHaveText(`${expected.length} ${expected.length===1?'veículo encontrado':'veículos encontrados'}`);
+  expect(await page.locator('[data-vehicle-id]:visible').evaluateAll(cards=>cards.map(card=>(card as HTMLElement).dataset.vehicleId))).toEqual(expected.map(v=>v.id));
+ }
+ await page.getByRole('button',{name:'Limpar filtros',exact:true}).first().click();await expect(page.locator('[data-result-count]')).toHaveText('46 veículos encontrados');
+});
+test('troca de marca e acesso por URL descartam modelo incompatível sem perder preço',async({page})=>{
+ await page.setViewportSize({width:1280,height:900});await page.goto(`${prefix}estoque/?brand=Volkswagen&model=Tiguan&maxPrice=400000`);
+ await expect(page.locator('[data-result-count]')).toHaveText('2 veículos encontrados');
+ await page.getByRole('combobox',{name:'Marca',exact:true}).selectOption('Toyota');
+ await expect(page.getByRole('combobox',{name:'Modelo',exact:true})).toHaveValue('');
+ await page.getByRole('button',{name:'Aplicar filtros'}).click();await expect(page.locator('[data-result-count]')).toHaveText('3 veículos encontrados');
+ expect(new URL(page.url()).searchParams.has('model')).toBe(false);expect(new URL(page.url()).searchParams.get('maxPrice')).toBe('400000');
+ await page.goto(`${prefix}estoque/?brand=Honda&model=Tiguan&maxPrice=400000&page=4`);
+ await expect(page.locator('[data-result-count]')).toHaveText('4 veículos encontrados');expect(new URL(page.url()).searchParams.has('model')).toBe(false);
+ await page.getByRole('searchbox').fill('Fabricante inexistente');await page.getByRole('button',{name:'Buscar veículos',exact:true}).click();
+ await expect(page.locator('[data-filter-empty]')).toBeVisible();await page.locator('[data-filter-empty]').getByRole('button',{name:'Limpar filtros'}).click();
+ await expect(page.locator('[data-result-count]')).toHaveText('46 veículos encontrados');
+});
+test('marca, busca, preço, ano, câmbio e combustível combinam e persistem no retorno',async({page})=>{
+ await page.setViewportSize({width:1280,height:900});await page.goto(`${prefix}estoque/`);
+ await page.getByRole('searchbox').fill('Toyota');await page.getByRole('button',{name:'Buscar veículos',exact:true}).click();
+ await page.getByRole('combobox',{name:'Marca',exact:true}).selectOption('Toyota');await page.getByRole('combobox',{name:'Modelo',exact:true}).selectOption('Hilux');
+ await page.getByLabel('De (R$)').fill('200000');await page.getByLabel('Até (R$)').fill('300000');
+ await page.getByLabel('De',{exact:true}).fill('2021');await page.getByLabel('Até',{exact:true}).fill('2021');
+ await page.getByRole('combobox',{name:'Câmbio',exact:true}).selectOption('Automático');await page.getByRole('combobox',{name:'Combustível',exact:true}).selectOption('Diesel');
+ await page.getByRole('button',{name:'Aplicar filtros'}).click();await expect(page.locator('[data-result-count]')).toHaveText('1 veículo encontrado');
+ await expect(page.locator('[data-vehicle-id]:visible')).toHaveAttribute('data-vehicle-id','origem-home-11');
+ const inventoryUrl=page.url();await page.locator('[data-vehicle-link]:visible').click();await page.reload();await expect(page.locator('h1')).toContainText('Toyota Hilux SRV');
+ await page.getByRole('link',{name:'Voltar ao estoque',exact:true}).click();await expect(page).toHaveURL(inventoryUrl);await expect(page.locator('[data-result-count]')).toHaveText('1 veículo encontrado');
+});
+test('marca real no celular aplica ao confirmar e restaura os 46 anúncios ao limpar',async({page})=>{
+ await page.setViewportSize({width:390,height:844});await page.goto(`${prefix}estoque/`);await page.getByRole('button',{name:'Filtros',exact:true}).click();
+ await page.getByRole('combobox',{name:'Marca',exact:true}).selectOption('Ford');await page.getByRole('combobox',{name:'Modelo',exact:true}).selectOption('Ranger');
+ await expect(page.locator('[data-result-count]')).toHaveText('46 veículos encontrados');await page.getByRole('button',{name:'Aplicar filtros'}).click();
+ await expect(page.locator('[data-result-count]')).toHaveText('1 veículo encontrado');await expect(page.locator('[data-vehicle-id]:visible')).toHaveAttribute('data-vehicle-id','origem-home-13');
+ await page.getByRole('button',{name:'Remover filtro Marca'}).click();await expect(page.locator('[data-result-count]')).toHaveText('46 veículos encontrados');
+});
+test('textos secundários e alvos principais têm tamanho legível no desktop e celular',async({page})=>{
+ for(const width of [360,390,768,1280,1440]){
+  await page.setViewportSize({width,height:900});
+  for(const [route,selectors] of [
+   ['', ['.hero-description','.hero-text-link','.vehicle-meta','.vehicle-card-bottom>span','.footer-bottom','.demo-notice']],
+   ['estoque/', ['.inventory-search input','.sort-control select','[data-result-count]','.vehicle-meta']],
+   [`veiculos/${vehicles[0].slug}/`, ['.commercial-note','.detail-key-specs span','.vehicle-features','.specifications','.photo-note']],
+  ] as const){
+   await page.goto(`${prefix}${route}`);
+   for(const selector of selectors)expect(await page.locator(selector).first().evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(14);
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+   if(route.startsWith('veiculos/')&&width<=640){
+    const title=await page.locator('h1').boundingBox();const bar=await page.locator('.mobile-interest').boundingBox();
+    expect(title!.y+title!.height).toBeLessThan(bar!.y);
+   }
+   for(const selector of ['.menu-toggle','.pagination a','.detail-summary .button'])for(const target of await page.locator(`${selector}:visible`).all()){
+    const rect=await target.boundingBox();expect(rect!.width).toBeGreaterThanOrEqual(44);expect(rect!.height).toBeGreaterThanOrEqual(44);
+   }
+  }
  }
 });
 test('catálogo real mantém entradas semelhantes, filtros por ano e paginação',async({page})=>{
@@ -149,7 +218,7 @@ test('compartilhar usa URL do anúncio sem parâmetros de retorno',async({page,c
  const clipboard=await page.evaluate(()=>navigator.clipboard.readText());expect(clipboard).toBe(`${fixture}${prefix}veiculos/fixture-1/`);
 });
 test('acessibilidade automatizada nas páginas principais e componentes interativos',async({page})=>{
- for(const [origin,route,width] of [['', '',390],['','estoque/',1280],['','contato/',390],[fixture,'veiculos/fixture-1/',390],[fixture,'estoque/',1280]] as const){
+ for(const [origin,route,width] of [['', '',390],['','estoque/',1280],['','sobre/',390],['','contato/',390],['',`veiculos/${vehicles[0].slug}/`,390],[fixture,'veiculos/fixture-1/',390],[fixture,'estoque/',1280]] as const){
   await page.setViewportSize({width,height:900});await page.goto(`${origin}${prefix}${route}`);
   const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
   expect(results.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))).toEqual([]);

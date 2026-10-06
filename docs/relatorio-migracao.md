@@ -24,7 +24,7 @@ Os dados literais estão em `data/imports/home-2026-10-05/vehicles-source.json`,
 - As 46 entradas foram mantidas, inclusive os Tiggo 5X semelhantes (`origem-home-20` e `origem-home-21`), com páginas e fotos diferentes.
 - Ano citado no título ficou em `yearInTitle`, apresentado como **Ano no anúncio**. Fabricação e ano-modelo continuam nulos nos 46 anúncios.
 - Quilometragem zero apenas nos três títulos com `0KM`. As outras 43 quilometragens continuam nulas. Cor, carroceria, portas e motorização estruturada não foram deduzidas.
-- Marca só preenchida quando escrita no título: Porsche, BMW, BYD, Jeep ou Chevrolet. Nos demais anúncios permanece ausente. Modelos foram extraídos dos tokens do título. Câmbio e combustível só classificados a partir de termos explícitos no título/descrição.
+- Na importação inicial, marca foi preenchida apenas quando escrita no título. Na rodada posterior, o usuário autorizou o mapeamento dos modelos para fabricantes; agora todos os 46 anúncios têm marca entre 16 fabricantes. Modelos e títulos foram revisados individualmente. Câmbio e combustível continuam limitados aos termos explícitos da origem. Veja `docs/refinamento.md`.
 - Equipamentos foram separados pelas barras e parágrafos da origem; itens textualmente idênticos foram deduplicados. O texto literal completo permanece no registro de procedência. Trechos terminados em reticências não foram completados.
 - Títulos de apresentação removem preço, chamada para link da bio e chamadas antigas de pronta entrega/emplaçamento; a quilometragem explícita aparece na ficha. Os títulos literais permanecem preservados.
 - Disponibilidade permanece `unknown` para todos. Não há atualização em tempo real, avaliações, garantias ou aprovação de financiamento inventados.
@@ -43,3 +43,5 @@ A PNG foi inspecionada e corresponde ao logo presente no HTML; foi importada par
 O site mantém identificação de demonstração, `noindex, nofollow` e `catalogStatus=partial`. Publicação como canal oficial, confirmação do estoque atual completo, galerias adicionais e resolução do preço do BYD dependem de evidência/aprovação comercial.
 
 A cópia arquivada do HTML foi sanitizada para remover scripts, manipuladores de eventos e credenciais de integrações antigas. Os 46 títulos, descrições, preços e associações de fotos foram novamente comparados e preservados. O checksum original do arquivo fornecido e o checksum da cópia sanitizada ficam em `associations.json`; o ZIP original permanece fora do repositório.
+
+A rodada de refinamento completou marcas, corrigiu três modelos e padronizou a apresentação. Dados técnicos, preços, URLs e fotografias permanecem os mesmos. O texto literal da origem permanece em `data/imports`; a nova apresentação consta de `data/editorial/vehicle-presentation.json`.
