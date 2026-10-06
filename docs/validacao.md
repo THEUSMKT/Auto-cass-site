@@ -30,4 +30,8 @@ A análise automatizada não substitui revisão humana de acessibilidade. Não f
 
 ## Publicação
 
-O workflow existente valida e publica `dist` após push em `main`. A conclusão do deploy e a conferência da versão pública ficam registradas em `docs/publicacao.json`; a validação local por si só não comprova publicação.
+Código da importação publicado em `main`, commit `6b4c5915ac1799d50c665d7786548d4fbfd73faf`. O workflow https://github.com/THEUSMKT/Auto-cass-site/actions/runs/37394193217 repetiu os checks e terminou com build e deploy bem-sucedidos.
+
+URL confirmada: https://theusmkt.github.io/Auto-cass-site/. Foram verificados publicamente os quatro caminhos institucionais e os 46 detalhes (50 páginas HTTP 200), com títulos, canonicals, noindex, associações de fotos e WhatsApp corretos. Os 150 arquivos verificados — 46 fotos originais, 96 derivados WebP, logo, favicon, CSS e JavaScript — respondem HTTP 200 e correspondem aos checksums do build local.
+
+O navegador abriu início, estoque, detalhe do BYD e contato a 390 px, com verificação TLS ativa, todas as imagens carregadas, nenhum overflow horizontal e nenhum erro de JavaScript. A ampliação de foto única e o preço em consulta foram confirmados publicamente. Nenhuma mensagem foi enviada. Evidência em `docs/publicacao.json` e `docs/screenshots/publicado-*-390.png`.
