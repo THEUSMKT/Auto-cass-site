@@ -99,7 +99,7 @@ test('textos secundários e alvos principais têm tamanho legível no desktop e 
  for(const width of [360,390,768,1280,1440]){
   await page.setViewportSize({width,height:900});
   for(const [route,selectors] of [
-   ['', ['.hero-description','.hero-text-link','.vehicle-meta','.vehicle-card-bottom>span','.footer-bottom','.demo-notice']],
+   ['', ['.hero-description','.hero-text-link','.showcase-specs dt','.showcase-highlights','.footer-bottom','.demo-notice']],
    ['estoque/', ['.inventory-search input','.sort-control select','[data-result-count]','.vehicle-meta']],
    [`veiculos/${vehicles[0].slug}/`, ['.commercial-note','.detail-key-specs span','.vehicle-features','.specifications','.photo-note']],
   ] as const){
@@ -167,7 +167,8 @@ test('filtros combinados, modelo dependente, chips, limpeza e URL persistem',asy
  await expect(page.locator('[data-result-count]')).toHaveText('14 veículos encontrados');
  await page.getByRole('button',{name:'Limpar filtros',exact:true}).first().click();await expect(page.locator('[data-result-count]')).toHaveText('15 veículos encontrados');
  await page.getByRole('searchbox').fill('inexistente');await page.getByRole('button',{name:'Buscar veículos',exact:true}).click();
- await expect(page.locator('[data-filter-empty]')).toBeVisible();await page.locator('[data-filter-empty]').getByRole('button',{name:'Limpar filtros'}).click();
+ await expect(page.locator('[data-filter-empty]')).toBeVisible();await expect(page.locator('[data-filter-empty] h2')).toHaveText('Nada com “inexistente” no estoque agora.');
+ await page.locator('[data-filter-empty]').getByRole('button',{name:'Limpar busca'}).click();
  await expect(page.locator('[data-result-count]')).toHaveText('15 veículos encontrados');
 });
 test('filtros móveis só aplicam ao confirmar e ordenam valores ausentes no fim',async({page})=>{
@@ -223,4 +224,46 @@ test('acessibilidade automatizada nas páginas principais e componentes interati
   const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
   expect(results.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))).toEqual([]);
  }
+});
+
+test('busca da home leva ao estoque filtrado e o vazio cita o termo',async({page})=>{
+ await page.setViewportSize({width:1280,height:900});await page.goto(prefix);
+ await page.getByRole('searchbox').fill('Cayenne');await page.getByRole('button',{name:'Buscar veículos',exact:true}).click();
+ await expect(page).toHaveURL(/\/estoque\/\?q=Cayenne$/);await expect(page.locator('[data-result-count]')).toHaveText('1 veículo encontrado');
+ await expect(page.locator('[data-vehicle-id]:visible')).toHaveAttribute('data-vehicle-id','origem-home-01');
+ await page.goto(`${prefix}estoque/?q=Ferrari`);
+ await expect(page.locator('[data-filter-empty] h2')).toHaveText('Nada com “Ferrari” no estoque agora.');
+ const contact=new URL((await page.locator('[data-filter-empty] a[href*="wa.me"]').getAttribute('href'))!);expect(contact.pathname).toBe(`/${dealership.whatsapp}`);
+});
+test('vitrine mostra os três destaques com preço real e WhatsApp citando o modelo',async({page})=>{
+ await page.goto(prefix);
+ const items=page.locator('[data-showcase-item]');await expect(items).toHaveCount(3);
+ const expected=[['origem-home-01','R$ 939.800'],['origem-home-02','R$ 319.800'],['origem-home-03','Consulte o valor']];
+ for(const [index,[id,price]] of expected.entries()){
+  const vehicle=vehicles.find(v=>v.id===id)!;const item=items.nth(index);
+  await expect(item.locator('.showcase-price')).toHaveText(price);
+  const url=new URL((await item.locator('a[href*="wa.me"]').getAttribute('href'))!);
+  expect(url.searchParams.get('text')).toBe(`Olá, tenho interesse no ${vehicle.title}. https://theusmkt.github.io${prefix}veiculos/${vehicle.slug}/`);
+ }
+});
+test.describe('camada de movimento',()=>{
+ test.use({reducedMotion:'no-preference'});
+ for(const width of [390,1440])test(`home anima sem erros nem rolagem lateral — ${width}px`,async({page})=>{
+  await page.setViewportSize({width,height:900});
+  const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
+  await page.goto(prefix);await expect(page.locator('html')).toHaveClass(/motion-ready/);
+  await expect.poll(()=>page.locator('[data-hero-frame]').evaluate(el=>Math.round(el.getBoundingClientRect().top))).toBeLessThanOrEqual(1);
+  await expect(page.locator('h1')).toHaveCSS('opacity','1');
+  if(width>=1024)await expect(page.locator('[data-showcase]')).toHaveClass(/is-pinned/);
+  else await expect(page.locator('[data-showcase]')).not.toHaveClass(/is-pinned/);
+  for(const y of [1200,2600,4200,6000]){await page.evaluate(top=>window.scrollTo(0,top),y);await page.waitForTimeout(400);}
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  expect(errors).toEqual([]);
+ });
+ test('estoque e detalhe funcionam com movimento ativo',async({page})=>{
+  await page.setViewportSize({width:1280,height:900});const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
+  await page.goto(`${prefix}estoque/?brand=Porsche`);await expect(page.locator('[data-result-count]')).toHaveText('2 veículos encontrados');
+  await page.locator('[data-vehicle-link]:visible').first().click();await expect(page.locator('h1')).toContainText('Porsche');
+  expect(errors).toEqual([]);
+ });
 });

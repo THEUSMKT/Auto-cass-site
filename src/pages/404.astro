@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
 import {path} from '../lib/paths';
 ---
-<Layout title="Página não encontrada" description="Este anúncio ou página não está disponível." noindex><section class="not-found container"><p class="eyebrow">404 · Um novo caminho</p><h1>Essa página não<br/>está disponível.</h1><p>O endereço pode ter mudado ou o anúncio pode ter sido removido.</p><a href={path('estoque/')} class="button button-dark">Voltar ao estoque →</a></section></Layout>
+<Layout title="Página não encontrada" description="Este anúncio ou página não está disponível." noindex><section class="page-intro not-found container"><h1>Esta página não está disponível.</h1><p class="page-lead">O endereço pode ter mudado ou o anúncio pode ter sido removido.</p><a href={path('estoque/')} class="button button-primary">Ver estoque <Icon/></a></section></Layout>

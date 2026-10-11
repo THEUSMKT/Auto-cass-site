@@ -17,7 +17,8 @@
     "test:e2e": "playwright test",
     "audit:source": "node scripts/audit-source.mjs",
     "import:review": "node scripts/import-catalog.mjs",
-    "import:apply": "node scripts/import-catalog.mjs --apply"
+    "import:apply": "node scripts/import-catalog.mjs --apply",
+    "build:images": "node scripts/build-avif.mjs"
   },
   "dependencies": {
     "@fontsource-variable/geist": "5.3.0",

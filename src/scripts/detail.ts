@@ -14,7 +14,8 @@ if(gallery){
  function select(n:number){
   if(!thumbs.length)return;index=(n+thumbs.length)%thumbs.length;
   const thumb=thumbs[index];const count=`${index+1} / ${thumbs.length}`;
-  for(const image of [main,expanded])if(image){image.src=thumb.dataset.photoSrc!;image.width=Number(thumb.dataset.photoWidth);image.height=Number(thumb.dataset.photoHeight);image.alt=`${dialog?.getAttribute('aria-label')?.replace(/^Fotos de /,'')} — foto ${index+1} de ${thumbs.length}`;}
+  main?.closest('picture')?.querySelectorAll('source').forEach(source=>source.remove());main?.removeAttribute('srcset');main?.removeAttribute('sizes');
+  for(const image of [main,expanded])if(image){image.src=thumb.dataset.photoSrc!;image.width=Number(thumb.dataset.photoWidth);image.height=Number(thumb.dataset.photoHeight);image.alt=`${dialog?.getAttribute('aria-label')?.replace(/^Fotos de /,'')}, foto ${index+1} de ${thumbs.length}`;}
   gallery!.querySelectorAll('[data-gallery-count],[data-lightbox-count]').forEach(el=>el.textContent=count);
   thumbs.forEach((t,i)=>t.setAttribute('aria-pressed',String(i===index)));
  }

@@ -3,6 +3,7 @@ import '@fontsource-variable/geist/wght.css';
 import '@fontsource-variable/geist/wght-italic.css';
 import 'lenis/dist/lenis.css';
 import '../styles/site.css';
+import AddressLines from '../components/AddressLines.astro';
 import Icon from '../components/Icon.astro';
 import { dealership } from '../lib/data';
 import { path, absolute } from '../lib/paths';
@@ -64,7 +65,7 @@ const logo = dealership.logo ? path(dealership.logo) : null;
   <footer class="site-footer">
    <div class="container footer-grid">
     <a href={path()} class="wordmark footer-logo" aria-label="Auto Cass, início">{logo ? <img class="brand-logo" src={logo} alt="" width="150" height="79" loading="lazy"/> : 'Auto Cass'}</a>
-    {dealership.address && <div class="footer-block"><h2 class="footer-label">Endereço</h2><address>{dealership.address}</address><a class="text-link" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dealership.address)}`} target="_blank" rel="noopener noreferrer">Como chegar <Icon name="arrowUpRight" size={16}/></a></div>}
+    {dealership.address && <div class="footer-block"><h2 class="footer-label">Endereço</h2><address><AddressLines address={dealership.address}/></address><a class="text-link" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dealership.address)}`} target="_blank" rel="noopener noreferrer">Como chegar <Icon name="arrowUpRight" size={16}/></a></div>}
     <div class="footer-block"><h2 class="footer-label">Atendimento</h2>{contact ? <a class="footer-whatsapp" href={contact} target="_blank" rel="noopener noreferrer" data-track="click_whatsapp"><Icon name="chat" size={20}/>WhatsApp</a> : <p>Canais em confirmação.</p>}{dealership.phone && <a href={`tel:${dealership.phone.replace(/[^+0-9]/g,'')}`} data-track="click_phone">{dealership.phone}</a>}</div>
     <nav class="footer-block" aria-label="Rodapé"><h2 class="footer-label">Navegue</h2>{navigation.map(([label,url]) => <a href={path(url)}>{label}</a>)}</nav>
    </div>

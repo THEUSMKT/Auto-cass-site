@@ -46,3 +46,10 @@ export function highlightsFor(v: Vehicle): string[] {
  for (const pick of picks) if (!v.features.includes(pick)) throw new Error(`Destaque inexistente em ${v.id}: ${pick}`);
  return picks;
 }
+
+// "Rua - Bairro - Cidade, UF - CEP" becomes two readable lines; the words themselves are unchanged.
+export function addressLines(address: string): string[] {
+ const parts = address.split(/\s+-\s+/).map(part => part.trim()).filter(Boolean);
+ if (parts.length < 3) return [parts.join(', ')];
+ return [parts.slice(0, 2).join(', '), parts.slice(2).join(', ')];
+}
