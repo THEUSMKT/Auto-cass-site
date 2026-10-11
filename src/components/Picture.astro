@@ -1,0 +1,33 @@
+---
+import type {Photo} from '../lib/model';
+import {responsive} from '../lib/images';
+interface Props {
+  photo: Photo | undefined | null;
+  alt: string;
+  sizes: string;
+  priority?: boolean;
+  class?: string;
+  imgClass?: string;
+  transitionName?: string;
+  [key: `data-${string}`]: string | undefined;
+}
+const {photo, alt, sizes, priority = false, class: className, imgClass, transitionName, ...data} = Astro.props;
+const image = responsive(photo);
+---
+{image && <picture class={className}>
+  {image.avif && <source type="image/avif" srcset={image.avif} sizes={sizes}/>}
+  <img
+    class={imgClass}
+    src={image.src}
+    srcset={image.srcset}
+    sizes={image.srcset ? sizes : undefined}
+    width={image.width}
+    height={image.height}
+    alt={alt}
+    loading={priority ? 'eager' : 'lazy'}
+    fetchpriority={priority ? 'high' : undefined}
+    decoding={priority ? 'sync' : 'async'}
+    style={transitionName ? `view-transition-name:${transitionName};view-transition-class:car` : undefined}
+    {...data}
+  />
+</picture>}

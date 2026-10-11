@@ -61,7 +61,7 @@ export function safeInventoryReturn(value: string | null, base: string): string 
 }
 export function whatsappUrl(phone: string | null, title?: string, url?: string): string | null {
   if (!phone || !/^55\d{10,11}$/.test(phone)) return null;
-  const message = title && url ? `Olá! Tenho interesse no ${title}. Gostaria de saber mais: ${url}` : 'Olá! Gostaria de falar com a equipe da Auto Cass.';
+  const message = title && url ? `Olá, tenho interesse no ${title}. ${url}` : 'Olá, gostaria de falar com a equipe da Auto Cass.';
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 }
 export const money = (price: number | null) => price === null ? 'Consulte o valor' : new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0}).format(price);
