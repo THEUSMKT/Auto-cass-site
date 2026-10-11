@@ -1,12 +1,17 @@
 ---
 import Icon from './Icon.astro';
+import {dealership} from '../lib/data';
+import {whatsappUrl} from '../lib/catalog';
 interface Props {filtered?: boolean;}
 const {filtered = false} = Astro.props;
+const contact = whatsappUrl(dealership.whatsapp);
 ---
-<div class="empty-catalog">
- <span class="empty-icon"><Icon name={filtered ? 'search' : 'plus'} size={30}/></span>
- <p class="eyebrow">{filtered ? 'Outra possibilidade' : 'Uma nova seleção'}</p>
- <h2>{filtered ? 'Não encontramos veículos com esses filtros.' : 'O próximo capítulo está a caminho.'}</h2>
- <p>{filtered ? 'Experimente ampliar a busca ou remover alguns filtros.' : 'O catálogo está em atualização. Os veículos e suas informações estarão aqui assim que forem confirmados.'}</p>
- {filtered && <button class="button button-outline" type="button" data-clear-filters>Limpar filtros <Icon/></button>}
+<div class="empty-state">
+ <span class="empty-icon"><Icon name={filtered ? 'search' : 'camera'} size={28}/></span>
+ <h2 data-empty-title>{filtered ? 'Nenhum veículo com esses filtros.' : 'O estoque está sendo atualizado.'}</h2>
+ <p>{filtered ? 'Tente outra marca ou modelo, ou pergunte à equipe pelo WhatsApp.' : 'Os veículos aparecem aqui assim que forem confirmados com a loja.'}</p>
+ <div class="empty-actions">
+  {filtered && <button class="button button-primary" type="button" data-clear-filters data-empty-clear>Limpar filtros</button>}
+  {contact && <a class="button button-ghost" href={contact} target="_blank" rel="noopener noreferrer" data-track="click_whatsapp" data-position="empty-state">Fale com a equipe <Icon name="chat"/></a>}
+ </div>
 </div>

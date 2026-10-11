@@ -1,13 +1,34 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import AddressLines from '../../components/AddressLines.astro';
 import Icon from '../../components/Icon.astro';
 import {dealership} from '../../lib/data';
 import {whatsappUrl} from '../../lib/catalog';
 import {path} from '../../lib/paths';
 const whatsapp = whatsappUrl(dealership.whatsapp);
 const hasContact = whatsapp || dealership.phone || dealership.email;
+const maps = dealership.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dealership.address)}` : null;
+const socialIcons: Record<string, string> = {Instagram: 'instagram', Facebook: 'facebook', YouTube: 'youtube'};
 ---
-<Layout title="Contato" description="Encontre os canais oficiais de contato da Auto Cass para conversar sobre seu próximo veículo.">
- <section class="page-intro container"><p class="breadcrumb"><a href={path()}>Início</a><span>/</span>Contato</p><div class="intro-row"><div><p class="eyebrow">Sua próxima conversa</p><h1>Estamos a um<br/>novo passo.</h1></div><p>Conheça os canais de contato<br/>e converse com a equipe.</p></div></section>
- <section class="contact-content container"><div class="contact-main"><p class="eyebrow">Fale com a Auto Cass</p><h2>Uma boa escolha<br/>começa com diálogo.</h2>{hasContact ? <div class="contact-options">{whatsapp && <a href={whatsapp} class="contact-option" target="_blank" rel="noopener noreferrer" data-track="click_whatsapp"><Icon name="chat" size={26}/><span><small>Converse com a equipe</small><strong>WhatsApp</strong></span><Icon/></a>}{dealership.phone && <a class="contact-option" href={`tel:${dealership.phone.replace(/[^+0-9]/g,'')}`} data-track="click_phone"><Icon name="phone" size={26}/><span><small>Ligue para a loja</small><strong>{dealership.phone}</strong></span><Icon/></a>}{dealership.email && <a class="contact-option" href={`mailto:${dealership.email}`}><span><small>Envie um e-mail</small><strong>{dealership.email}</strong></span><Icon/></a>}</div> : <div class="contact-pending"><span class="empty-icon"><Icon name="chat" size={28}/></span><h3>Canais de contato em atualização.</h3><p>WhatsApp, telefone e endereço serão exibidos após confirmação. Por enquanto, esta demonstração não recebe consultas comerciais.</p><a href={dealership.sourceUrl} target="_blank" rel="noopener noreferrer" class="text-link">Consultar o site original <Icon size={16}/></a></div>}</div><aside class="contact-aside"><p class="eyebrow">Encontre a loja</p>{dealership.address ? <><Icon name="pin" size={30}/><h3>{dealership.address}</h3><a class="text-link" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dealership.address)}`} target="_blank" rel="noopener noreferrer">Como chegar <Icon size={16}/></a></> : <><h3>Um encontro<br/>com sua próxima escolha.</h3><p>O endereço oficial será apresentado após confirmação.</p></>}{dealership.hours.length > 0 && <div class="opening-hours"><h4>Horários de atendimento</h4>{dealership.hours.map(line => <p>{line}</p>)}</div>}{dealership.socials.length > 0 && <div class="social-links">{dealership.socials.map(social => <a href={social.url} target="_blank" rel="noopener noreferrer">{social.label} <Icon size={16}/></a>)}</div>}</aside></section>
+<Layout page="contato" title="Contato" description="Fale com a Auto Cass pelo WhatsApp, telefone ou e-mail, ou visite a loja em Sapucaia do Sul.">
+ <section class="page-intro container">
+  <p class="breadcrumb"><a href={path()}>Início</a><span aria-hidden="true">/</span><span>Contato</span></p>
+  <h1 data-reveal="lines">Fale com a Auto Cass.</h1>
+  <p class="page-lead" data-reveal>Tire dúvidas sobre um veículo ou combine sua visita.</p>
+ </section>
+ <section class="contact-content container">
+  <div class="contact-main">
+   {hasContact ? <ul class="contact-options">
+    {whatsapp && <li><a href={whatsapp} class="contact-option" target="_blank" rel="noopener noreferrer" data-track="click_whatsapp" data-reveal><Icon name="chat" size={28}/><span><small>Mais rápido</small><strong>WhatsApp</strong></span><Icon name="arrowUpRight"/></a></li>}
+    {dealership.phone && <li><a class="contact-option" href={`tel:${dealership.phone.replace(/[^+0-9]/g,'')}`} data-track="click_phone" data-reveal><Icon name="phone" size={28}/><span><small>Telefone da loja</small><strong class="price">{dealership.phone}</strong></span><Icon name="arrowUpRight"/></a></li>}
+    {dealership.email && <li><a class="contact-option" href={`mailto:${dealership.email}`} data-reveal><Icon name="envelope" size={28}/><span><small>E-mail</small><strong>{dealership.email}</strong></span><Icon name="arrowUpRight"/></a></li>}
+   </ul> : <div class="contact-pending"><h2>Canais de contato em atualização.</h2><p>WhatsApp, telefone e endereço aparecem aqui após confirmação.</p><a href={dealership.sourceUrl} target="_blank" rel="noopener noreferrer" class="text-link">Consultar o site original <Icon size={16}/></a></div>}
+  </div>
+  <aside class="contact-aside" aria-labelledby="loja">
+   <h2 id="loja" data-reveal>Loja</h2>
+   {dealership.address ? <><address data-reveal><AddressLines address={dealership.address}/></address>{maps && <a class="text-link" href={maps} target="_blank" rel="noopener noreferrer">Como chegar <Icon name="arrowUpRight" size={18}/></a>}</> : <p>O endereço oficial será apresentado após confirmação.</p>}
+   {dealership.hours.length > 0 && <div class="opening-hours"><h3>Horários de atendimento</h3>{dealership.hours.map(line => <p>{line}</p>)}</div>}
+   {dealership.socials.length > 0 && <ul class="social-links">{dealership.socials.map(social => <li><a href={social.url} target="_blank" rel="noopener noreferrer"><Icon name={socialIcons[social.label] ?? 'arrowUpRight'} size={20}/>{social.label}</a></li>)}</ul>}
+  </aside>
+ </section>
 </Layout>

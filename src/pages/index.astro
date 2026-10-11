@@ -1,35 +1,162 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import AddressLines from '../components/AddressLines.astro';
 import Icon from '../components/Icon.astro';
-import VehicleCard from '../components/VehicleCard.astro';
+import Picture from '../components/Picture.astro';
 import EmptyCatalog from '../components/EmptyCatalog.astro';
-import {dealership, featuredVehicles, visibleVehicles} from '../lib/data';
-import {path} from '../lib/paths';
-import {money, whatsappUrl} from '../lib/catalog';
+import {dealership, featuredVehicles, vehicles} from '../lib/data';
+import {path, absolute} from '../lib/paths';
+import {money, kilometers, whatsappUrl} from '../lib/catalog';
+import {vehicleParts, highlightsFor} from '../lib/presentation';
+const ready = (id?: string) => vehicles.find(v => v.id === id)?.photos.find(p => p.status === 'ready');
 const heroVehicle = featuredVehicles.find(v => v.photos.some(p => p.status === 'ready'));
-const heroPhoto = heroVehicle?.photos.find(p => p.status === 'ready');
+const heroPhoto = ready(heroVehicle?.id);
 const contact = whatsappUrl(dealership.whatsapp);
+// The Velar photograph shows the store's own showroom; used as atmosphere for the store block.
+const showroomPhoto = ready('origem-home-07');
+const showcase = featuredVehicles.map(v => {
+ const parts = vehicleParts(v);
+ const url = `veiculos/${v.slug}/`;
+ const specs = [
+  ['Ano', parts.year],
+  ['Quilometragem', kilometers(v.mileage)],
+  ['Combustível', parts.version === v.fuel ? null : v.fuel],
+  ['Câmbio', v.transmission],
+ ].filter((entry): entry is [string, string | number] => entry[1] !== null);
+ return {v, parts, url, specs, highlights: highlightsFor(v), photo: v.photos.find(p => p.status === 'ready'), whatsapp: whatsappUrl(dealership.whatsapp, v.title, absolute(url))};
+});
+const trust = dealership.trust;
+const facts = [
+ trust.foundedYear && {figure: String(trust.foundedYear), label: 'Ano de fundação da loja'},
+ trust.reviews && {figure: trust.reviews.rating.toLocaleString('pt-BR', {minimumFractionDigits: 1}), label: `Nota no ${trust.reviews.source}, ${trust.reviews.count} avaliações`, url: trust.reviews.url},
+ trust.warranty && {figure: 'Garantia', label: trust.warranty},
+ trust.financing && {figure: 'Financiamento', label: trust.financing},
+].filter(x => !!x) as {figure: string; label: string; url?: string}[];
+const maps = dealership.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dealership.address)}` : null;
+const socialIcons: Record<string, string> = {Instagram: 'instagram', Facebook: 'facebook', YouTube: 'youtube'};
 ---
-<Layout title="Uma escolha à altura" description="Conheça a proposta do novo site da Auto Cass. Explore o catálogo de veículos, informações e canais de contato confirmados.">
- <section class="hero">
-  <div class="container hero-grid">
-   <div class="hero-copy"><p class="eyebrow"><span class="short-line"></span> Auto Cass · Um novo capítulo</p><h1>Seu próximo carro<br/>merece uma escolha<br/><em>à altura.</em></h1><p class="hero-description">Conheça cada detalhe. Encontre o que combina com você. Comece sua próxima escolha por aqui.</p><a href={path('estoque/')} class="button button-bronze">Explorar estoque <Icon/></a><a class="hero-text-link" href={path('sobre/')}>Conheça a Auto Cass <Icon size={16}/></a></div>
-   <div class:list={['hero-visual',!heroPhoto && 'hero-visual-editorial']}>
-    {heroVehicle && heroPhoto?.path ? <><img src={path(heroPhoto.path)} srcset={heroPhoto.variants.map(p => `${path(p.path)} ${p.width}w`).join(', ') || undefined} sizes="(max-width: 900px) 100vw, 52vw" width={heroPhoto.width!} height={heroPhoto.height!} alt={heroVehicle.title} fetchpriority="high"/><a href={path(`veiculos/${heroVehicle.slug}/`)} class="hero-caption"><span><small>Em destaque</small><strong>{heroVehicle.title}</strong><span>{money(heroVehicle.price)}</span></span><Icon/></a></> : <><div class="editorial-lines" aria-hidden="true"></div><span class="editorial-number">01 / UM NOVO OLHAR</span><div class="editorial-signature" aria-hidden="true">AUTO<br/><strong>CASS<span>.</span></strong></div><div class="editorial-bottom"><span>Cada escolha.<br/>Um novo caminho.</span><span class="editorial-dot" aria-hidden="true"></span></div></>}
+<Layout page="inicio" title="Uma escolha à altura" description="Seminovos e 0 km em Sapucaia do Sul. Conheça o estoque da Auto Cass, veja cada detalhe e fale direto com a equipe." image={heroPhoto?.path ?? undefined}>
+ <section class="hero" data-hero aria-labelledby="hero-title">
+  {heroPhoto && heroVehicle && <div class="hero-visual" data-hero-depth>
+   <div class="hero-frame" data-hero-frame>
+    <div class="hero-media" data-hero-media>
+     <Picture photo={heroPhoto} alt={`${heroVehicle.title} em exposição na loja`} sizes="(max-width: 899px) 100vw, 68vw" priority/>
+    </div>
+    <div class="hero-specular" data-specular aria-hidden="true"><span data-specular-glint></span></div>
+   </div>
+  </div>}
+  <div class="container hero-content" data-hero-copy>
+   <h1 id="hero-title" data-reveal="lines">Seu próximo carro merece uma escolha <em>à altura.</em></h1>
+   <p class="hero-description" data-reveal>Seminovos e 0 km em Sapucaia do Sul. Conheça cada detalhe e fale direto com a equipe.</p>
+   <div class="hero-actions" data-reveal>
+    <a href={path('estoque/')} class="button button-primary">Ver estoque <Icon/></a>
+    <a href={path('sobre/')} class="button button-ghost hero-text-link">Conheça a Auto Cass</a>
    </div>
   </div>
-  <div class="container hero-bottom"><span>O detalhe faz a diferença.</span><a href="#selecao">Conheça a seleção <span>↓</span></a></div>
  </section>
- <section class="quick-search container" aria-label="Busca de veículos">
-  <div><p class="eyebrow">Encontre sua próxima escolha</p><h2>O caminho começa aqui.</h2></div>
-  <form action={path('estoque/')} method="get"><label for="home-search" class="sr-only">Marca, modelo ou versão</label><div class="search-input"><Icon name="search"/><input type="search" id="home-search" name="q" placeholder="Marca, modelo ou versão" maxlength="120"/></div><button class="button button-dark" type="submit">Buscar veículos <Icon/></button></form>
+
+ <section class="search-band" aria-labelledby="search-title">
+  <div class="container search-grid">
+   <h2 id="search-title" data-reveal="lines">Procure pelo modelo.</h2>
+   <form action={path('estoque/')} method="get" class="search-form" role="search" data-reveal>
+    <label for="home-search">Marca, modelo ou versão</label>
+    <div class="search-field">
+     <Icon name="search" size={22}/>
+     <input type="search" id="home-search" name="q" placeholder="Ex.: Cayenne, Tiguan, Hilux" maxlength="120" autocomplete="off"/>
+     <button class="button button-primary" type="submit">Buscar veículos <Icon/></button>
+    </div>
+   </form>
+  </div>
  </section>
- <section id="selecao" class="section container">
-  <div class="section-heading"><div><p class="eyebrow">Explore as possibilidades</p><h2>Uma seleção para<br/>seu próximo capítulo.</h2></div><a href={path('estoque/')} class="text-link">Ver todos os anúncios <Icon/></a></div>
-  {featuredVehicles.length ? <div class="vehicle-grid">{featuredVehicles.map(vehicle => <VehicleCard vehicle={vehicle}/>)}</div> : <EmptyCatalog/>}
-  {visibleVehicles.length > 0 && <p class="section-note">Explore os anúncios e confirme a disponibilidade com a loja.</p>}
+
+ <section id="destaques" class="showcase" data-showcase aria-labelledby="showcase-title">
+  <div class="container showcase-head">
+   <h2 id="showcase-title" data-reveal="lines">Em destaque.</h2>
+   <a href={path('estoque/')} class="text-link" data-reveal>Ver todo o estoque <Icon/></a>
+  </div>
+  {showcase.length ? <div class="showcase-stage" data-showcase-stage>
+   <div class="container showcase-inner">
+    <div class="showcase-nav" aria-label="Escolher veículo em destaque" role="group">
+     <span class="showcase-progress" aria-hidden="true"><span data-showcase-progress></span></span>
+     <ol>{showcase.map(({parts}, i) => <li><button type="button" data-showcase-tab aria-current={i === 0 ? 'true' : 'false'}>{parts.model ?? parts.shortTitle}</button></li>)}</ol>
+    </div>
+    <div class="showcase-items">
+     {showcase.map(({v, parts, url, specs, highlights, photo, whatsapp}, i) => (
+      <article class="showcase-item" data-showcase-item aria-labelledby={`showcase-${v.id}`}>
+       <a class="showcase-media" href={path(url)} data-showcase-media data-cursor tabindex="-1" aria-hidden="true">
+        <Picture photo={photo} alt="" sizes="(max-width: 1023px) 100vw, 62vw" transitionName={`car-${v.id}`}/>
+       </a>
+       <div class="showcase-info">
+        {parts.brand && <p class="showcase-brand" data-showcase-line>{parts.brand}</p>}
+        <h3 id={`showcase-${v.id}`} data-showcase-line>{parts.model ?? parts.shortTitle}{parts.version && <span class="showcase-version">{parts.version}</span>}</h3>
+        <p class="showcase-price price" data-showcase-line>{money(v.price)}</p>
+        {specs.length > 0 && <dl class="showcase-specs" data-showcase-line>{specs.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>}
+        {highlights.length > 0 && <ul class="showcase-highlights" data-showcase-line aria-label="Equipamentos em destaque">{highlights.map(item => <li>{item}</li>)}</ul>}
+        <div class="showcase-actions" data-showcase-line>
+         <a class="button button-primary" href={path(url)}>Ver detalhes<span class="sr-only"> de {v.title}</span></a>
+         {whatsapp && <a class="button button-ghost" href={whatsapp} target="_blank" rel="noopener noreferrer" data-track="click_whatsapp" data-position={`showcase-${i + 1}`}>Tenho interesse <Icon name="chat"/></a>}
+        </div>
+       </div>
+      </article>
+     ))}
+    </div>
+   </div>
+  </div> : <div class="container"><EmptyCatalog/></div>}
  </section>
- <section class="brand-story"><div class="container story-grid"><div><p class="eyebrow">O jeito Auto Cass</p><h2>Mais clareza.<br/>Mais atenção.<br/><em>À sua escolha.</em></h2></div><div class="story-copy"><p>{dealership.about ?? 'Uma nova experiência para explorar veículos com calma, conhecer os detalhes e conversar com a equipe sobre o que faz sentido para você.'}</p><a href={path('sobre/')} class="text-link">Conheça a Auto Cass <Icon/></a><div class="story-principles"><span>01 <strong>Explore</strong></span><span>02 <strong>Conheça</strong></span><span>03 <strong>Converse</strong></span></div></div></div></section>
- {dealership.services.length > 0 && <section class="section container"><div class="section-heading"><div><p class="eyebrow">Ao seu lado</p><h2>Como podemos ajudar.</h2></div></div><div class="service-grid">{dealership.services.map((service,i) => <article><span class="eyebrow">0{i+1}</span><h3>{service.title}</h3><p>{service.description}</p></article>)}</div></section>}
- <section class="contact-band container"><div><p class="eyebrow">Vamos conversar</p><h2>Seu próximo passo,<br/>com uma boa conversa.</h2></div><a href={contact ?? path('contato/')} class="button button-dark" target={contact ? '_blank' : undefined} rel={contact ? 'noopener noreferrer' : undefined} data-track={contact ? 'click_whatsapp' : undefined}>Fale com a equipe <Icon name="chat"/></a></section>
+
+ <section class="journey-section" aria-labelledby="journey-title">
+  <div class="container">
+   <p class="eyebrow" data-reveal>O jeito Auto Cass</p>
+   <h2 id="journey-title" data-reveal="lines">Sem pressa, do primeiro olhar à conversa.</h2>
+   <div class="journey" data-journey>
+    <svg class="journey-road" data-journey-svg aria-hidden="true" focusable="false"><path class="journey-base" data-journey-path d=""/><path class="journey-progress" data-journey-path pathLength="1" d=""/></svg>
+    <ol class="journey-steps">
+     <li class="journey-step"><span class="journey-node" data-journey-node><span></span></span><h3>Explore</h3><p>Busque por marca, modelo ou faixa de preço.</p><a class="text-link" href={path('estoque/')}>Ver estoque <Icon/></a></li>
+     <li class="journey-step"><span class="journey-node" data-journey-node><span></span></span><h3>Conheça</h3><p>Fotos, ano, equipamentos e valor, quando informado.</p></li>
+     <li class="journey-step"><span class="journey-node" data-journey-node><span></span></span><h3>Converse</h3><p>Tire dúvidas e combine sua visita pelo WhatsApp.</p>{contact && <a class="text-link" href={contact} target="_blank" rel="noopener noreferrer" data-track="click_whatsapp" data-position="journey">Fale com a equipe <Icon/></a>}</li>
+    </ol>
+   </div>
+  </div>
+ </section>
+
+ <section class="trust" aria-labelledby="trust-title">
+  <div class="container">
+   <h2 id="trust-title" data-reveal="lines">Antes de decidir, saiba com quem.</h2>
+   <div class="trust-grid">
+    {dealership.address && <article class="trust-cell trust-store" data-reveal>
+     {showroomPhoto && <Picture class="trust-store-image" photo={showroomPhoto} alt="" sizes="(max-width: 899px) 100vw, 58vw"/>}
+     <div class="trust-store-copy">
+      <h3>Loja física em Sapucaia do Sul</h3>
+      <address><AddressLines address={dealership.address}/></address>
+      {maps && <a class="text-link" href={maps} target="_blank" rel="noopener noreferrer">Como chegar <Icon name="arrowUpRight" size={18}/></a>}
+     </div>
+    </article>}
+    {(contact || dealership.phone || dealership.email) && <article class="trust-cell" data-reveal>
+     <h3>Atendimento direto</h3>
+     <ul class="trust-list">
+      {contact && <li><a href={contact} target="_blank" rel="noopener noreferrer" data-track="click_whatsapp" data-position="trust"><Icon name="chat"/>WhatsApp</a></li>}
+      {dealership.phone && <li><a href={`tel:${dealership.phone.replace(/[^+0-9]/g,'')}`} data-track="click_phone"><Icon name="phone"/><span class="price">{dealership.phone}</span></a></li>}
+      {dealership.email && <li><a href={`mailto:${dealership.email}`}><Icon name="envelope"/>{dealership.email}</a></li>}
+     </ul>
+    </article>}
+    {dealership.socials.length > 0 && <article class="trust-cell" data-reveal>
+     <h3>Nas redes</h3>
+     <ul class="trust-list">{dealership.socials.map(social => <li><a href={social.url} target="_blank" rel="noopener noreferrer"><Icon name={socialIcons[social.label] ?? 'arrowUpRight'}/>{social.label}</a></li>)}</ul>
+    </article>}
+    {facts.length > 0 && <div class="trust-facts">{facts.map(fact => <article class="trust-cell trust-fact" data-reveal><p class="trust-figure">{fact.figure}</p><p>{fact.url ? <a class="text-link" href={fact.url} target="_blank" rel="noopener noreferrer">{fact.label}</a> : fact.label}</p></article>)}</div>}
+    {trust.testimonials.length > 0 && <div class="trust-quotes">{trust.testimonials.slice(0, 3).map(t => <figure class="trust-cell" data-reveal><blockquote>“{t.quote}”</blockquote><figcaption>{t.name}{t.detail && <span>{t.detail}</span>}</figcaption></figure>)}</div>}
+   </div>
+  </div>
+ </section>
+
+ <section class="closing" aria-labelledby="closing-title">
+  <div class="container closing-inner">
+   <h2 id="closing-title" data-reveal="lines">Vamos conversar.</h2>
+   <p data-reveal>Conte o que você procura.</p>
+   <a href={contact ?? path('contato/')} class="button button-primary button-large" target={contact ? '_blank' : undefined} rel={contact ? 'noopener noreferrer' : undefined} data-track={contact ? 'click_whatsapp' : undefined} data-position="closing" data-reveal>Fale com a equipe <Icon name="chat"/></a>
+  </div>
+ </section>
+ <script>
+  import '../scripts/home';
+ </script>
 </Layout>

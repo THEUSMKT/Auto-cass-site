@@ -35,7 +35,7 @@ test('WhatsApp só existe com número configurado e codifica veículo e URL',()=
  assert.equal(whatsappUrl(null),null);assert.equal(whatsappUrl('123'),null);
  const link=new URL(whatsappUrl('5511999999999','Teste & Ágil','https://example.invalid/veiculo/')!);
  assert.equal(link.hostname,'wa.me');assert.equal(link.pathname,'/5511999999999');
- assert.equal(link.searchParams.get('text'),'Olá! Tenho interesse no Teste & Ágil. Gostaria de saber mais: https://example.invalid/veiculo/');
+ assert.equal(link.searchParams.get('text'),'Olá, tenho interesse no Teste & Ágil. https://example.invalid/veiculo/');
 });
 test('validação rejeita duplicatas, imagens trocadas e contatos sem verificação',()=>{
  assert.throws(()=>catalogSchema.parse([makeVehicle(),makeVehicle()]));

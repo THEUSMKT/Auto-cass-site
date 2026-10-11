@@ -1,6 +1,6 @@
 # Auto Cass
 
-Site estático em **Astro + TypeScript**, preparado para GitHub Pages em `/Auto-cass-site/`. A proposta visual utiliza grafite, branco quente, bronze e o logo recuperado da origem.
+Site estático em **Astro + TypeScript**, preparado para GitHub Pages em `/Auto-cass-site/`. A proposta visual usa grafite profundo, branco quente, um único acento champagne fosco, a fonte Geist e o logo recuperado da origem. Decisões, efeitos e pendências do redesign estão em [docs/redesign.md](docs/redesign.md).
 
 **Estado da entrega:** 46 anúncios e 46 fotografias locais importados do pacote do usuário e conferidos contra a home salva em 05/10/2026. Cada anúncio possui página própria, equipamentos e WhatsApp contextual. Todos estão classificados entre 16 marcas, com nomes revisados e filtros de marca/modelo compatíveis; veja [o relatório do refinamento](docs/refinamento.md). Telefone, e-mail, endereço, redes e logo vieram do HTML; nenhuma mensagem foi enviada para testar o destinatário. O BYD Yuan Plus mostra **“Consulte o valor”** por divergência de preços. O site continua como demonstração com `noindex`: os 46 anúncios não comprovam o estoque atual integral, e uma foto por anúncio não comprova galerias completas. Campos ausentes permanecem ausentes.
 
@@ -50,6 +50,10 @@ Os testes de navegador servem o build real e uma **cópia temporária isolada** 
 
 ## Conteúdo e atualização
 
+- `npm run build:images`: gera AVIF ao lado de cada foto (larguras existentes e original, sem ampliar). Rode depois de adicionar fotos.
+- `src/data/dealership.json` → `trust`: ano de fundação, garantia, financiamento, avaliações e depoimentos. Cada bloco da seção de confiança só aparece quando preenchido com informação confirmada pela loja.
+- `src/lib/presentation.ts` → `featuredHighlights`: três equipamentos por destaque, copiados literalmente da lista do anúncio (o build falha se o texto não existir).
+
 - `src/data/vehicles.json`: catálogo e ficha técnica por veículo.
 - `src/data/dealership.json`: contatos verificados, história, horários, serviços, destaque e modo de demonstração.
 - `public/assets/vehicles/<id>/`: arquivos originais e derivados locais, sem hotlink.
@@ -83,4 +87,4 @@ Não há backend, formulário de envio, analytics ativo ou segredo obrigatório.
 
 Analytics é desativado por padrão. `src/scripts/global.ts` pode emitir `autocass:analytics` apenas se a integração habilitar explicitamente `data-analytics-enabled="true"`, depois de configurar consentimento adequado. Eventos não contêm dados pessoais. Clique no WhatsApp não equivale a lead confirmado. Não há IDs de GA, GTM ou Meta inventados.
 
-Fontes são hospedadas localmente via pacote npm, sem requisições a Google Fonts. O logo do cabeçalho, menu e rodapé é a PNG referenciada no HTML fornecido. O favicon com iniciais é provisório. A JPG principal também contém a marca; não foi apresentada como foto da loja.
+Fontes (Geist), GSAP, Lenis e ícones Phosphor são instalados pelo npm e empacotados no build, sem CDN nem requisições a Google Fonts. O logo do cabeçalho, menu e rodapé é a PNG referenciada no HTML fornecido. O favicon com iniciais é provisório. A JPG principal também contém a marca; não foi apresentada como foto da loja.

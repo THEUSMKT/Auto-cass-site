@@ -1,0 +1,6 @@
+---
+import {addressLines} from '../lib/presentation';
+interface Props {address: string;}
+const lines = addressLines(Astro.props.address);
+---
+{lines.map((line, i) => <>{i > 0 && <br/>}{line}</>)}

@@ -72,6 +72,13 @@ export const dealershipSchema = z.object({
  services: z.array(z.object({title:z.string(),description:z.string()})),
  logo: institutionalPath, storeImage: institutionalPath, accent: z.string().regex(/^#[a-fA-F0-9]{6}$/),
  featuredIds: z.array(z.string()), provenance: z.record(z.string(),z.string()),
+ // Trust blocks render only when filled with information confirmed by the store.
+ trust: z.object({
+  foundedYear: z.number().int().min(1900).max(new Date().getFullYear()).nullable(),
+  warranty: text, financing: text,
+  reviews: z.object({rating: z.number().min(0).max(5), count: z.number().int().positive(), source: z.string().min(1), url: webUrl}).nullable(),
+  testimonials: z.array(z.object({quote: z.string().trim().min(1).max(240), name: z.string().trim().min(1), detail: text})),
+ }).default({foundedYear: null, warranty: null, financing: null, reviews: null, testimonials: []}),
 }).superRefine((d,ctx) => {
  if ((d.whatsapp || d.phone || d.email || d.address) && !d.verifiedAt) ctx.addIssue({code:'custom',message:'Contatos exigem data de verificação na origem'});
 });

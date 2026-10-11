@@ -54,13 +54,18 @@ if (root) {
   grid.hidden=result.length===0;
   root!.querySelector<HTMLElement>('[data-source-empty]')!.hidden=vehicles.length>0;
   root!.querySelector<HTMLElement>('[data-filter-empty]')!.hidden=vehicles.length===0 || result.length>0;
+  const term=p.get('q');
+  const emptyTitle=root!.querySelector<HTMLElement>('[data-filter-empty] [data-empty-title]');
+  if(emptyTitle)emptyTitle.textContent=term?`Nada com “${term}” no estoque agora.`:'Nenhum veículo com esses filtros.';
+  const emptyClear=root!.querySelector<HTMLElement>('[data-filter-empty] [data-empty-clear]');
+  if(emptyClear)emptyClear.textContent=term&&filterKeys.filter(k=>p.get(k)).length===1?'Limpar busca':'Limpar filtros';
   const count=root!.querySelector<HTMLElement>('[data-result-count]')!;
   if(vehicles.length)count.textContent=`${result.length} ${result.length===1?'veículo encontrado':'veículos encontrados'}`;
   const chips=root!.querySelector<HTMLElement>('[data-filter-chips]')!;
   chips.replaceChildren();
   for(const key of filterKeys)if(p.get(key)) {
    const chip=document.createElement('button');chip.type='button';chip.className='filter-chip';
-   chip.textContent=`${labels[key]}: ${p.get(key)} ×`;chip.setAttribute('aria-label',`Remover filtro ${labels[key]}`);
+   chip.textContent=`${labels[key]}: ${p.get(key)}`;chip.setAttribute('aria-label',`Remover filtro ${labels[key]}`);
    chip.addEventListener('click',()=>{p.delete(key);if(key==='brand')p.delete('model');p.delete('page');commit();});chips.append(chip);
   }
   const active=filterKeys.filter(k=>p.get(k)).length;
